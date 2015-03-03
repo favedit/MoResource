@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Configuration version="1.0">
+   <Model name='show.006'>
+      <Mesh>
+         <Geometry valid='Y' name='ms_001_001' material='\pvw\show\006.01'/>
+         <Geometry valid='Y' name='ms_001_002' material='\pvw\show\006.01'/>
+         <Geometry valid='Y' name='ms_001_003' material='\pvw\show\006.01'/>
+         <Geometry valid='Y' name='ms_002_001' material='\pvw\show\006.02'/>
+         <Geometry valid='Y' name='ms_003_001' material='\pvw\show\006.03'/>
+         <Geometry valid='Y' name='ms_003_002' material='\pvw\show\006.03'/>
+         <Geometry valid='Y' name='ms_003_003' material='\pvw\show\006.03'/>
+         <Geometry valid='Y' name='ms_003_004' material='\pvw\show\006.03'/>
+         <Geometry valid='Y' name='ms_003_005' material='\pvw\show\006.03'/>
+         <Geometry valid='Y' name='ms_003_006' material='\pvw\show\006.03'/>
+         <Geometry valid='Y' name='ms_003_007' material='\pvw\show\006.03'/>
+         <Geometry valid='Y' name='ms_003_008' material='\pvw\show\006.03'/>
+         <Geometry valid='Y' name='ms_003_009' material='\pvw\show\006.03'/>
+         <Geometry valid='Y' name='ms_003_010' material='\pvw\show\006.03'/>
+         <Geometry valid='Y' name='ms_003_012' material='\pvw\show\006.03'/>
+         <Geometry valid='Y' name='ms_003_013' material='\pvw\show\006.03'/>
+         <Geometry valid='Y' name='ms_003_014' material='\pvw\show\006.03'/>
+         <Geometry valid='Y' name='ms_003_015' material='\pvw\show\006.03'/>
+         <Geometry valid='Y' name='ms_004_001' material='\pvw\show\006.04'/>
+         <Geometry valid='Y' name='ms_005_001' material='\pvw\show\006.05'/>
+         <Geometry valid='Y' name='ms_006_001' material='\pvw\show\006.06'/>
+         <Geometry valid='Y' name='ms_007_001' material='\pvw\show\006.07'/>
+         <Geometry valid='Y' name='ms_008_001' material='\pvw\show\006.08'/>
+      </Mesh>
+   </Model>
+</Configuration>
