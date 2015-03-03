@@ -1,0 +1,130 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Configuration>
+   <!--== 任务管理器 =======================================-->
+   <Console name="Core.Task.Console">
+      <Property name="Thread.Count" value="8"/>
+   </Console>
+
+   <!--== 常量管理器 =======================================-->
+   <Console name="Content.Constant.Console">
+      <Property name="config_file">${application.root}\Constant\configuration.xml</Property>
+      <Property name="export_file">${resource.root}\db\constant.db</Property>
+   </Console>
+
+   <!--== 样式管理器 =======================================-->
+   <Console name="Content.Style.Console">
+      <Property name="config_file">${application.root}\Style\configuration.xml</Property>
+      <Property name="export_file">${resource.root}\db\style.db</Property>
+   </Console>
+
+   <!--== 资源管理器 =======================================-->
+   <Console name="Content.Resource.Console">
+      <Property name="resource_directory">${resource2d.root}</Property>
+      <Property name="export_directory">${export.root}\rs</Property>
+      <Property name="merge_directory">${application.root}\Export\Merge</Property>
+   </Console>
+
+   <!--== 主题管理器 =======================================-->
+   <Console name="Content.Theme.Console">
+      <Property name="config_directory">${application.root}\Theme</Property>
+      <Property name="export_file">${resource.root}\db\theme.db</Property>
+   </Console>
+
+   <!--== 界面管理器 =======================================-->
+   <Console name="Content.Frame.Console">
+      <Property name="config_directory">${application.root}\Frame</Property>
+      <Property name="export_file">${resource.root}\db\frame.db</Property>
+   </Console>
+
+   <!--== 地图管理器 =======================================-->
+   <Console name="Content.Map.Console">
+      <Property name="map_directory">${application.root}\Map\Define</Property>
+   </Console>
+
+   <!--== 地图瓦片管理器 =======================================-->
+   <Console name="Content.Map.Tile.Console">
+      <Property name="map_tile_directory">${application.root}\Map\Tile</Property>
+      <Property name="map_tile_export">${resource.root}\mt</Property>
+   </Console>
+
+   <!--== 资源主题管理器 ===================================-->
+   <Console name="Content3d.Theme.Console">
+      <Property name="resource.directory">${resource3d.root}\theme</Property>
+      <Property name="export.directory">${export.root}\theme</Property>
+   </Console>
+
+   <!--== 资源纹理管理器 ===================================-->
+   <Console name="Content3d.Texture.Console">
+      <Property name="resource.directory">${resource3d.root}\texture</Property>
+      <Property name="export.directory">${export.root}\texture</Property>
+   </Console>
+
+   <!--== 资源材质管理器 ===================================-->
+   <Console name="Content3d.Material.Console">
+      <Property name="resource.directory">${resource3d.root}\material</Property>
+      <Property name="export.directory">${export.root}\material</Property>
+   </Console>
+
+   <!--== 资源模型管理器 ===================================-->
+   <Console name="Content3d.Model.Console">
+      <Property name="resource.directory">${resource3d.root}\model</Property>
+      <Property name="export.directory">${export.root}\model</Property>
+   </Console>
+
+   <!--== 资源模板管理器 ===================================-->
+   <Console name="Content3d.Template.Console">
+      <Property name="resource.directory">${resource3d.root}\template</Property>
+      <Property name="export.directory">${export.root}\template</Property>
+      <Property name="path.http">http://localhost/3d-web/RTemplate3D.html?ts={0}"</Property>
+      <Property name="export.scene">D:\WP-Webroot\bcdr.dp\ts</Property>
+   </Console>
+
+   <!--== 资源相机管理器 ===================================-->
+   <Console name="Content3d.Camera.Console">
+      <Property name="resource.directory">${resource3d.root}\camera</Property>
+      <Property name="export.directory">${export.root}\camera</Property>
+   </Console>
+
+   <!--== 资源相机管理器 ===================================-->
+   <Console name="Content3d.Map.Console">
+      <Property name="resource.directory">${resource3d.root}\map</Property>
+      <Property name="export.directory">${export.root}\map</Property>
+   </Console>
+
+   <!--== 资源场景管理器 ===================================-->
+   <Console name="Content3d.Scene.console">
+      <Property name="resource.directory">${resource3d.root}\scene</Property>
+      <Property name="export.directory">${export.root}\scene</Property>
+   </Console>
+
+   <!--== 设计WEB地图管理器 ================================-->
+   <Console name="design.web.map.console">
+      <Property name="resource.directory">${resource3d.root}\Map</Property>
+      <Property name="export.file">\Export\template.trs</Property>
+   </Console>
+
+   <!--== 3D资源管理器 ===================================-->
+   <Console name="resource3d.resource.console">
+      <Property name="template.directory">D:\WP-Resource-Bcdr.DP\Export\template</Property>
+      <Property name="export.resource.directory">D:\WP-Resource-Bcdr.DP\Export\resource3d</Property>
+   </Console>
+
+   <!--== 3D资源组管理器 ===================================-->
+   <Console name="resource3d.resource.group.console">
+      <Property name="export.group.directory">D:\WP-Webroot\bcdr.dp\g3</Property>
+      <Property name="export.resource.directory">D:\WP-Webroot\bcdr.dp\r3</Property>
+      <Property name="export.storage.directory">D:\WP-Resource-Bcdr.DP\Export</Property>
+      <Property name="export.config.file">D:\WP-Resource-Bcdr.DP\Export\resource3d.export.xml</Property>
+   </Console>
+
+   <!--== 资源地形管理器 ===================================-->
+   <Console name="resource3d.terrain.console">
+      <Property name="resource.directory">\terrain</Property>
+      <Property name="export.directory">\tn</Property>
+   </Console>
+
+   <!--== 模版管理器 =======================================-->
+   <Console name="Content.Template.Console">
+      <Property name="template_directory">${application.root}\Export\Template\temp</Property>
+   </Console>
+</Configuration>
