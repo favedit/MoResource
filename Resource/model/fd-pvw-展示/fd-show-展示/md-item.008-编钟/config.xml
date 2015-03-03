@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Configuration version="1.0">
+   <Model name='show.008'>
+      <Mesh>
+         <Geometry valid='Y' name='ms_001_001' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_001_002' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_001_003' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_001_004' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_001_005' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_001_006' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_001_007' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_001_008' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_001_009' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_001_010' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_001_011' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_001_012' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_001_013' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_001_014' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_001_015' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_001_016' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_001_017' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_001_018' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_001_019' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_001_020' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_001_021' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_001_022' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_001_023' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_001_024' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_001_025' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_001_026' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_001_027' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_001_028' material='\pvw\show\008.01' />
+         <Geometry valid='Y' name='ms_002_001' material='\pvw\show\008.02' />
+         <Geometry valid='Y' name='ms_002_002' material='\pvw\show\008.02' />
+         <Geometry valid='Y' name='ms_002_003' material='\pvw\show\008.02' />
+         <Geometry valid='Y' name='ms_002_004' material='\pvw\show\008.02' />
+         <Geometry valid='Y' name='ms_002_005' material='\pvw\show\008.02' />
+         <Geometry valid='Y' name='ms_002_006' material='\pvw\show\008.02' />
+         <Geometry valid='Y' name='ms_002_007' material='\pvw\show\008.02' />
+         <Geometry valid='Y' name='ms_002_008' material='\pvw\show\008.02' />
+         <Geometry valid='Y' name='ms_002_009' material='\pvw\show\008.02' />
+         <Geometry valid='Y' name='ms_002_010' material='\pvw\show\008.02' />
+         <Geometry valid='Y' name='ms_002_011' material='\pvw\show\008.02' />
+         <Geometry valid='Y' name='ms_002_012' material='\pvw\show\008.02' />
+         <Geometry valid='Y' name='ms_002_013' material='\pvw\show\008.02' />
+         <Geometry valid='Y' name='ms_002_014' material='\pvw\show\008.02' />
+      </Mesh>
+   </Model>
+</Configuration>

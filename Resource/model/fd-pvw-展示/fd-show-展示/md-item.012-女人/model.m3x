@@ -1,0 +1,2002 @@
+<?xml version="1.0" encoding="GB2312"?>
+<M3xExport version="1.0">
+   <Scene start_time="0" end_time="16000" tick="160" file="model.max">
+      <Struct total="12">
+         <Node id="0" name="场景根">
+            <Node id="6" name="ms_006"/>
+            <Node id="12" name="ms_004"/>
+            <Node id="17" name="ms_005"/>
+            <Node id="20" name="ms_001"/>
+            <Node id="21" name="ms_002"/>
+            <Node id="22" name="ms_003_001"/>
+            <Node id="23" name="ms_008"/>
+            <Node id="24" name="ms_007"/>
+            <Node id="25" name="ms_009"/>
+            <Node id="26" name="ms_010"/>
+            <Node id="32" name="ms_003_002"/>
+         </Node>
+      </Struct>
+      <MaterialCollection count="10">
+         <Material class="Standard" name="mt_006">
+            <Properties>
+               <Property name="shaderType" type="int" value="1"/>
+               <Property name="wire" type="int" value="0"/>
+               <Property name="twoSided" type="int" value="1"/>
+               <Property name="faceMap" type="int" value="0"/>
+               <Property name="faceted" type="int" value="0"/>
+               <Property name="shaderByName" type="string" value="(B)Blinn"/>
+               <Property name="opacityType" type="int" value="0"/>
+               <Property name="opacity" type="float" value="1.000000"/>
+               <Property name="filterColor" type="point3" x="0.500000" y="0.500000" z="0.500000"/>
+               <Property name="filterMap" type="unkown"/>
+               <Property name="opacityFallOffType" type="int" value="0"/>
+               <Property name="opacityFallOff" type="float" value="0.000000"/>
+               <Property name="ior" type="float" value="1.500000"/>
+               <Property name="wireSize" type="float" value="1.000000"/>
+               <Property name="wireUnits" type="int" value="0"/>
+               <Property name="applyReflectionDimming" type="int" value="0"/>
+               <Property name="dimLevel" type="float" value="0.000000"/>
+               <Property name="reflectionLevel" type="float" value="3.000000"/>
+               <Property name="sampler" type="int" value="1"/>
+               <Property name="samplerQuality" type="float" value="0.500000"/>
+               <Property name="samplerEnable" type="int" value="0"/>
+               <Property name="samplerAdaptThreshold" type="float" value="0.100000"/>
+               <Property name="samplerAdaptOn" type="int" value="1"/>
+               <Property name="subSampleTextureOn" type="int" value="1"/>
+               <Property name="samplerAdvancedOptions" type="int" value="1"/>
+               <Property name="samplerByName" type="string" value="Max 2.5 星"/>
+               <Property name="UserParam0" type="float" value="0.000000"/>
+               <Property name="UserParam1" type="float" value="0.000000"/>
+               <Property name="samplerUseGlobal" type="int" value="1"/>
+               <Property name="mapEnables" type="unkown"/>
+               <Property name="maps" type="unkown"/>
+               <Property name="mapAmounts" type="unkown"/>
+               <Property name="adTextureLock" type="int" value="1"/>
+               <Property name="bounce" type="float" value="1.000000"/>
+               <Property name="staticFriction" type="float" value="0.000000"/>
+               <Property name="slidingFriction" type="float" value="0.000000"/>
+               <Property name="ambient" type="point3" x="0.000000" y="0.000000" z="0.000000"/>
+               <Property name="diffuse" type="point3" x="0.000000" y="0.000000" z="0.000000"/>
+               <Property name="specular" type="point3" x="0.900000" y="0.900000" z="0.900000"/>
+               <Property name="adTextureLock" type="int" value="1"/>
+               <Property name="adLock" type="int" value="1"/>
+               <Property name="dsLock" type="int" value="0"/>
+               <Property name="useSelfIllumColor" type="int" value="0"/>
+               <Property name="selfIllumAmount" type="float" value="0.000000"/>
+               <Property name="selfIllumColor" type="point3" x="0.000000" y="0.000000" z="0.000000"/>
+               <Property name="specularLevel" type="float" value="0.000000"/>
+               <Property name="glossiness" type="float" value="0.100000"/>
+               <Property name="soften" type="float" value="0.100000"/>
+               <Property name="enabled" type="int" value="0"/>
+               <Property name="effect" type="int" value="0"/>
+               <Property name="dxStdMat" type="int" value="0"/>
+               <Property name="SaveFXFile" type="unkown"/>
+               <Property name="Opaque" type="int" value="0"/>
+               <Property name="Surface" type="unkown"/>
+               <Property name="Displacement" type="unkown"/>
+               <Property name="Shadow" type="unkown"/>
+               <Property name="Volume" type="unkown"/>
+               <Property name="Environment" type="unkown"/>
+               <Property name="Contour" type="unkown"/>
+               <Property name="Photon" type="unkown"/>
+               <Property name="PhotonVolume" type="unkown"/>
+               <Property name="LightMap" type="unkown"/>
+               <Property name="SurfaceLocked" type="int" value="1"/>
+               <Property name="DisplacementLocked" type="int" value="1"/>
+               <Property name="ShadowLocked" type="int" value="1"/>
+               <Property name="VolumeLocked" type="int" value="1"/>
+               <Property name="EnvironmentLocked" type="int" value="1"/>
+               <Property name="ContourLocked" type="int" value="1"/>
+               <Property name="PhotonLocked" type="int" value="1"/>
+               <Property name="PhotonVolumeLocked" type="int" value="1"/>
+               <Property name="LightMapLocked" type="int" value="1"/>
+               <Property name="SurfaceLockShow" type="int" value="1"/>
+               <Property name="DisplacementLockShow" type="int" value="1"/>
+               <Property name="ShadowLockShow" type="int" value="1"/>
+               <Property name="VolumeLockShow" type="int" value="0"/>
+               <Property name="EnvironmentLockShow" type="int" value="0"/>
+               <Property name="ContourLockShow" type="int" value="0"/>
+               <Property name="PhotonLockShow" type="int" value="1"/>
+               <Property name="PhotonVolumeLockShow" type="int" value="0"/>
+               <Property name="LightMapLockShow" type="int" value="0"/>
+               <Property name="SurfaceON" type="int" value="1"/>
+               <Property name="DisplacementON" type="int" value="1"/>
+               <Property name="ShadowON" type="int" value="1"/>
+               <Property name="VolumeON" type="int" value="1"/>
+               <Property name="EnvironmentON" type="int" value="1"/>
+               <Property name="ContourON" type="int" value="1"/>
+               <Property name="PhotonON" type="int" value="1"/>
+               <Property name="ON" type="int" value="1"/>
+               <Property name="LightMapON" type="int" value="1"/>
+            </Properties>
+            <Diffuse r="0.000000" g="0.000000" b="0.000000"/>
+            <Ambient r="0.000000" g="0.000000" b="0.000000"/>
+            <Specular r="0.900000" g="0.900000" b="0.900000"/>
+            <SpecularLevel type="float" value="0.000000"/>
+            <Emissive r="0.000000" g="0.000000" b="0.000000"/>
+            <EmissiveAmt type="float" value="0.000000"/>
+            <Glossiness type="float" value="0.100000"/>
+            <Opacity type="float" value="1.000000"/>
+            <Textures>
+               <Texture id="0" class="Bitmap" name="Map #82" slot_name="不透明度" texture_name="Map #82" texture_class="Bitmap" map_channel="1" std_map_slot="6" file="D:\WP-Flash3D\Resource\model\fd-preview-展示\rs-specular.012-女人\texture\rs_006_a.jpg">
+                  <ClipU type="float" value="0.000000"/>
+                  <ClipV type="float" value="0.000000"/>
+                  <ClipW type="float" value="1.000000"/>
+                  <ClipH type="float" value="1.000000"/>
+                  <Properties>
+                     <Property name="clipu" type="float" value="0.000000"/>
+                     <Property name="clipv" type="float" value="0.000000"/>
+                     <Property name="clipw" type="float" value="1.000000"/>
+                     <Property name="cliph" type="float" value="1.000000"/>
+                     <Property name="jitter" type="float" value="1.000000"/>
+                     <Property name="useJitter" type="int" value="0"/>
+                     <Property name="apply" type="int" value="0"/>
+                     <Property name="cropPlace" type="int" value="0"/>
+                     <Property name="filtering" type="int" value="0"/>
+                     <Property name="monoOutput" type="int" value="0"/>
+                     <Property name="rgbOutput" type="int" value="0"/>
+                     <Property name="alphaSource" type="int" value="2"/>
+                     <Property name="preMultAlpha" type="int" value="1"/>
+                     <Property name="bitmap" type="unkown"/>
+                     <Property name="coords" type="unkown"/>
+                     <Property name="output" type="unkown"/>
+                     <Property name="fileName" type="unkown"/>
+                     <Property name="startTime" type="int" value="0"/>
+                     <Property name="playBackRate" type="float" value="1.000000"/>
+                     <Property name="endCondition" type="int" value="0"/>
+                     <Property name="tieTimeToMatIDs" type="int" value="0"/>
+                  </Properties>
+               </Texture>
+            </Textures>
+         </Material>
+         <Material class="Standard" name="mt_004">
+            <Properties>
+               <Property name="shaderType" type="int" value="1"/>
+               <Property name="wire" type="int" value="0"/>
+               <Property name="twoSided" type="int" value="0"/>
+               <Property name="faceMap" type="int" value="0"/>
+               <Property name="faceted" type="int" value="0"/>
+               <Property name="shaderByName" type="string" value="(B)Blinn"/>
+               <Property name="opacityType" type="int" value="0"/>
+               <Property name="opacity" type="float" value="1.000000"/>
+               <Property name="filterColor" type="point3" x="0.500000" y="0.500000" z="0.500000"/>
+               <Property name="filterMap" type="unkown"/>
+               <Property name="opacityFallOffType" type="int" value="0"/>
+               <Property name="opacityFallOff" type="float" value="0.000000"/>
+               <Property name="ior" type="float" value="1.500000"/>
+               <Property name="wireSize" type="float" value="1.000000"/>
+               <Property name="wireUnits" type="int" value="0"/>
+               <Property name="applyReflectionDimming" type="int" value="0"/>
+               <Property name="dimLevel" type="float" value="0.000000"/>
+               <Property name="reflectionLevel" type="float" value="3.000000"/>
+               <Property name="sampler" type="int" value="1"/>
+               <Property name="samplerQuality" type="float" value="0.500000"/>
+               <Property name="samplerEnable" type="int" value="0"/>
+               <Property name="samplerAdaptThreshold" type="float" value="0.100000"/>
+               <Property name="samplerAdaptOn" type="int" value="1"/>
+               <Property name="subSampleTextureOn" type="int" value="1"/>
+               <Property name="samplerAdvancedOptions" type="int" value="1"/>
+               <Property name="samplerByName" type="string" value="Max 2.5 星"/>
+               <Property name="UserParam0" type="float" value="0.000000"/>
+               <Property name="UserParam1" type="float" value="0.000000"/>
+               <Property name="samplerUseGlobal" type="int" value="1"/>
+               <Property name="mapEnables" type="unkown"/>
+               <Property name="maps" type="unkown"/>
+               <Property name="mapAmounts" type="unkown"/>
+               <Property name="adTextureLock" type="int" value="1"/>
+               <Property name="bounce" type="float" value="1.000000"/>
+               <Property name="staticFriction" type="float" value="0.000000"/>
+               <Property name="slidingFriction" type="float" value="0.000000"/>
+               <Property name="ambient" type="point3" x="0.588235" y="0.588235" z="0.588235"/>
+               <Property name="diffuse" type="point3" x="0.588235" y="0.588235" z="0.588235"/>
+               <Property name="specular" type="point3" x="0.900000" y="0.900000" z="0.900000"/>
+               <Property name="adTextureLock" type="int" value="1"/>
+               <Property name="adLock" type="int" value="1"/>
+               <Property name="dsLock" type="int" value="0"/>
+               <Property name="useSelfIllumColor" type="int" value="0"/>
+               <Property name="selfIllumAmount" type="float" value="0.000000"/>
+               <Property name="selfIllumColor" type="point3" x="0.000000" y="0.000000" z="0.000000"/>
+               <Property name="specularLevel" type="float" value="0.000000"/>
+               <Property name="glossiness" type="float" value="0.100000"/>
+               <Property name="soften" type="float" value="0.100000"/>
+               <Property name="enabled" type="int" value="0"/>
+               <Property name="effect" type="int" value="0"/>
+               <Property name="dxStdMat" type="int" value="0"/>
+               <Property name="SaveFXFile" type="unkown"/>
+               <Property name="Opaque" type="int" value="0"/>
+               <Property name="Surface" type="unkown"/>
+               <Property name="Displacement" type="unkown"/>
+               <Property name="Shadow" type="unkown"/>
+               <Property name="Volume" type="unkown"/>
+               <Property name="Environment" type="unkown"/>
+               <Property name="Contour" type="unkown"/>
+               <Property name="Photon" type="unkown"/>
+               <Property name="PhotonVolume" type="unkown"/>
+               <Property name="LightMap" type="unkown"/>
+               <Property name="SurfaceLocked" type="int" value="1"/>
+               <Property name="DisplacementLocked" type="int" value="1"/>
+               <Property name="ShadowLocked" type="int" value="1"/>
+               <Property name="VolumeLocked" type="int" value="1"/>
+               <Property name="EnvironmentLocked" type="int" value="1"/>
+               <Property name="ContourLocked" type="int" value="1"/>
+               <Property name="PhotonLocked" type="int" value="1"/>
+               <Property name="PhotonVolumeLocked" type="int" value="1"/>
+               <Property name="LightMapLocked" type="int" value="1"/>
+               <Property name="SurfaceLockShow" type="int" value="1"/>
+               <Property name="DisplacementLockShow" type="int" value="1"/>
+               <Property name="ShadowLockShow" type="int" value="1"/>
+               <Property name="VolumeLockShow" type="int" value="0"/>
+               <Property name="EnvironmentLockShow" type="int" value="0"/>
+               <Property name="ContourLockShow" type="int" value="0"/>
+               <Property name="PhotonLockShow" type="int" value="1"/>
+               <Property name="PhotonVolumeLockShow" type="int" value="0"/>
+               <Property name="LightMapLockShow" type="int" value="0"/>
+               <Property name="SurfaceON" type="int" value="1"/>
+               <Property name="DisplacementON" type="int" value="1"/>
+               <Property name="ShadowON" type="int" value="1"/>
+               <Property name="VolumeON" type="int" value="1"/>
+               <Property name="EnvironmentON" type="int" value="1"/>
+               <Property name="ContourON" type="int" value="1"/>
+               <Property name="PhotonON" type="int" value="1"/>
+               <Property name="ON" type="int" value="1"/>
+               <Property name="LightMapON" type="int" value="1"/>
+            </Properties>
+            <Diffuse r="0.588235" g="0.588235" b="0.588235"/>
+            <Ambient r="0.588235" g="0.588235" b="0.588235"/>
+            <Specular r="0.900000" g="0.900000" b="0.900000"/>
+            <SpecularLevel type="float" value="0.000000"/>
+            <Emissive r="0.000000" g="0.000000" b="0.000000"/>
+            <EmissiveAmt type="float" value="0.000000"/>
+            <Glossiness type="float" value="0.100000"/>
+            <Opacity type="float" value="1.000000"/>
+            <Textures>
+               <Texture id="0" class="Bitmap" name="mt_004" slot_name="漫反射颜色" texture_name="mt_004" texture_class="Bitmap" map_channel="1" std_map_slot="1" file="D:\WP-Flash3D\Resource\model\fd-preview-展示\rs-specular.012-女人\texture\rs_004_d.jpg">
+                  <ClipU type="float" value="0.000000"/>
+                  <ClipV type="float" value="0.000000"/>
+                  <ClipW type="float" value="1.000000"/>
+                  <ClipH type="float" value="1.000000"/>
+                  <Properties>
+                     <Property name="clipu" type="float" value="0.000000"/>
+                     <Property name="clipv" type="float" value="0.000000"/>
+                     <Property name="clipw" type="float" value="1.000000"/>
+                     <Property name="cliph" type="float" value="1.000000"/>
+                     <Property name="jitter" type="float" value="1.000000"/>
+                     <Property name="useJitter" type="int" value="0"/>
+                     <Property name="apply" type="int" value="0"/>
+                     <Property name="cropPlace" type="int" value="0"/>
+                     <Property name="filtering" type="int" value="0"/>
+                     <Property name="monoOutput" type="int" value="0"/>
+                     <Property name="rgbOutput" type="int" value="0"/>
+                     <Property name="alphaSource" type="int" value="2"/>
+                     <Property name="preMultAlpha" type="int" value="1"/>
+                     <Property name="bitmap" type="unkown"/>
+                     <Property name="coords" type="unkown"/>
+                     <Property name="output" type="unkown"/>
+                     <Property name="fileName" type="unkown"/>
+                     <Property name="startTime" type="int" value="0"/>
+                     <Property name="playBackRate" type="float" value="1.000000"/>
+                     <Property name="endCondition" type="int" value="0"/>
+                     <Property name="tieTimeToMatIDs" type="int" value="0"/>
+                  </Properties>
+               </Texture>
+            </Textures>
+         </Material>
+         <Material class="Standard" name="mt_005">
+            <Properties>
+               <Property name="shaderType" type="int" value="1"/>
+               <Property name="wire" type="int" value="0"/>
+               <Property name="twoSided" type="int" value="0"/>
+               <Property name="faceMap" type="int" value="0"/>
+               <Property name="faceted" type="int" value="0"/>
+               <Property name="shaderByName" type="string" value="(B)Blinn"/>
+               <Property name="opacityType" type="int" value="0"/>
+               <Property name="opacity" type="float" value="1.000000"/>
+               <Property name="filterColor" type="point3" x="0.500000" y="0.500000" z="0.500000"/>
+               <Property name="filterMap" type="unkown"/>
+               <Property name="opacityFallOffType" type="int" value="0"/>
+               <Property name="opacityFallOff" type="float" value="0.000000"/>
+               <Property name="ior" type="float" value="1.500000"/>
+               <Property name="wireSize" type="float" value="1.000000"/>
+               <Property name="wireUnits" type="int" value="0"/>
+               <Property name="applyReflectionDimming" type="int" value="0"/>
+               <Property name="dimLevel" type="float" value="0.000000"/>
+               <Property name="reflectionLevel" type="float" value="3.000000"/>
+               <Property name="sampler" type="int" value="1"/>
+               <Property name="samplerQuality" type="float" value="0.500000"/>
+               <Property name="samplerEnable" type="int" value="0"/>
+               <Property name="samplerAdaptThreshold" type="float" value="0.100000"/>
+               <Property name="samplerAdaptOn" type="int" value="1"/>
+               <Property name="subSampleTextureOn" type="int" value="1"/>
+               <Property name="samplerAdvancedOptions" type="int" value="1"/>
+               <Property name="samplerByName" type="string" value="Max 2.5 星"/>
+               <Property name="UserParam0" type="float" value="0.000000"/>
+               <Property name="UserParam1" type="float" value="0.000000"/>
+               <Property name="samplerUseGlobal" type="int" value="1"/>
+               <Property name="mapEnables" type="unkown"/>
+               <Property name="maps" type="unkown"/>
+               <Property name="mapAmounts" type="unkown"/>
+               <Property name="adTextureLock" type="int" value="1"/>
+               <Property name="bounce" type="float" value="1.000000"/>
+               <Property name="staticFriction" type="float" value="0.000000"/>
+               <Property name="slidingFriction" type="float" value="0.000000"/>
+               <Property name="ambient" type="point3" x="0.588235" y="0.588235" z="0.588235"/>
+               <Property name="diffuse" type="point3" x="0.588235" y="0.588235" z="0.588235"/>
+               <Property name="specular" type="point3" x="0.900000" y="0.900000" z="0.900000"/>
+               <Property name="adTextureLock" type="int" value="1"/>
+               <Property name="adLock" type="int" value="1"/>
+               <Property name="dsLock" type="int" value="0"/>
+               <Property name="useSelfIllumColor" type="int" value="0"/>
+               <Property name="selfIllumAmount" type="float" value="0.000000"/>
+               <Property name="selfIllumColor" type="point3" x="0.000000" y="0.000000" z="0.000000"/>
+               <Property name="specularLevel" type="float" value="0.000000"/>
+               <Property name="glossiness" type="float" value="0.100000"/>
+               <Property name="soften" type="float" value="0.100000"/>
+               <Property name="enabled" type="int" value="0"/>
+               <Property name="effect" type="int" value="0"/>
+               <Property name="dxStdMat" type="int" value="0"/>
+               <Property name="SaveFXFile" type="unkown"/>
+               <Property name="Opaque" type="int" value="0"/>
+               <Property name="Surface" type="unkown"/>
+               <Property name="Displacement" type="unkown"/>
+               <Property name="Shadow" type="unkown"/>
+               <Property name="Volume" type="unkown"/>
+               <Property name="Environment" type="unkown"/>
+               <Property name="Contour" type="unkown"/>
+               <Property name="Photon" type="unkown"/>
+               <Property name="PhotonVolume" type="unkown"/>
+               <Property name="LightMap" type="unkown"/>
+               <Property name="SurfaceLocked" type="int" value="1"/>
+               <Property name="DisplacementLocked" type="int" value="1"/>
+               <Property name="ShadowLocked" type="int" value="1"/>
+               <Property name="VolumeLocked" type="int" value="1"/>
+               <Property name="EnvironmentLocked" type="int" value="1"/>
+               <Property name="ContourLocked" type="int" value="1"/>
+               <Property name="PhotonLocked" type="int" value="1"/>
+               <Property name="PhotonVolumeLocked" type="int" value="1"/>
+               <Property name="LightMapLocked" type="int" value="1"/>
+               <Property name="SurfaceLockShow" type="int" value="1"/>
+               <Property name="DisplacementLockShow" type="int" value="1"/>
+               <Property name="ShadowLockShow" type="int" value="1"/>
+               <Property name="VolumeLockShow" type="int" value="0"/>
+               <Property name="EnvironmentLockShow" type="int" value="0"/>
+               <Property name="ContourLockShow" type="int" value="0"/>
+               <Property name="PhotonLockShow" type="int" value="1"/>
+               <Property name="PhotonVolumeLockShow" type="int" value="0"/>
+               <Property name="LightMapLockShow" type="int" value="0"/>
+               <Property name="SurfaceON" type="int" value="1"/>
+               <Property name="DisplacementON" type="int" value="1"/>
+               <Property name="ShadowON" type="int" value="1"/>
+               <Property name="VolumeON" type="int" value="1"/>
+               <Property name="EnvironmentON" type="int" value="1"/>
+               <Property name="ContourON" type="int" value="1"/>
+               <Property name="PhotonON" type="int" value="1"/>
+               <Property name="ON" type="int" value="1"/>
+               <Property name="LightMapON" type="int" value="1"/>
+            </Properties>
+            <Diffuse r="0.588235" g="0.588235" b="0.588235"/>
+            <Ambient r="0.588235" g="0.588235" b="0.588235"/>
+            <Specular r="0.900000" g="0.900000" b="0.900000"/>
+            <SpecularLevel type="float" value="0.000000"/>
+            <Emissive r="0.000000" g="0.000000" b="0.000000"/>
+            <EmissiveAmt type="float" value="0.000000"/>
+            <Glossiness type="float" value="0.100000"/>
+            <Opacity type="float" value="1.000000"/>
+            <Textures>
+               <Texture id="0" class="Bitmap" name="mt_005" slot_name="漫反射颜色" texture_name="mt_005" texture_class="Bitmap" map_channel="1" std_map_slot="1" file="D:\WP-Flash3D\Resource\model\fd-preview-展示\rs-specular.012-女人\texture\rs_005_d.jpg">
+                  <ClipU type="float" value="0.000000"/>
+                  <ClipV type="float" value="0.000000"/>
+                  <ClipW type="float" value="1.000000"/>
+                  <ClipH type="float" value="1.000000"/>
+                  <Properties>
+                     <Property name="clipu" type="float" value="0.000000"/>
+                     <Property name="clipv" type="float" value="0.000000"/>
+                     <Property name="clipw" type="float" value="1.000000"/>
+                     <Property name="cliph" type="float" value="1.000000"/>
+                     <Property name="jitter" type="float" value="1.000000"/>
+                     <Property name="useJitter" type="int" value="0"/>
+                     <Property name="apply" type="int" value="0"/>
+                     <Property name="cropPlace" type="int" value="0"/>
+                     <Property name="filtering" type="int" value="0"/>
+                     <Property name="monoOutput" type="int" value="0"/>
+                     <Property name="rgbOutput" type="int" value="0"/>
+                     <Property name="alphaSource" type="int" value="2"/>
+                     <Property name="preMultAlpha" type="int" value="1"/>
+                     <Property name="bitmap" type="unkown"/>
+                     <Property name="coords" type="unkown"/>
+                     <Property name="output" type="unkown"/>
+                     <Property name="fileName" type="unkown"/>
+                     <Property name="startTime" type="int" value="0"/>
+                     <Property name="playBackRate" type="float" value="1.000000"/>
+                     <Property name="endCondition" type="int" value="0"/>
+                     <Property name="tieTimeToMatIDs" type="int" value="0"/>
+                  </Properties>
+               </Texture>
+            </Textures>
+         </Material>
+         <Material class="Standard" name="mt_001">
+            <Properties>
+               <Property name="shaderType" type="int" value="1"/>
+               <Property name="wire" type="int" value="0"/>
+               <Property name="twoSided" type="int" value="0"/>
+               <Property name="faceMap" type="int" value="0"/>
+               <Property name="faceted" type="int" value="0"/>
+               <Property name="shaderByName" type="string" value="(B)Blinn"/>
+               <Property name="opacityType" type="int" value="0"/>
+               <Property name="opacity" type="float" value="1.000000"/>
+               <Property name="filterColor" type="point3" x="0.500000" y="0.500000" z="0.500000"/>
+               <Property name="filterMap" type="unkown"/>
+               <Property name="opacityFallOffType" type="int" value="0"/>
+               <Property name="opacityFallOff" type="float" value="0.000000"/>
+               <Property name="ior" type="float" value="1.500000"/>
+               <Property name="wireSize" type="float" value="1.000000"/>
+               <Property name="wireUnits" type="int" value="0"/>
+               <Property name="applyReflectionDimming" type="int" value="0"/>
+               <Property name="dimLevel" type="float" value="0.000000"/>
+               <Property name="reflectionLevel" type="float" value="3.000000"/>
+               <Property name="sampler" type="int" value="1"/>
+               <Property name="samplerQuality" type="float" value="0.500000"/>
+               <Property name="samplerEnable" type="int" value="0"/>
+               <Property name="samplerAdaptThreshold" type="float" value="0.100000"/>
+               <Property name="samplerAdaptOn" type="int" value="1"/>
+               <Property name="subSampleTextureOn" type="int" value="1"/>
+               <Property name="samplerAdvancedOptions" type="int" value="1"/>
+               <Property name="samplerByName" type="string" value="Max 2.5 星"/>
+               <Property name="UserParam0" type="float" value="0.000000"/>
+               <Property name="UserParam1" type="float" value="0.000000"/>
+               <Property name="samplerUseGlobal" type="int" value="1"/>
+               <Property name="mapEnables" type="unkown"/>
+               <Property name="maps" type="unkown"/>
+               <Property name="mapAmounts" type="unkown"/>
+               <Property name="adTextureLock" type="int" value="1"/>
+               <Property name="bounce" type="float" value="1.000000"/>
+               <Property name="staticFriction" type="float" value="0.000000"/>
+               <Property name="slidingFriction" type="float" value="0.000000"/>
+               <Property name="ambient" type="point3" x="0.550000" y="0.550000" z="0.550000"/>
+               <Property name="diffuse" type="point3" x="0.550000" y="0.550000" z="0.550000"/>
+               <Property name="specular" type="point3" x="0.494118" y="0.368627" z="0.607843"/>
+               <Property name="adTextureLock" type="int" value="1"/>
+               <Property name="adLock" type="int" value="1"/>
+               <Property name="dsLock" type="int" value="0"/>
+               <Property name="useSelfIllumColor" type="int" value="0"/>
+               <Property name="selfIllumAmount" type="float" value="0.000000"/>
+               <Property name="selfIllumColor" type="point3" x="0.000000" y="0.000000" z="0.000000"/>
+               <Property name="specularLevel" type="float" value="0.610000"/>
+               <Property name="glossiness" type="float" value="0.530000"/>
+               <Property name="soften" type="float" value="0.100000"/>
+               <Property name="enabled" type="int" value="0"/>
+               <Property name="effect" type="int" value="0"/>
+               <Property name="dxStdMat" type="int" value="0"/>
+               <Property name="SaveFXFile" type="unkown"/>
+               <Property name="Opaque" type="int" value="0"/>
+               <Property name="Surface" type="unkown"/>
+               <Property name="Displacement" type="unkown"/>
+               <Property name="Shadow" type="unkown"/>
+               <Property name="Volume" type="unkown"/>
+               <Property name="Environment" type="unkown"/>
+               <Property name="Contour" type="unkown"/>
+               <Property name="Photon" type="unkown"/>
+               <Property name="PhotonVolume" type="unkown"/>
+               <Property name="LightMap" type="unkown"/>
+               <Property name="SurfaceLocked" type="int" value="1"/>
+               <Property name="DisplacementLocked" type="int" value="1"/>
+               <Property name="ShadowLocked" type="int" value="1"/>
+               <Property name="VolumeLocked" type="int" value="1"/>
+               <Property name="EnvironmentLocked" type="int" value="1"/>
+               <Property name="ContourLocked" type="int" value="1"/>
+               <Property name="PhotonLocked" type="int" value="1"/>
+               <Property name="PhotonVolumeLocked" type="int" value="1"/>
+               <Property name="LightMapLocked" type="int" value="1"/>
+               <Property name="SurfaceLockShow" type="int" value="1"/>
+               <Property name="DisplacementLockShow" type="int" value="1"/>
+               <Property name="ShadowLockShow" type="int" value="1"/>
+               <Property name="VolumeLockShow" type="int" value="0"/>
+               <Property name="EnvironmentLockShow" type="int" value="0"/>
+               <Property name="ContourLockShow" type="int" value="0"/>
+               <Property name="PhotonLockShow" type="int" value="1"/>
+               <Property name="PhotonVolumeLockShow" type="int" value="0"/>
+               <Property name="LightMapLockShow" type="int" value="0"/>
+               <Property name="SurfaceON" type="int" value="1"/>
+               <Property name="DisplacementON" type="int" value="1"/>
+               <Property name="ShadowON" type="int" value="1"/>
+               <Property name="VolumeON" type="int" value="1"/>
+               <Property name="EnvironmentON" type="int" value="1"/>
+               <Property name="ContourON" type="int" value="1"/>
+               <Property name="PhotonON" type="int" value="1"/>
+               <Property name="ON" type="int" value="1"/>
+               <Property name="LightMapON" type="int" value="1"/>
+            </Properties>
+            <Diffuse r="0.550000" g="0.550000" b="0.550000"/>
+            <Ambient r="0.550000" g="0.550000" b="0.550000"/>
+            <Specular r="0.494118" g="0.368627" b="0.607843"/>
+            <SpecularLevel type="float" value="0.610000"/>
+            <Emissive r="0.000000" g="0.000000" b="0.000000"/>
+            <EmissiveAmt type="float" value="0.000000"/>
+            <Glossiness type="float" value="0.530000"/>
+            <Opacity type="float" value="1.000000"/>
+            <Textures>
+               <Texture id="0" class="Bitmap" name="Map #19" slot_name="漫反射颜色" texture_name="Map #19" texture_class="Bitmap" map_channel="1" std_map_slot="1" file="D:\WP-Flash3D\Resource\model\fd-preview-展示\rs-specular.012-女人\texture\rs_001_d.jpg">
+                  <ClipU type="float" value="0.000000"/>
+                  <ClipV type="float" value="0.000000"/>
+                  <ClipW type="float" value="1.000000"/>
+                  <ClipH type="float" value="1.000000"/>
+                  <Properties>
+                     <Property name="clipu" type="float" value="0.000000"/>
+                     <Property name="clipv" type="float" value="0.000000"/>
+                     <Property name="clipw" type="float" value="1.000000"/>
+                     <Property name="cliph" type="float" value="1.000000"/>
+                     <Property name="jitter" type="float" value="1.000000"/>
+                     <Property name="useJitter" type="int" value="0"/>
+                     <Property name="apply" type="int" value="0"/>
+                     <Property name="cropPlace" type="int" value="0"/>
+                     <Property name="filtering" type="int" value="0"/>
+                     <Property name="monoOutput" type="int" value="0"/>
+                     <Property name="rgbOutput" type="int" value="0"/>
+                     <Property name="alphaSource" type="int" value="2"/>
+                     <Property name="preMultAlpha" type="int" value="1"/>
+                     <Property name="bitmap" type="unkown"/>
+                     <Property name="coords" type="unkown"/>
+                     <Property name="output" type="unkown"/>
+                     <Property name="fileName" type="unkown"/>
+                     <Property name="startTime" type="int" value="0"/>
+                     <Property name="playBackRate" type="float" value="1.000000"/>
+                     <Property name="endCondition" type="int" value="0"/>
+                     <Property name="tieTimeToMatIDs" type="int" value="0"/>
+                  </Properties>
+               </Texture>
+               <Texture id="1" class="Bitmap" name="Map #20" slot_name="高光级别" texture_name="Map #20" texture_class="Bitmap" map_channel="1" std_map_slot="3" file="D:\WP-Flash3D\Resource\model\fd-preview-展示\rs-specular.012-女人\texture\rs_001_sl.jpg">
+                  <ClipU type="float" value="0.000000"/>
+                  <ClipV type="float" value="0.000000"/>
+                  <ClipW type="float" value="1.000000"/>
+                  <ClipH type="float" value="1.000000"/>
+                  <Properties>
+                     <Property name="clipu" type="float" value="0.000000"/>
+                     <Property name="clipv" type="float" value="0.000000"/>
+                     <Property name="clipw" type="float" value="1.000000"/>
+                     <Property name="cliph" type="float" value="1.000000"/>
+                     <Property name="jitter" type="float" value="1.000000"/>
+                     <Property name="useJitter" type="int" value="0"/>
+                     <Property name="apply" type="int" value="0"/>
+                     <Property name="cropPlace" type="int" value="0"/>
+                     <Property name="filtering" type="int" value="0"/>
+                     <Property name="monoOutput" type="int" value="0"/>
+                     <Property name="rgbOutput" type="int" value="0"/>
+                     <Property name="alphaSource" type="int" value="2"/>
+                     <Property name="preMultAlpha" type="int" value="1"/>
+                     <Property name="bitmap" type="unkown"/>
+                     <Property name="coords" type="unkown"/>
+                     <Property name="output" type="unkown"/>
+                     <Property name="fileName" type="unkown"/>
+                     <Property name="startTime" type="int" value="0"/>
+                     <Property name="playBackRate" type="float" value="1.000000"/>
+                     <Property name="endCondition" type="int" value="0"/>
+                     <Property name="tieTimeToMatIDs" type="int" value="0"/>
+                  </Properties>
+               </Texture>
+               <Texture id="2" class="法线凹凸" name="Map #28" slot_name="凹凸" texture_name="Map #28" texture_class="法线凹凸" map_channel="1" std_map_slot="8">
+                  <Properties>
+                     <Property name="mult_spin" type="float" value="1.000000"/>
+                     <Property name="bump_spin" type="float" value="1.000000"/>
+                     <Property name="normal_map" type="unkown"/>
+                     <Property name="bump_map" type="unkown"/>
+                     <Property name="map1on" type="int" value="1"/>
+                     <Property name="map2on" type="int" value="1"/>
+                     <Property name="method" type="int" value="0"/>
+                     <Property name="flipred" type="int" value="0"/>
+                     <Property name="flipgreen" type="int" value="0"/>
+                     <Property name="swap_rg" type="int" value="0"/>
+                  </Properties>
+                  <TextureList count="2">
+                     <Texture name="Map #29" node_name="No node name" full_name="Map #29 (rs_001_n.jpg)"/>
+                  </TextureList>
+               </Texture>
+            </Textures>
+         </Material>
+         <Material class="Standard" name="mt_002">
+            <Properties>
+               <Property name="shaderType" type="int" value="1"/>
+               <Property name="wire" type="int" value="0"/>
+               <Property name="twoSided" type="int" value="0"/>
+               <Property name="faceMap" type="int" value="0"/>
+               <Property name="faceted" type="int" value="0"/>
+               <Property name="shaderByName" type="string" value="(B)Blinn"/>
+               <Property name="opacityType" type="int" value="0"/>
+               <Property name="opacity" type="float" value="1.000000"/>
+               <Property name="filterColor" type="point3" x="0.500000" y="0.500000" z="0.500000"/>
+               <Property name="filterMap" type="unkown"/>
+               <Property name="opacityFallOffType" type="int" value="0"/>
+               <Property name="opacityFallOff" type="float" value="0.000000"/>
+               <Property name="ior" type="float" value="1.500000"/>
+               <Property name="wireSize" type="float" value="1.000000"/>
+               <Property name="wireUnits" type="int" value="0"/>
+               <Property name="applyReflectionDimming" type="int" value="0"/>
+               <Property name="dimLevel" type="float" value="0.000000"/>
+               <Property name="reflectionLevel" type="float" value="3.000000"/>
+               <Property name="sampler" type="int" value="1"/>
+               <Property name="samplerQuality" type="float" value="0.500000"/>
+               <Property name="samplerEnable" type="int" value="0"/>
+               <Property name="samplerAdaptThreshold" type="float" value="0.100000"/>
+               <Property name="samplerAdaptOn" type="int" value="1"/>
+               <Property name="subSampleTextureOn" type="int" value="1"/>
+               <Property name="samplerAdvancedOptions" type="int" value="1"/>
+               <Property name="samplerByName" type="string" value="Max 2.5 星"/>
+               <Property name="UserParam0" type="float" value="0.000000"/>
+               <Property name="UserParam1" type="float" value="0.000000"/>
+               <Property name="samplerUseGlobal" type="int" value="1"/>
+               <Property name="mapEnables" type="unkown"/>
+               <Property name="maps" type="unkown"/>
+               <Property name="mapAmounts" type="unkown"/>
+               <Property name="adTextureLock" type="int" value="1"/>
+               <Property name="bounce" type="float" value="1.000000"/>
+               <Property name="staticFriction" type="float" value="0.000000"/>
+               <Property name="slidingFriction" type="float" value="0.000000"/>
+               <Property name="ambient" type="point3" x="0.588235" y="0.588235" z="0.588235"/>
+               <Property name="diffuse" type="point3" x="0.588235" y="0.588235" z="0.588235"/>
+               <Property name="specular" type="point3" x="0.494118" y="0.368627" z="0.607843"/>
+               <Property name="adTextureLock" type="int" value="1"/>
+               <Property name="adLock" type="int" value="1"/>
+               <Property name="dsLock" type="int" value="0"/>
+               <Property name="useSelfIllumColor" type="int" value="0"/>
+               <Property name="selfIllumAmount" type="float" value="0.000000"/>
+               <Property name="selfIllumColor" type="point3" x="0.000000" y="0.000000" z="0.000000"/>
+               <Property name="specularLevel" type="float" value="0.460000"/>
+               <Property name="glossiness" type="float" value="0.540000"/>
+               <Property name="soften" type="float" value="0.100000"/>
+               <Property name="enabled" type="int" value="0"/>
+               <Property name="effect" type="int" value="0"/>
+               <Property name="dxStdMat" type="int" value="0"/>
+               <Property name="SaveFXFile" type="unkown"/>
+               <Property name="Opaque" type="int" value="0"/>
+               <Property name="Surface" type="unkown"/>
+               <Property name="Displacement" type="unkown"/>
+               <Property name="Shadow" type="unkown"/>
+               <Property name="Volume" type="unkown"/>
+               <Property name="Environment" type="unkown"/>
+               <Property name="Contour" type="unkown"/>
+               <Property name="Photon" type="unkown"/>
+               <Property name="PhotonVolume" type="unkown"/>
+               <Property name="LightMap" type="unkown"/>
+               <Property name="SurfaceLocked" type="int" value="1"/>
+               <Property name="DisplacementLocked" type="int" value="1"/>
+               <Property name="ShadowLocked" type="int" value="1"/>
+               <Property name="VolumeLocked" type="int" value="1"/>
+               <Property name="EnvironmentLocked" type="int" value="1"/>
+               <Property name="ContourLocked" type="int" value="1"/>
+               <Property name="PhotonLocked" type="int" value="1"/>
+               <Property name="PhotonVolumeLocked" type="int" value="1"/>
+               <Property name="LightMapLocked" type="int" value="1"/>
+               <Property name="SurfaceLockShow" type="int" value="1"/>
+               <Property name="DisplacementLockShow" type="int" value="1"/>
+               <Property name="ShadowLockShow" type="int" value="1"/>
+               <Property name="VolumeLockShow" type="int" value="0"/>
+               <Property name="EnvironmentLockShow" type="int" value="0"/>
+               <Property name="ContourLockShow" type="int" value="0"/>
+               <Property name="PhotonLockShow" type="int" value="1"/>
+               <Property name="PhotonVolumeLockShow" type="int" value="0"/>
+               <Property name="LightMapLockShow" type="int" value="0"/>
+               <Property name="SurfaceON" type="int" value="1"/>
+               <Property name="DisplacementON" type="int" value="1"/>
+               <Property name="ShadowON" type="int" value="1"/>
+               <Property name="VolumeON" type="int" value="1"/>
+               <Property name="EnvironmentON" type="int" value="1"/>
+               <Property name="ContourON" type="int" value="1"/>
+               <Property name="PhotonON" type="int" value="1"/>
+               <Property name="ON" type="int" value="1"/>
+               <Property name="LightMapON" type="int" value="1"/>
+            </Properties>
+            <Diffuse r="0.588235" g="0.588235" b="0.588235"/>
+            <Ambient r="0.588235" g="0.588235" b="0.588235"/>
+            <Specular r="0.494118" g="0.368627" b="0.607843"/>
+            <SpecularLevel type="float" value="0.460000"/>
+            <Emissive r="0.000000" g="0.000000" b="0.000000"/>
+            <EmissiveAmt type="float" value="0.000000"/>
+            <Glossiness type="float" value="0.540000"/>
+            <Opacity type="float" value="1.000000"/>
+            <Textures>
+               <Texture id="0" class="Bitmap" name="mt_002" slot_name="漫反射颜色" texture_name="mt_002" texture_class="Bitmap" map_channel="1" std_map_slot="1" file="D:\WP-Flash3D\Resource\model\fd-preview-展示\rs-specular.012-女人\texture\rs_002_d.jpg">
+                  <ClipU type="float" value="0.000000"/>
+                  <ClipV type="float" value="0.000000"/>
+                  <ClipW type="float" value="1.000000"/>
+                  <ClipH type="float" value="1.000000"/>
+                  <Properties>
+                     <Property name="clipu" type="float" value="0.000000"/>
+                     <Property name="clipv" type="float" value="0.000000"/>
+                     <Property name="clipw" type="float" value="1.000000"/>
+                     <Property name="cliph" type="float" value="1.000000"/>
+                     <Property name="jitter" type="float" value="1.000000"/>
+                     <Property name="useJitter" type="int" value="0"/>
+                     <Property name="apply" type="int" value="0"/>
+                     <Property name="cropPlace" type="int" value="0"/>
+                     <Property name="filtering" type="int" value="0"/>
+                     <Property name="monoOutput" type="int" value="0"/>
+                     <Property name="rgbOutput" type="int" value="0"/>
+                     <Property name="alphaSource" type="int" value="2"/>
+                     <Property name="preMultAlpha" type="int" value="1"/>
+                     <Property name="bitmap" type="unkown"/>
+                     <Property name="coords" type="unkown"/>
+                     <Property name="output" type="unkown"/>
+                     <Property name="fileName" type="unkown"/>
+                     <Property name="startTime" type="int" value="0"/>
+                     <Property name="playBackRate" type="float" value="1.000000"/>
+                     <Property name="endCondition" type="int" value="0"/>
+                     <Property name="tieTimeToMatIDs" type="int" value="0"/>
+                  </Properties>
+               </Texture>
+               <Texture id="1" class="Bitmap" name="Map #12" slot_name="高光级别" texture_name="Map #12" texture_class="Bitmap" map_channel="1" std_map_slot="3" file="D:\WP-Flash3D\Resource\model\fd-preview-展示\rs-specular.012-女人\texture\rs_002_sl.jpg">
+                  <ClipU type="float" value="0.000000"/>
+                  <ClipV type="float" value="0.000000"/>
+                  <ClipW type="float" value="1.000000"/>
+                  <ClipH type="float" value="1.000000"/>
+                  <Properties>
+                     <Property name="clipu" type="float" value="0.000000"/>
+                     <Property name="clipv" type="float" value="0.000000"/>
+                     <Property name="clipw" type="float" value="1.000000"/>
+                     <Property name="cliph" type="float" value="1.000000"/>
+                     <Property name="jitter" type="float" value="1.000000"/>
+                     <Property name="useJitter" type="int" value="0"/>
+                     <Property name="apply" type="int" value="0"/>
+                     <Property name="cropPlace" type="int" value="0"/>
+                     <Property name="filtering" type="int" value="0"/>
+                     <Property name="monoOutput" type="int" value="0"/>
+                     <Property name="rgbOutput" type="int" value="0"/>
+                     <Property name="alphaSource" type="int" value="2"/>
+                     <Property name="preMultAlpha" type="int" value="1"/>
+                     <Property name="bitmap" type="unkown"/>
+                     <Property name="coords" type="unkown"/>
+                     <Property name="output" type="unkown"/>
+                     <Property name="fileName" type="unkown"/>
+                     <Property name="startTime" type="int" value="0"/>
+                     <Property name="playBackRate" type="float" value="1.000000"/>
+                     <Property name="endCondition" type="int" value="0"/>
+                     <Property name="tieTimeToMatIDs" type="int" value="0"/>
+                  </Properties>
+               </Texture>
+               <Texture id="2" class="法线凹凸" name="Map #83" slot_name="凹凸" texture_name="Map #83" texture_class="法线凹凸" map_channel="1" std_map_slot="8">
+                  <Properties>
+                     <Property name="mult_spin" type="float" value="1.000000"/>
+                     <Property name="bump_spin" type="float" value="1.000000"/>
+                     <Property name="normal_map" type="unkown"/>
+                     <Property name="bump_map" type="unkown"/>
+                     <Property name="map1on" type="int" value="1"/>
+                     <Property name="map2on" type="int" value="1"/>
+                     <Property name="method" type="int" value="0"/>
+                     <Property name="flipred" type="int" value="0"/>
+                     <Property name="flipgreen" type="int" value="0"/>
+                     <Property name="swap_rg" type="int" value="0"/>
+                  </Properties>
+                  <TextureList count="2">
+                     <Texture name="Map #84" node_name="No node name" full_name="Map #84 (rs_002_n.jpg)"/>
+                  </TextureList>
+               </Texture>
+            </Textures>
+         </Material>
+         <Material class="Standard" name="mt_003">
+            <Properties>
+               <Property name="shaderType" type="int" value="1"/>
+               <Property name="wire" type="int" value="0"/>
+               <Property name="twoSided" type="int" value="0"/>
+               <Property name="faceMap" type="int" value="0"/>
+               <Property name="faceted" type="int" value="0"/>
+               <Property name="shaderByName" type="string" value="(B)Blinn"/>
+               <Property name="opacityType" type="int" value="0"/>
+               <Property name="opacity" type="float" value="1.000000"/>
+               <Property name="filterColor" type="point3" x="0.500000" y="0.500000" z="0.500000"/>
+               <Property name="filterMap" type="unkown"/>
+               <Property name="opacityFallOffType" type="int" value="0"/>
+               <Property name="opacityFallOff" type="float" value="0.000000"/>
+               <Property name="ior" type="float" value="1.500000"/>
+               <Property name="wireSize" type="float" value="1.000000"/>
+               <Property name="wireUnits" type="int" value="0"/>
+               <Property name="applyReflectionDimming" type="int" value="0"/>
+               <Property name="dimLevel" type="float" value="0.000000"/>
+               <Property name="reflectionLevel" type="float" value="3.000000"/>
+               <Property name="sampler" type="int" value="1"/>
+               <Property name="samplerQuality" type="float" value="0.500000"/>
+               <Property name="samplerEnable" type="int" value="0"/>
+               <Property name="samplerAdaptThreshold" type="float" value="0.100000"/>
+               <Property name="samplerAdaptOn" type="int" value="1"/>
+               <Property name="subSampleTextureOn" type="int" value="1"/>
+               <Property name="samplerAdvancedOptions" type="int" value="1"/>
+               <Property name="samplerByName" type="string" value="Max 2.5 星"/>
+               <Property name="UserParam0" type="float" value="0.000000"/>
+               <Property name="UserParam1" type="float" value="0.000000"/>
+               <Property name="samplerUseGlobal" type="int" value="1"/>
+               <Property name="mapEnables" type="unkown"/>
+               <Property name="maps" type="unkown"/>
+               <Property name="mapAmounts" type="unkown"/>
+               <Property name="adTextureLock" type="int" value="1"/>
+               <Property name="bounce" type="float" value="1.000000"/>
+               <Property name="staticFriction" type="float" value="0.000000"/>
+               <Property name="slidingFriction" type="float" value="0.000000"/>
+               <Property name="ambient" type="point3" x="0.588235" y="0.588235" z="0.588235"/>
+               <Property name="diffuse" type="point3" x="0.588235" y="0.588235" z="0.588235"/>
+               <Property name="specular" type="point3" x="0.494118" y="0.368627" z="0.607843"/>
+               <Property name="adTextureLock" type="int" value="1"/>
+               <Property name="adLock" type="int" value="1"/>
+               <Property name="dsLock" type="int" value="0"/>
+               <Property name="useSelfIllumColor" type="int" value="0"/>
+               <Property name="selfIllumAmount" type="float" value="0.000000"/>
+               <Property name="selfIllumColor" type="point3" x="0.000000" y="0.000000" z="0.000000"/>
+               <Property name="specularLevel" type="float" value="0.450000"/>
+               <Property name="glossiness" type="float" value="0.250000"/>
+               <Property name="soften" type="float" value="0.100000"/>
+               <Property name="enabled" type="int" value="0"/>
+               <Property name="effect" type="int" value="0"/>
+               <Property name="dxStdMat" type="int" value="0"/>
+               <Property name="SaveFXFile" type="unkown"/>
+               <Property name="Opaque" type="int" value="0"/>
+               <Property name="Surface" type="unkown"/>
+               <Property name="Displacement" type="unkown"/>
+               <Property name="Shadow" type="unkown"/>
+               <Property name="Volume" type="unkown"/>
+               <Property name="Environment" type="unkown"/>
+               <Property name="Contour" type="unkown"/>
+               <Property name="Photon" type="unkown"/>
+               <Property name="PhotonVolume" type="unkown"/>
+               <Property name="LightMap" type="unkown"/>
+               <Property name="SurfaceLocked" type="int" value="1"/>
+               <Property name="DisplacementLocked" type="int" value="1"/>
+               <Property name="ShadowLocked" type="int" value="1"/>
+               <Property name="VolumeLocked" type="int" value="1"/>
+               <Property name="EnvironmentLocked" type="int" value="1"/>
+               <Property name="ContourLocked" type="int" value="1"/>
+               <Property name="PhotonLocked" type="int" value="1"/>
+               <Property name="PhotonVolumeLocked" type="int" value="1"/>
+               <Property name="LightMapLocked" type="int" value="1"/>
+               <Property name="SurfaceLockShow" type="int" value="1"/>
+               <Property name="DisplacementLockShow" type="int" value="1"/>
+               <Property name="ShadowLockShow" type="int" value="1"/>
+               <Property name="VolumeLockShow" type="int" value="0"/>
+               <Property name="EnvironmentLockShow" type="int" value="0"/>
+               <Property name="ContourLockShow" type="int" value="0"/>
+               <Property name="PhotonLockShow" type="int" value="1"/>
+               <Property name="PhotonVolumeLockShow" type="int" value="0"/>
+               <Property name="LightMapLockShow" type="int" value="0"/>
+               <Property name="SurfaceON" type="int" value="1"/>
+               <Property name="DisplacementON" type="int" value="1"/>
+               <Property name="ShadowON" type="int" value="1"/>
+               <Property name="VolumeON" type="int" value="1"/>
+               <Property name="EnvironmentON" type="int" value="1"/>
+               <Property name="ContourON" type="int" value="1"/>
+               <Property name="PhotonON" type="int" value="1"/>
+               <Property name="ON" type="int" value="1"/>
+               <Property name="LightMapON" type="int" value="1"/>
+            </Properties>
+            <Diffuse r="0.588235" g="0.588235" b="0.588235"/>
+            <Ambient r="0.588235" g="0.588235" b="0.588235"/>
+            <Specular r="0.494118" g="0.368627" b="0.607843"/>
+            <SpecularLevel type="float" value="0.450000"/>
+            <Emissive r="0.000000" g="0.000000" b="0.000000"/>
+            <EmissiveAmt type="float" value="0.000000"/>
+            <Glossiness type="float" value="0.250000"/>
+            <Opacity type="float" value="1.000000"/>
+            <Textures>
+               <Texture id="0" class="Bitmap" name="mt_003" slot_name="漫反射颜色" texture_name="mt_003" texture_class="Bitmap" map_channel="1" std_map_slot="1" file="D:\WP-Flash3D\Resource\model\fd-preview-展示\rs-specular.012-女人\texture\rs_003_d.jpg">
+                  <ClipU type="float" value="0.000000"/>
+                  <ClipV type="float" value="0.000000"/>
+                  <ClipW type="float" value="1.000000"/>
+                  <ClipH type="float" value="1.000000"/>
+                  <Properties>
+                     <Property name="clipu" type="float" value="0.000000"/>
+                     <Property name="clipv" type="float" value="0.000000"/>
+                     <Property name="clipw" type="float" value="1.000000"/>
+                     <Property name="cliph" type="float" value="1.000000"/>
+                     <Property name="jitter" type="float" value="1.000000"/>
+                     <Property name="useJitter" type="int" value="0"/>
+                     <Property name="apply" type="int" value="0"/>
+                     <Property name="cropPlace" type="int" value="0"/>
+                     <Property name="filtering" type="int" value="0"/>
+                     <Property name="monoOutput" type="int" value="0"/>
+                     <Property name="rgbOutput" type="int" value="0"/>
+                     <Property name="alphaSource" type="int" value="2"/>
+                     <Property name="preMultAlpha" type="int" value="1"/>
+                     <Property name="bitmap" type="unkown"/>
+                     <Property name="coords" type="unkown"/>
+                     <Property name="output" type="unkown"/>
+                     <Property name="fileName" type="unkown"/>
+                     <Property name="startTime" type="int" value="0"/>
+                     <Property name="playBackRate" type="float" value="1.000000"/>
+                     <Property name="endCondition" type="int" value="0"/>
+                     <Property name="tieTimeToMatIDs" type="int" value="0"/>
+                  </Properties>
+               </Texture>
+               <Texture id="1" class="Bitmap" name="Map #13" slot_name="高光级别" texture_name="Map #13" texture_class="Bitmap" map_channel="1" std_map_slot="3" file="D:\WP-Flash3D\Resource\model\fd-preview-展示\rs-specular.012-女人\texture\rs_003_sl.jpg">
+                  <ClipU type="float" value="0.000000"/>
+                  <ClipV type="float" value="0.000000"/>
+                  <ClipW type="float" value="1.000000"/>
+                  <ClipH type="float" value="1.000000"/>
+                  <Properties>
+                     <Property name="clipu" type="float" value="0.000000"/>
+                     <Property name="clipv" type="float" value="0.000000"/>
+                     <Property name="clipw" type="float" value="1.000000"/>
+                     <Property name="cliph" type="float" value="1.000000"/>
+                     <Property name="jitter" type="float" value="1.000000"/>
+                     <Property name="useJitter" type="int" value="0"/>
+                     <Property name="apply" type="int" value="0"/>
+                     <Property name="cropPlace" type="int" value="0"/>
+                     <Property name="filtering" type="int" value="0"/>
+                     <Property name="monoOutput" type="int" value="0"/>
+                     <Property name="rgbOutput" type="int" value="0"/>
+                     <Property name="alphaSource" type="int" value="2"/>
+                     <Property name="preMultAlpha" type="int" value="1"/>
+                     <Property name="bitmap" type="unkown"/>
+                     <Property name="coords" type="unkown"/>
+                     <Property name="output" type="unkown"/>
+                     <Property name="fileName" type="unkown"/>
+                     <Property name="startTime" type="int" value="0"/>
+                     <Property name="playBackRate" type="float" value="1.000000"/>
+                     <Property name="endCondition" type="int" value="0"/>
+                     <Property name="tieTimeToMatIDs" type="int" value="0"/>
+                  </Properties>
+               </Texture>
+               <Texture id="2" class="法线凹凸" name="Map #85" slot_name="凹凸" texture_name="Map #85" texture_class="法线凹凸" map_channel="1" std_map_slot="8">
+                  <Properties>
+                     <Property name="mult_spin" type="float" value="1.000000"/>
+                     <Property name="bump_spin" type="float" value="1.000000"/>
+                     <Property name="normal_map" type="unkown"/>
+                     <Property name="bump_map" type="unkown"/>
+                     <Property name="map1on" type="int" value="1"/>
+                     <Property name="map2on" type="int" value="1"/>
+                     <Property name="method" type="int" value="0"/>
+                     <Property name="flipred" type="int" value="0"/>
+                     <Property name="flipgreen" type="int" value="0"/>
+                     <Property name="swap_rg" type="int" value="0"/>
+                  </Properties>
+                  <TextureList count="2">
+                     <Texture name="Map #86" node_name="No node name" full_name="Map #86 (rs_010_n.jpg)"/>
+                  </TextureList>
+               </Texture>
+            </Textures>
+         </Material>
+         <Material class="Standard" name="mt_008">
+            <Properties>
+               <Property name="shaderType" type="int" value="1"/>
+               <Property name="wire" type="int" value="0"/>
+               <Property name="twoSided" type="int" value="1"/>
+               <Property name="faceMap" type="int" value="0"/>
+               <Property name="faceted" type="int" value="0"/>
+               <Property name="shaderByName" type="string" value="(B)Blinn"/>
+               <Property name="opacityType" type="int" value="0"/>
+               <Property name="opacity" type="float" value="1.000000"/>
+               <Property name="filterColor" type="point3" x="0.500000" y="0.500000" z="0.500000"/>
+               <Property name="filterMap" type="unkown"/>
+               <Property name="opacityFallOffType" type="int" value="0"/>
+               <Property name="opacityFallOff" type="float" value="0.000000"/>
+               <Property name="ior" type="float" value="1.500000"/>
+               <Property name="wireSize" type="float" value="1.000000"/>
+               <Property name="wireUnits" type="int" value="0"/>
+               <Property name="applyReflectionDimming" type="int" value="0"/>
+               <Property name="dimLevel" type="float" value="0.000000"/>
+               <Property name="reflectionLevel" type="float" value="3.000000"/>
+               <Property name="sampler" type="int" value="1"/>
+               <Property name="samplerQuality" type="float" value="0.500000"/>
+               <Property name="samplerEnable" type="int" value="0"/>
+               <Property name="samplerAdaptThreshold" type="float" value="0.100000"/>
+               <Property name="samplerAdaptOn" type="int" value="1"/>
+               <Property name="subSampleTextureOn" type="int" value="1"/>
+               <Property name="samplerAdvancedOptions" type="int" value="1"/>
+               <Property name="samplerByName" type="string" value="Max 2.5 星"/>
+               <Property name="UserParam0" type="float" value="0.000000"/>
+               <Property name="UserParam1" type="float" value="0.000000"/>
+               <Property name="samplerUseGlobal" type="int" value="1"/>
+               <Property name="mapEnables" type="unkown"/>
+               <Property name="maps" type="unkown"/>
+               <Property name="mapAmounts" type="unkown"/>
+               <Property name="adTextureLock" type="int" value="1"/>
+               <Property name="bounce" type="float" value="1.000000"/>
+               <Property name="staticFriction" type="float" value="0.000000"/>
+               <Property name="slidingFriction" type="float" value="0.000000"/>
+               <Property name="ambient" type="point3" x="0.588235" y="0.588235" z="0.588235"/>
+               <Property name="diffuse" type="point3" x="0.588235" y="0.588235" z="0.588235"/>
+               <Property name="specular" type="point3" x="0.900000" y="0.900000" z="0.900000"/>
+               <Property name="adTextureLock" type="int" value="1"/>
+               <Property name="adLock" type="int" value="1"/>
+               <Property name="dsLock" type="int" value="0"/>
+               <Property name="useSelfIllumColor" type="int" value="0"/>
+               <Property name="selfIllumAmount" type="float" value="0.000000"/>
+               <Property name="selfIllumColor" type="point3" x="0.000000" y="0.000000" z="0.000000"/>
+               <Property name="specularLevel" type="float" value="0.420000"/>
+               <Property name="glossiness" type="float" value="0.710000"/>
+               <Property name="soften" type="float" value="0.100000"/>
+               <Property name="enabled" type="int" value="0"/>
+               <Property name="effect" type="int" value="0"/>
+               <Property name="dxStdMat" type="int" value="0"/>
+               <Property name="SaveFXFile" type="unkown"/>
+               <Property name="Opaque" type="int" value="0"/>
+               <Property name="Surface" type="unkown"/>
+               <Property name="Displacement" type="unkown"/>
+               <Property name="Shadow" type="unkown"/>
+               <Property name="Volume" type="unkown"/>
+               <Property name="Environment" type="unkown"/>
+               <Property name="Contour" type="unkown"/>
+               <Property name="Photon" type="unkown"/>
+               <Property name="PhotonVolume" type="unkown"/>
+               <Property name="LightMap" type="unkown"/>
+               <Property name="SurfaceLocked" type="int" value="1"/>
+               <Property name="DisplacementLocked" type="int" value="1"/>
+               <Property name="ShadowLocked" type="int" value="1"/>
+               <Property name="VolumeLocked" type="int" value="1"/>
+               <Property name="EnvironmentLocked" type="int" value="1"/>
+               <Property name="ContourLocked" type="int" value="1"/>
+               <Property name="PhotonLocked" type="int" value="1"/>
+               <Property name="PhotonVolumeLocked" type="int" value="1"/>
+               <Property name="LightMapLocked" type="int" value="1"/>
+               <Property name="SurfaceLockShow" type="int" value="1"/>
+               <Property name="DisplacementLockShow" type="int" value="1"/>
+               <Property name="ShadowLockShow" type="int" value="1"/>
+               <Property name="VolumeLockShow" type="int" value="0"/>
+               <Property name="EnvironmentLockShow" type="int" value="0"/>
+               <Property name="ContourLockShow" type="int" value="0"/>
+               <Property name="PhotonLockShow" type="int" value="1"/>
+               <Property name="PhotonVolumeLockShow" type="int" value="0"/>
+               <Property name="LightMapLockShow" type="int" value="0"/>
+               <Property name="SurfaceON" type="int" value="1"/>
+               <Property name="DisplacementON" type="int" value="1"/>
+               <Property name="ShadowON" type="int" value="1"/>
+               <Property name="VolumeON" type="int" value="1"/>
+               <Property name="EnvironmentON" type="int" value="1"/>
+               <Property name="ContourON" type="int" value="1"/>
+               <Property name="PhotonON" type="int" value="1"/>
+               <Property name="ON" type="int" value="1"/>
+               <Property name="LightMapON" type="int" value="1"/>
+            </Properties>
+            <Diffuse r="0.588235" g="0.588235" b="0.588235"/>
+            <Ambient r="0.588235" g="0.588235" b="0.588235"/>
+            <Specular r="0.900000" g="0.900000" b="0.900000"/>
+            <SpecularLevel type="float" value="0.420000"/>
+            <Emissive r="0.000000" g="0.000000" b="0.000000"/>
+            <EmissiveAmt type="float" value="0.000000"/>
+            <Glossiness type="float" value="0.710000"/>
+            <Opacity type="float" value="1.000000"/>
+            <Textures>
+               <Texture id="0" class="Bitmap" name="Map #2" slot_name="漫反射颜色" texture_name="Map #2" texture_class="Bitmap" map_channel="1" std_map_slot="1" file="D:\WP-Flash3D\Resource\model\fd-preview-展示\rs-specular.012-女人\texture\rs_008_d.jpg">
+                  <ClipU type="float" value="0.000000"/>
+                  <ClipV type="float" value="0.000000"/>
+                  <ClipW type="float" value="1.000000"/>
+                  <ClipH type="float" value="1.000000"/>
+                  <Properties>
+                     <Property name="clipu" type="float" value="0.000000"/>
+                     <Property name="clipv" type="float" value="0.000000"/>
+                     <Property name="clipw" type="float" value="1.000000"/>
+                     <Property name="cliph" type="float" value="1.000000"/>
+                     <Property name="jitter" type="float" value="1.000000"/>
+                     <Property name="useJitter" type="int" value="0"/>
+                     <Property name="apply" type="int" value="0"/>
+                     <Property name="cropPlace" type="int" value="0"/>
+                     <Property name="filtering" type="int" value="0"/>
+                     <Property name="monoOutput" type="int" value="0"/>
+                     <Property name="rgbOutput" type="int" value="0"/>
+                     <Property name="alphaSource" type="int" value="2"/>
+                     <Property name="preMultAlpha" type="int" value="1"/>
+                     <Property name="bitmap" type="unkown"/>
+                     <Property name="coords" type="unkown"/>
+                     <Property name="output" type="unkown"/>
+                     <Property name="fileName" type="unkown"/>
+                     <Property name="startTime" type="int" value="0"/>
+                     <Property name="playBackRate" type="float" value="1.000000"/>
+                     <Property name="endCondition" type="int" value="0"/>
+                     <Property name="tieTimeToMatIDs" type="int" value="0"/>
+                  </Properties>
+               </Texture>
+               <Texture id="1" class="Bitmap" name="Map #16" slot_name="光泽度" texture_name="Map #16" texture_class="Bitmap" map_channel="1" std_map_slot="4" file="D:\WP-Flash3D\Resource\model\fd-preview-展示\rs-specular.012-女人\texture\rs_007_sl.jpg">
+                  <ClipU type="float" value="0.000000"/>
+                  <ClipV type="float" value="0.000000"/>
+                  <ClipW type="float" value="1.000000"/>
+                  <ClipH type="float" value="1.000000"/>
+                  <Properties>
+                     <Property name="clipu" type="float" value="0.000000"/>
+                     <Property name="clipv" type="float" value="0.000000"/>
+                     <Property name="clipw" type="float" value="1.000000"/>
+                     <Property name="cliph" type="float" value="1.000000"/>
+                     <Property name="jitter" type="float" value="1.000000"/>
+                     <Property name="useJitter" type="int" value="0"/>
+                     <Property name="apply" type="int" value="0"/>
+                     <Property name="cropPlace" type="int" value="0"/>
+                     <Property name="filtering" type="int" value="0"/>
+                     <Property name="monoOutput" type="int" value="0"/>
+                     <Property name="rgbOutput" type="int" value="0"/>
+                     <Property name="alphaSource" type="int" value="2"/>
+                     <Property name="preMultAlpha" type="int" value="1"/>
+                     <Property name="bitmap" type="unkown"/>
+                     <Property name="coords" type="unkown"/>
+                     <Property name="output" type="unkown"/>
+                     <Property name="fileName" type="unkown"/>
+                     <Property name="startTime" type="int" value="0"/>
+                     <Property name="playBackRate" type="float" value="1.000000"/>
+                     <Property name="endCondition" type="int" value="0"/>
+                     <Property name="tieTimeToMatIDs" type="int" value="0"/>
+                  </Properties>
+               </Texture>
+               <Texture id="2" class="Bitmap" name="Map #3" slot_name="不透明度" texture_name="Map #3" texture_class="Bitmap" map_channel="1" std_map_slot="6" file="D:\WP-Flash3D\Resource\model\fd-preview-展示\rs-specular.012-女人\texture\rs_008_a.jpg">
+                  <ClipU type="float" value="0.000000"/>
+                  <ClipV type="float" value="0.000000"/>
+                  <ClipW type="float" value="1.000000"/>
+                  <ClipH type="float" value="1.000000"/>
+                  <Properties>
+                     <Property name="clipu" type="float" value="0.000000"/>
+                     <Property name="clipv" type="float" value="0.000000"/>
+                     <Property name="clipw" type="float" value="1.000000"/>
+                     <Property name="cliph" type="float" value="1.000000"/>
+                     <Property name="jitter" type="float" value="1.000000"/>
+                     <Property name="useJitter" type="int" value="0"/>
+                     <Property name="apply" type="int" value="0"/>
+                     <Property name="cropPlace" type="int" value="0"/>
+                     <Property name="filtering" type="int" value="0"/>
+                     <Property name="monoOutput" type="int" value="0"/>
+                     <Property name="rgbOutput" type="int" value="0"/>
+                     <Property name="alphaSource" type="int" value="2"/>
+                     <Property name="preMultAlpha" type="int" value="1"/>
+                     <Property name="bitmap" type="unkown"/>
+                     <Property name="coords" type="unkown"/>
+                     <Property name="output" type="unkown"/>
+                     <Property name="fileName" type="unkown"/>
+                     <Property name="startTime" type="int" value="0"/>
+                     <Property name="playBackRate" type="float" value="1.000000"/>
+                     <Property name="endCondition" type="int" value="0"/>
+                     <Property name="tieTimeToMatIDs" type="int" value="0"/>
+                  </Properties>
+               </Texture>
+            </Textures>
+         </Material>
+         <Material class="Standard" name="mt_007">
+            <Properties>
+               <Property name="shaderType" type="int" value="1"/>
+               <Property name="wire" type="int" value="0"/>
+               <Property name="twoSided" type="int" value="0"/>
+               <Property name="faceMap" type="int" value="0"/>
+               <Property name="faceted" type="int" value="0"/>
+               <Property name="shaderByName" type="string" value="(B)Blinn"/>
+               <Property name="opacityType" type="int" value="0"/>
+               <Property name="opacity" type="float" value="1.000000"/>
+               <Property name="filterColor" type="point3" x="0.500000" y="0.500000" z="0.500000"/>
+               <Property name="filterMap" type="unkown"/>
+               <Property name="opacityFallOffType" type="int" value="0"/>
+               <Property name="opacityFallOff" type="float" value="0.000000"/>
+               <Property name="ior" type="float" value="1.500000"/>
+               <Property name="wireSize" type="float" value="1.000000"/>
+               <Property name="wireUnits" type="int" value="0"/>
+               <Property name="applyReflectionDimming" type="int" value="0"/>
+               <Property name="dimLevel" type="float" value="0.000000"/>
+               <Property name="reflectionLevel" type="float" value="3.000000"/>
+               <Property name="sampler" type="int" value="1"/>
+               <Property name="samplerQuality" type="float" value="0.500000"/>
+               <Property name="samplerEnable" type="int" value="0"/>
+               <Property name="samplerAdaptThreshold" type="float" value="0.100000"/>
+               <Property name="samplerAdaptOn" type="int" value="1"/>
+               <Property name="subSampleTextureOn" type="int" value="1"/>
+               <Property name="samplerAdvancedOptions" type="int" value="1"/>
+               <Property name="samplerByName" type="string" value="Max 2.5 星"/>
+               <Property name="UserParam0" type="float" value="0.000000"/>
+               <Property name="UserParam1" type="float" value="0.000000"/>
+               <Property name="samplerUseGlobal" type="int" value="1"/>
+               <Property name="mapEnables" type="unkown"/>
+               <Property name="maps" type="unkown"/>
+               <Property name="mapAmounts" type="unkown"/>
+               <Property name="adTextureLock" type="int" value="1"/>
+               <Property name="bounce" type="float" value="1.000000"/>
+               <Property name="staticFriction" type="float" value="0.000000"/>
+               <Property name="slidingFriction" type="float" value="0.000000"/>
+               <Property name="ambient" type="point3" x="0.588235" y="0.588235" z="0.588235"/>
+               <Property name="diffuse" type="point3" x="0.588235" y="0.588235" z="0.588235"/>
+               <Property name="specular" type="point3" x="0.900000" y="0.900000" z="0.900000"/>
+               <Property name="adTextureLock" type="int" value="1"/>
+               <Property name="adLock" type="int" value="1"/>
+               <Property name="dsLock" type="int" value="0"/>
+               <Property name="useSelfIllumColor" type="int" value="0"/>
+               <Property name="selfIllumAmount" type="float" value="0.000000"/>
+               <Property name="selfIllumColor" type="point3" x="0.000000" y="0.000000" z="0.000000"/>
+               <Property name="specularLevel" type="float" value="0.060000"/>
+               <Property name="glossiness" type="float" value="0.080000"/>
+               <Property name="soften" type="float" value="0.100000"/>
+               <Property name="enabled" type="int" value="0"/>
+               <Property name="effect" type="int" value="0"/>
+               <Property name="dxStdMat" type="int" value="0"/>
+               <Property name="SaveFXFile" type="unkown"/>
+               <Property name="Opaque" type="int" value="0"/>
+               <Property name="Surface" type="unkown"/>
+               <Property name="Displacement" type="unkown"/>
+               <Property name="Shadow" type="unkown"/>
+               <Property name="Volume" type="unkown"/>
+               <Property name="Environment" type="unkown"/>
+               <Property name="Contour" type="unkown"/>
+               <Property name="Photon" type="unkown"/>
+               <Property name="PhotonVolume" type="unkown"/>
+               <Property name="LightMap" type="unkown"/>
+               <Property name="SurfaceLocked" type="int" value="1"/>
+               <Property name="DisplacementLocked" type="int" value="1"/>
+               <Property name="ShadowLocked" type="int" value="1"/>
+               <Property name="VolumeLocked" type="int" value="1"/>
+               <Property name="EnvironmentLocked" type="int" value="1"/>
+               <Property name="ContourLocked" type="int" value="1"/>
+               <Property name="PhotonLocked" type="int" value="1"/>
+               <Property name="PhotonVolumeLocked" type="int" value="1"/>
+               <Property name="LightMapLocked" type="int" value="1"/>
+               <Property name="SurfaceLockShow" type="int" value="1"/>
+               <Property name="DisplacementLockShow" type="int" value="1"/>
+               <Property name="ShadowLockShow" type="int" value="1"/>
+               <Property name="VolumeLockShow" type="int" value="0"/>
+               <Property name="EnvironmentLockShow" type="int" value="0"/>
+               <Property name="ContourLockShow" type="int" value="0"/>
+               <Property name="PhotonLockShow" type="int" value="1"/>
+               <Property name="PhotonVolumeLockShow" type="int" value="0"/>
+               <Property name="LightMapLockShow" type="int" value="0"/>
+               <Property name="SurfaceON" type="int" value="1"/>
+               <Property name="DisplacementON" type="int" value="1"/>
+               <Property name="ShadowON" type="int" value="1"/>
+               <Property name="VolumeON" type="int" value="1"/>
+               <Property name="EnvironmentON" type="int" value="1"/>
+               <Property name="ContourON" type="int" value="1"/>
+               <Property name="PhotonON" type="int" value="1"/>
+               <Property name="ON" type="int" value="1"/>
+               <Property name="LightMapON" type="int" value="1"/>
+            </Properties>
+            <Diffuse r="0.588235" g="0.588235" b="0.588235"/>
+            <Ambient r="0.588235" g="0.588235" b="0.588235"/>
+            <Specular r="0.900000" g="0.900000" b="0.900000"/>
+            <SpecularLevel type="float" value="0.060000"/>
+            <Emissive r="0.000000" g="0.000000" b="0.000000"/>
+            <EmissiveAmt type="float" value="0.000000"/>
+            <Glossiness type="float" value="0.080000"/>
+            <Opacity type="float" value="1.000000"/>
+            <Textures>
+               <Texture id="0" class="Bitmap" name="Map #0" slot_name="漫反射颜色" texture_name="Map #0" texture_class="Bitmap" map_channel="1" std_map_slot="1" file="D:\WP-Flash3D\Resource\model\fd-preview-展示\rs-specular.012-女人\texture\rs_007_d.jpg">
+                  <ClipU type="float" value="0.000000"/>
+                  <ClipV type="float" value="0.000000"/>
+                  <ClipW type="float" value="1.000000"/>
+                  <ClipH type="float" value="1.000000"/>
+                  <Properties>
+                     <Property name="clipu" type="float" value="0.000000"/>
+                     <Property name="clipv" type="float" value="0.000000"/>
+                     <Property name="clipw" type="float" value="1.000000"/>
+                     <Property name="cliph" type="float" value="1.000000"/>
+                     <Property name="jitter" type="float" value="1.000000"/>
+                     <Property name="useJitter" type="int" value="0"/>
+                     <Property name="apply" type="int" value="0"/>
+                     <Property name="cropPlace" type="int" value="0"/>
+                     <Property name="filtering" type="int" value="0"/>
+                     <Property name="monoOutput" type="int" value="0"/>
+                     <Property name="rgbOutput" type="int" value="0"/>
+                     <Property name="alphaSource" type="int" value="2"/>
+                     <Property name="preMultAlpha" type="int" value="1"/>
+                     <Property name="bitmap" type="unkown"/>
+                     <Property name="coords" type="unkown"/>
+                     <Property name="output" type="unkown"/>
+                     <Property name="fileName" type="unkown"/>
+                     <Property name="startTime" type="int" value="0"/>
+                     <Property name="playBackRate" type="float" value="1.000000"/>
+                     <Property name="endCondition" type="int" value="0"/>
+                     <Property name="tieTimeToMatIDs" type="int" value="0"/>
+                  </Properties>
+               </Texture>
+               <Texture id="1" class="Bitmap" name="Map #15" slot_name="高光级别" texture_name="Map #15" texture_class="Bitmap" map_channel="1" std_map_slot="3" file="D:\WP-Flash3D\Resource\model\fd-preview-展示\rs-specular.012-女人\texture\rs_007_sl.jpg">
+                  <ClipU type="float" value="0.000000"/>
+                  <ClipV type="float" value="0.000000"/>
+                  <ClipW type="float" value="1.000000"/>
+                  <ClipH type="float" value="1.000000"/>
+                  <Properties>
+                     <Property name="clipu" type="float" value="0.000000"/>
+                     <Property name="clipv" type="float" value="0.000000"/>
+                     <Property name="clipw" type="float" value="1.000000"/>
+                     <Property name="cliph" type="float" value="1.000000"/>
+                     <Property name="jitter" type="float" value="1.000000"/>
+                     <Property name="useJitter" type="int" value="0"/>
+                     <Property name="apply" type="int" value="0"/>
+                     <Property name="cropPlace" type="int" value="0"/>
+                     <Property name="filtering" type="int" value="0"/>
+                     <Property name="monoOutput" type="int" value="0"/>
+                     <Property name="rgbOutput" type="int" value="0"/>
+                     <Property name="alphaSource" type="int" value="2"/>
+                     <Property name="preMultAlpha" type="int" value="1"/>
+                     <Property name="bitmap" type="unkown"/>
+                     <Property name="coords" type="unkown"/>
+                     <Property name="output" type="unkown"/>
+                     <Property name="fileName" type="unkown"/>
+                     <Property name="startTime" type="int" value="0"/>
+                     <Property name="playBackRate" type="float" value="1.000000"/>
+                     <Property name="endCondition" type="int" value="0"/>
+                     <Property name="tieTimeToMatIDs" type="int" value="0"/>
+                  </Properties>
+               </Texture>
+               <Texture id="2" class="Bitmap" name="Map #1" slot_name="不透明度" texture_name="Map #1" texture_class="Bitmap" map_channel="1" std_map_slot="6" file="D:\WP-Flash3D\Resource\model\fd-preview-展示\rs-specular.012-女人\texture\rs_007_a.jpg">
+                  <ClipU type="float" value="0.000000"/>
+                  <ClipV type="float" value="0.000000"/>
+                  <ClipW type="float" value="1.000000"/>
+                  <ClipH type="float" value="1.000000"/>
+                  <Properties>
+                     <Property name="clipu" type="float" value="0.000000"/>
+                     <Property name="clipv" type="float" value="0.000000"/>
+                     <Property name="clipw" type="float" value="1.000000"/>
+                     <Property name="cliph" type="float" value="1.000000"/>
+                     <Property name="jitter" type="float" value="1.000000"/>
+                     <Property name="useJitter" type="int" value="0"/>
+                     <Property name="apply" type="int" value="0"/>
+                     <Property name="cropPlace" type="int" value="0"/>
+                     <Property name="filtering" type="int" value="0"/>
+                     <Property name="monoOutput" type="int" value="0"/>
+                     <Property name="rgbOutput" type="int" value="0"/>
+                     <Property name="alphaSource" type="int" value="2"/>
+                     <Property name="preMultAlpha" type="int" value="1"/>
+                     <Property name="bitmap" type="unkown"/>
+                     <Property name="coords" type="unkown"/>
+                     <Property name="output" type="unkown"/>
+                     <Property name="fileName" type="unkown"/>
+                     <Property name="startTime" type="int" value="0"/>
+                     <Property name="playBackRate" type="float" value="1.000000"/>
+                     <Property name="endCondition" type="int" value="0"/>
+                     <Property name="tieTimeToMatIDs" type="int" value="0"/>
+                  </Properties>
+               </Texture>
+            </Textures>
+         </Material>
+         <Material class="Standard" name="mt_009">
+            <Properties>
+               <Property name="shaderType" type="int" value="1"/>
+               <Property name="wire" type="int" value="0"/>
+               <Property name="twoSided" type="int" value="0"/>
+               <Property name="faceMap" type="int" value="0"/>
+               <Property name="faceted" type="int" value="0"/>
+               <Property name="shaderByName" type="string" value="(B)Blinn"/>
+               <Property name="opacityType" type="int" value="0"/>
+               <Property name="opacity" type="float" value="1.000000"/>
+               <Property name="filterColor" type="point3" x="0.500000" y="0.500000" z="0.500000"/>
+               <Property name="filterMap" type="unkown"/>
+               <Property name="opacityFallOffType" type="int" value="0"/>
+               <Property name="opacityFallOff" type="float" value="0.000000"/>
+               <Property name="ior" type="float" value="1.500000"/>
+               <Property name="wireSize" type="float" value="1.000000"/>
+               <Property name="wireUnits" type="int" value="0"/>
+               <Property name="applyReflectionDimming" type="int" value="0"/>
+               <Property name="dimLevel" type="float" value="0.000000"/>
+               <Property name="reflectionLevel" type="float" value="3.000000"/>
+               <Property name="sampler" type="int" value="1"/>
+               <Property name="samplerQuality" type="float" value="0.500000"/>
+               <Property name="samplerEnable" type="int" value="0"/>
+               <Property name="samplerAdaptThreshold" type="float" value="0.100000"/>
+               <Property name="samplerAdaptOn" type="int" value="1"/>
+               <Property name="subSampleTextureOn" type="int" value="1"/>
+               <Property name="samplerAdvancedOptions" type="int" value="1"/>
+               <Property name="samplerByName" type="string" value="Max 2.5 星"/>
+               <Property name="UserParam0" type="float" value="0.000000"/>
+               <Property name="UserParam1" type="float" value="0.000000"/>
+               <Property name="samplerUseGlobal" type="int" value="1"/>
+               <Property name="mapEnables" type="unkown"/>
+               <Property name="maps" type="unkown"/>
+               <Property name="mapAmounts" type="unkown"/>
+               <Property name="adTextureLock" type="int" value="1"/>
+               <Property name="bounce" type="float" value="1.000000"/>
+               <Property name="staticFriction" type="float" value="0.000000"/>
+               <Property name="slidingFriction" type="float" value="0.000000"/>
+               <Property name="ambient" type="point3" x="0.588235" y="0.588235" z="0.588235"/>
+               <Property name="diffuse" type="point3" x="0.588235" y="0.588235" z="0.588235"/>
+               <Property name="specular" type="point3" x="0.900000" y="0.900000" z="0.900000"/>
+               <Property name="adTextureLock" type="int" value="1"/>
+               <Property name="adLock" type="int" value="1"/>
+               <Property name="dsLock" type="int" value="0"/>
+               <Property name="useSelfIllumColor" type="int" value="0"/>
+               <Property name="selfIllumAmount" type="float" value="0.000000"/>
+               <Property name="selfIllumColor" type="point3" x="0.000000" y="0.000000" z="0.000000"/>
+               <Property name="specularLevel" type="float" value="1.450000"/>
+               <Property name="glossiness" type="float" value="0.340000"/>
+               <Property name="soften" type="float" value="0.100000"/>
+               <Property name="enabled" type="int" value="0"/>
+               <Property name="effect" type="int" value="0"/>
+               <Property name="dxStdMat" type="int" value="0"/>
+               <Property name="SaveFXFile" type="unkown"/>
+               <Property name="Opaque" type="int" value="0"/>
+               <Property name="Surface" type="unkown"/>
+               <Property name="Displacement" type="unkown"/>
+               <Property name="Shadow" type="unkown"/>
+               <Property name="Volume" type="unkown"/>
+               <Property name="Environment" type="unkown"/>
+               <Property name="Contour" type="unkown"/>
+               <Property name="Photon" type="unkown"/>
+               <Property name="PhotonVolume" type="unkown"/>
+               <Property name="LightMap" type="unkown"/>
+               <Property name="SurfaceLocked" type="int" value="1"/>
+               <Property name="DisplacementLocked" type="int" value="1"/>
+               <Property name="ShadowLocked" type="int" value="1"/>
+               <Property name="VolumeLocked" type="int" value="1"/>
+               <Property name="EnvironmentLocked" type="int" value="1"/>
+               <Property name="ContourLocked" type="int" value="1"/>
+               <Property name="PhotonLocked" type="int" value="1"/>
+               <Property name="PhotonVolumeLocked" type="int" value="1"/>
+               <Property name="LightMapLocked" type="int" value="1"/>
+               <Property name="SurfaceLockShow" type="int" value="1"/>
+               <Property name="DisplacementLockShow" type="int" value="1"/>
+               <Property name="ShadowLockShow" type="int" value="1"/>
+               <Property name="VolumeLockShow" type="int" value="0"/>
+               <Property name="EnvironmentLockShow" type="int" value="0"/>
+               <Property name="ContourLockShow" type="int" value="0"/>
+               <Property name="PhotonLockShow" type="int" value="1"/>
+               <Property name="PhotonVolumeLockShow" type="int" value="0"/>
+               <Property name="LightMapLockShow" type="int" value="0"/>
+               <Property name="SurfaceON" type="int" value="1"/>
+               <Property name="DisplacementON" type="int" value="1"/>
+               <Property name="ShadowON" type="int" value="1"/>
+               <Property name="VolumeON" type="int" value="1"/>
+               <Property name="EnvironmentON" type="int" value="1"/>
+               <Property name="ContourON" type="int" value="1"/>
+               <Property name="PhotonON" type="int" value="1"/>
+               <Property name="ON" type="int" value="1"/>
+               <Property name="LightMapON" type="int" value="1"/>
+            </Properties>
+            <Diffuse r="0.588235" g="0.588235" b="0.588235"/>
+            <Ambient r="0.588235" g="0.588235" b="0.588235"/>
+            <Specular r="0.900000" g="0.900000" b="0.900000"/>
+            <SpecularLevel type="float" value="1.450000"/>
+            <Emissive r="0.000000" g="0.000000" b="0.000000"/>
+            <EmissiveAmt type="float" value="0.000000"/>
+            <Glossiness type="float" value="0.340000"/>
+            <Opacity type="float" value="1.000000"/>
+            <Textures>
+               <Texture id="0" class="Bitmap" name="Map #10" slot_name="漫反射颜色" texture_name="Map #10" texture_class="Bitmap" map_channel="1" std_map_slot="1" file="D:\WP-Flash3D\Resource\model\fd-preview-展示\rs-specular.012-女人\texture\rs_009_d.jpg">
+                  <ClipU type="float" value="0.000000"/>
+                  <ClipV type="float" value="0.000000"/>
+                  <ClipW type="float" value="1.000000"/>
+                  <ClipH type="float" value="1.000000"/>
+                  <Properties>
+                     <Property name="clipu" type="float" value="0.000000"/>
+                     <Property name="clipv" type="float" value="0.000000"/>
+                     <Property name="clipw" type="float" value="1.000000"/>
+                     <Property name="cliph" type="float" value="1.000000"/>
+                     <Property name="jitter" type="float" value="1.000000"/>
+                     <Property name="useJitter" type="int" value="0"/>
+                     <Property name="apply" type="int" value="0"/>
+                     <Property name="cropPlace" type="int" value="0"/>
+                     <Property name="filtering" type="int" value="0"/>
+                     <Property name="monoOutput" type="int" value="0"/>
+                     <Property name="rgbOutput" type="int" value="0"/>
+                     <Property name="alphaSource" type="int" value="2"/>
+                     <Property name="preMultAlpha" type="int" value="1"/>
+                     <Property name="bitmap" type="unkown"/>
+                     <Property name="coords" type="unkown"/>
+                     <Property name="output" type="unkown"/>
+                     <Property name="fileName" type="unkown"/>
+                     <Property name="startTime" type="int" value="0"/>
+                     <Property name="playBackRate" type="float" value="1.000000"/>
+                     <Property name="endCondition" type="int" value="0"/>
+                     <Property name="tieTimeToMatIDs" type="int" value="0"/>
+                  </Properties>
+               </Texture>
+               <Texture id="1" class="Bitmap" name="Map #17" slot_name="高光级别" texture_name="Map #17" texture_class="Bitmap" map_channel="1" std_map_slot="3" file="D:\WP-Flash3D\Resource\model\fd-preview-展示\rs-specular.012-女人\texture\rs_009_sl.jpg">
+                  <ClipU type="float" value="0.000000"/>
+                  <ClipV type="float" value="0.000000"/>
+                  <ClipW type="float" value="1.000000"/>
+                  <ClipH type="float" value="1.000000"/>
+                  <Properties>
+                     <Property name="clipu" type="float" value="0.000000"/>
+                     <Property name="clipv" type="float" value="0.000000"/>
+                     <Property name="clipw" type="float" value="1.000000"/>
+                     <Property name="cliph" type="float" value="1.000000"/>
+                     <Property name="jitter" type="float" value="1.000000"/>
+                     <Property name="useJitter" type="int" value="0"/>
+                     <Property name="apply" type="int" value="0"/>
+                     <Property name="cropPlace" type="int" value="0"/>
+                     <Property name="filtering" type="int" value="0"/>
+                     <Property name="monoOutput" type="int" value="0"/>
+                     <Property name="rgbOutput" type="int" value="0"/>
+                     <Property name="alphaSource" type="int" value="2"/>
+                     <Property name="preMultAlpha" type="int" value="1"/>
+                     <Property name="bitmap" type="unkown"/>
+                     <Property name="coords" type="unkown"/>
+                     <Property name="output" type="unkown"/>
+                     <Property name="fileName" type="unkown"/>
+                     <Property name="startTime" type="int" value="0"/>
+                     <Property name="playBackRate" type="float" value="1.000000"/>
+                     <Property name="endCondition" type="int" value="0"/>
+                     <Property name="tieTimeToMatIDs" type="int" value="0"/>
+                  </Properties>
+               </Texture>
+            </Textures>
+         </Material>
+         <Material class="Standard" name="mt_010">
+            <Properties>
+               <Property name="shaderType" type="int" value="1"/>
+               <Property name="wire" type="int" value="0"/>
+               <Property name="twoSided" type="int" value="1"/>
+               <Property name="faceMap" type="int" value="0"/>
+               <Property name="faceted" type="int" value="0"/>
+               <Property name="shaderByName" type="string" value="(B)Blinn"/>
+               <Property name="opacityType" type="int" value="0"/>
+               <Property name="opacity" type="float" value="1.000000"/>
+               <Property name="filterColor" type="point3" x="0.500000" y="0.500000" z="0.500000"/>
+               <Property name="filterMap" type="unkown"/>
+               <Property name="opacityFallOffType" type="int" value="0"/>
+               <Property name="opacityFallOff" type="float" value="0.000000"/>
+               <Property name="ior" type="float" value="1.500000"/>
+               <Property name="wireSize" type="float" value="1.000000"/>
+               <Property name="wireUnits" type="int" value="0"/>
+               <Property name="applyReflectionDimming" type="int" value="0"/>
+               <Property name="dimLevel" type="float" value="0.000000"/>
+               <Property name="reflectionLevel" type="float" value="3.000000"/>
+               <Property name="sampler" type="int" value="1"/>
+               <Property name="samplerQuality" type="float" value="0.500000"/>
+               <Property name="samplerEnable" type="int" value="0"/>
+               <Property name="samplerAdaptThreshold" type="float" value="0.100000"/>
+               <Property name="samplerAdaptOn" type="int" value="1"/>
+               <Property name="subSampleTextureOn" type="int" value="1"/>
+               <Property name="samplerAdvancedOptions" type="int" value="1"/>
+               <Property name="samplerByName" type="string" value="Max 2.5 星"/>
+               <Property name="UserParam0" type="float" value="0.000000"/>
+               <Property name="UserParam1" type="float" value="0.000000"/>
+               <Property name="samplerUseGlobal" type="int" value="1"/>
+               <Property name="mapEnables" type="unkown"/>
+               <Property name="maps" type="unkown"/>
+               <Property name="mapAmounts" type="unkown"/>
+               <Property name="adTextureLock" type="int" value="1"/>
+               <Property name="bounce" type="float" value="1.000000"/>
+               <Property name="staticFriction" type="float" value="0.000000"/>
+               <Property name="slidingFriction" type="float" value="0.000000"/>
+               <Property name="ambient" type="point3" x="0.290196" y="0.047059" z="0.047059"/>
+               <Property name="diffuse" type="point3" x="0.290196" y="0.047059" z="0.047059"/>
+               <Property name="specular" type="point3" x="0.900000" y="0.900000" z="0.900000"/>
+               <Property name="adTextureLock" type="int" value="1"/>
+               <Property name="adLock" type="int" value="1"/>
+               <Property name="dsLock" type="int" value="0"/>
+               <Property name="useSelfIllumColor" type="int" value="0"/>
+               <Property name="selfIllumAmount" type="float" value="0.000000"/>
+               <Property name="selfIllumColor" type="point3" x="0.000000" y="0.000000" z="0.000000"/>
+               <Property name="specularLevel" type="float" value="0.190000"/>
+               <Property name="glossiness" type="float" value="0.370000"/>
+               <Property name="soften" type="float" value="0.100000"/>
+               <Property name="enabled" type="int" value="0"/>
+               <Property name="effect" type="int" value="0"/>
+               <Property name="dxStdMat" type="int" value="0"/>
+               <Property name="SaveFXFile" type="unkown"/>
+               <Property name="Opaque" type="int" value="0"/>
+               <Property name="Surface" type="unkown"/>
+               <Property name="Displacement" type="unkown"/>
+               <Property name="Shadow" type="unkown"/>
+               <Property name="Volume" type="unkown"/>
+               <Property name="Environment" type="unkown"/>
+               <Property name="Contour" type="unkown"/>
+               <Property name="Photon" type="unkown"/>
+               <Property name="PhotonVolume" type="unkown"/>
+               <Property name="LightMap" type="unkown"/>
+               <Property name="SurfaceLocked" type="int" value="1"/>
+               <Property name="DisplacementLocked" type="int" value="1"/>
+               <Property name="ShadowLocked" type="int" value="1"/>
+               <Property name="VolumeLocked" type="int" value="1"/>
+               <Property name="EnvironmentLocked" type="int" value="1"/>
+               <Property name="ContourLocked" type="int" value="1"/>
+               <Property name="PhotonLocked" type="int" value="1"/>
+               <Property name="PhotonVolumeLocked" type="int" value="1"/>
+               <Property name="LightMapLocked" type="int" value="1"/>
+               <Property name="SurfaceLockShow" type="int" value="1"/>
+               <Property name="DisplacementLockShow" type="int" value="1"/>
+               <Property name="ShadowLockShow" type="int" value="1"/>
+               <Property name="VolumeLockShow" type="int" value="0"/>
+               <Property name="EnvironmentLockShow" type="int" value="0"/>
+               <Property name="ContourLockShow" type="int" value="0"/>
+               <Property name="PhotonLockShow" type="int" value="1"/>
+               <Property name="PhotonVolumeLockShow" type="int" value="0"/>
+               <Property name="LightMapLockShow" type="int" value="0"/>
+               <Property name="SurfaceON" type="int" value="1"/>
+               <Property name="DisplacementON" type="int" value="1"/>
+               <Property name="ShadowON" type="int" value="1"/>
+               <Property name="VolumeON" type="int" value="1"/>
+               <Property name="EnvironmentON" type="int" value="1"/>
+               <Property name="ContourON" type="int" value="1"/>
+               <Property name="PhotonON" type="int" value="1"/>
+               <Property name="ON" type="int" value="1"/>
+               <Property name="LightMapON" type="int" value="1"/>
+            </Properties>
+            <Diffuse r="0.290196" g="0.047059" b="0.047059"/>
+            <Ambient r="0.290196" g="0.047059" b="0.047059"/>
+            <Specular r="0.900000" g="0.900000" b="0.900000"/>
+            <SpecularLevel type="float" value="0.190000"/>
+            <Emissive r="0.000000" g="0.000000" b="0.000000"/>
+            <EmissiveAmt type="float" value="0.000000"/>
+            <Glossiness type="float" value="0.370000"/>
+            <Opacity type="float" value="1.000000"/>
+            <Textures>
+               <Texture id="0" class="Bitmap" name="Map #81" slot_name="漫反射颜色" texture_name="Map #81" texture_class="Bitmap" map_channel="1" std_map_slot="1" file="D:\WP-Flash3D\Resource\model\fd-preview-展示\rs-specular.012-女人\texture\rs_010_d.jpg">
+                  <ClipU type="float" value="0.000000"/>
+                  <ClipV type="float" value="0.000000"/>
+                  <ClipW type="float" value="1.000000"/>
+                  <ClipH type="float" value="1.000000"/>
+                  <Properties>
+                     <Property name="clipu" type="float" value="0.000000"/>
+                     <Property name="clipv" type="float" value="0.000000"/>
+                     <Property name="clipw" type="float" value="1.000000"/>
+                     <Property name="cliph" type="float" value="1.000000"/>
+                     <Property name="jitter" type="float" value="1.000000"/>
+                     <Property name="useJitter" type="int" value="0"/>
+                     <Property name="apply" type="int" value="0"/>
+                     <Property name="cropPlace" type="int" value="0"/>
+                     <Property name="filtering" type="int" value="0"/>
+                     <Property name="monoOutput" type="int" value="0"/>
+                     <Property name="rgbOutput" type="int" value="0"/>
+                     <Property name="alphaSource" type="int" value="2"/>
+                     <Property name="preMultAlpha" type="int" value="1"/>
+                     <Property name="bitmap" type="unkown"/>
+                     <Property name="coords" type="unkown"/>
+                     <Property name="output" type="unkown"/>
+                     <Property name="fileName" type="unkown"/>
+                     <Property name="startTime" type="int" value="0"/>
+                     <Property name="playBackRate" type="float" value="1.000000"/>
+                     <Property name="endCondition" type="int" value="0"/>
+                     <Property name="tieTimeToMatIDs" type="int" value="0"/>
+                  </Properties>
+               </Texture>
+               <Texture id="1" class="法线凹凸" name="Map #26" slot_name="凹凸" texture_name="Map #26" texture_class="法线凹凸" map_channel="1" std_map_slot="8">
+                  <Properties>
+                     <Property name="mult_spin" type="float" value="1.000000"/>
+                     <Property name="bump_spin" type="float" value="1.000000"/>
+                     <Property name="normal_map" type="unkown"/>
+                     <Property name="bump_map" type="unkown"/>
+                     <Property name="map1on" type="int" value="1"/>
+                     <Property name="map2on" type="int" value="1"/>
+                     <Property name="method" type="int" value="0"/>
+                     <Property name="flipred" type="int" value="0"/>
+                     <Property name="flipgreen" type="int" value="1"/>
+                     <Property name="swap_rg" type="int" value="0"/>
+                  </Properties>
+                  <TextureList count="2">
+                     <Texture name="Map #24" node_name="No node name" full_name="Map #24 (rs_010_n.jpg)"/>
+                  </TextureList>
+               </Texture>
+            </Textures>
+         </Material>
+      </MaterialCollection>
+      <Mesh count="11">
+         <Geometry class="可编辑多边形" name="ms_006" vertex_count="3410" normal_count="3410" binormal_count="3410" tangent_count="3410" face_count="4992" coord_count="3410">
+            <Properties>
+               <Property name="selByVertex" type="int" value="0"/>
+               <Property name="ignoreBackfacing" type="int" value="0"/>
+               <Property name="selectByAngle" type="int" value="0"/>
+               <Property name="selectAngle" type="float" value="0.785398"/>
+               <Property name="useSoftSel" type="int" value="0"/>
+               <Property name="ssUseEdgeDist" type="int" value="0"/>
+               <Property name="ssEdgeDist" type="int" value="1"/>
+               <Property name="affectBackfacing" type="int" value="1"/>
+               <Property name="falloff" type="float" value="20.000000"/>
+               <Property name="pinch" type="float" value="0.000000"/>
+               <Property name="bubble" type="float" value="0.000000"/>
+               <Property name="lockSoftSel" type="int" value="0"/>
+               <Property name="paintSelMode" type="int" value="0"/>
+               <Property name="paintSelValue" type="float" value="1.000000"/>
+               <Property name="paintSelSize" type="float" value="20.000000"/>
+               <Property name="paintSelStrength" type="float" value="1.000000"/>
+               <Property name="constrainType" type="int" value="0"/>
+               <Property name="deleteIsolatedVerts" type="int" value="1"/>
+               <Property name="fullyInteractive" type="int" value="1"/>
+               <Property name="showCage" type="int" value="1"/>
+               <Property name="split" type="int" value="0"/>
+               <Property name="preserveUVs" type="int" value="0"/>
+               <Property name="surfSubdivide" type="int" value="0"/>
+               <Property name="subdivSmoothing" type="int" value="1"/>
+               <Property name="isolineDisplay" type="int" value="1"/>
+               <Property name="iterations" type="int" value="1"/>
+               <Property name="surfaceSmoothness" type="float" value="1.000000"/>
+               <Property name="useRenderIterations" type="int" value="0"/>
+               <Property name="renderIterations" type="int" value="0"/>
+               <Property name="useRenderSmoothness" type="int" value="0"/>
+               <Property name="renderSmoothness" type="float" value="1.000000"/>
+               <Property name="sepByMats" type="int" value="0"/>
+               <Property name="sepBySmGroups" type="int" value="0"/>
+               <Property name="update" type="int" value="0"/>
+               <Property name="vertSelectionColor" type="point3" x="1.000000" y="1.000000" z="1.000000"/>
+               <Property name="vertSelectBy" type="int" value="0"/>
+               <Property name="vertSelectionRedRange" type="int" value="10"/>
+               <Property name="vertSelectionGreenRange" type="int" value="10"/>
+               <Property name="vertSelectionBlueRange" type="int" value="10"/>
+               <Property name="autoSmoothThreshold" type="float" value="0.785398"/>
+               <Property name="useSubdivisionDisplacement" type="int" value="0"/>
+               <Property name="displaceSplitMesh" type="int" value="1"/>
+               <Property name="displaceMethod" type="int" value="3"/>
+               <Property name="displaceSteps" type="int" value="2"/>
+               <Property name="displaceEdge" type="float" value="20.000000"/>
+               <Property name="displaceDistance" type="float" value="20.000000"/>
+               <Property name="displaceAngle" type="float" value="0.174533"/>
+               <Property name="viewDependent" type="int" value="0"/>
+               <Property name="displaceStyle" type="int" value="1"/>
+               <Property name="displaceMinLevels" type="int" value="0"/>
+               <Property name="displaceMaxLevels" type="int" value="2"/>
+               <Property name="displaceMaxTris" type="int" value="20000"/>
+               <Property name="extrusionType" type="int" value="0"/>
+               <Property name="bevelType" type="int" value="0"/>
+               <Property name="faceExtrudeHeight" type="float" value="10.000000"/>
+               <Property name="vertexExtrudeHeight" type="float" value="10.000000"/>
+               <Property name="edgeExtrudeHeight" type="float" value="10.000000"/>
+               <Property name="vertexExtrudeWidth" type="float" value="3.000000"/>
+               <Property name="edgeExtrudeWidth" type="float" value="3.000000"/>
+               <Property name="bevelHeight" type="float" value="10.000000"/>
+               <Property name="bevelOutline" type="float" value="-1.000000"/>
+               <Property name="outlineAmount" type="float" value="-1.000000"/>
+               <Property name="insetAmount" type="float" value="1.000000"/>
+               <Property name="insetType" type="int" value="0"/>
+               <Property name="vertexChamfer" type="float" value="1.000000"/>
+               <Property name="edgeChamfer" type="float" value="1.000000"/>
+               <Property name="edgeChamferSegments" type="int" value="1"/>
+               <Property name="vertexBreak" type="float" value="0.000000"/>
+               <Property name="weldThreshold" type="float" value="0.100000"/>
+               <Property name="edgeWeldThreshold" type="float" value="0.100000"/>
+               <Property name="weldPixels" type="int" value="4"/>
+               <Property name="smoothness" type="float" value="1.000000"/>
+               <Property name="separateBySmoothing" type="int" value="0"/>
+               <Property name="separateByMaterial" type="int" value="0"/>
+               <Property name="tesselateBy" type="int" value="0"/>
+               <Property name="tessTension" type="float" value="0.000000"/>
+               <Property name="connectEdgeSegments" type="int" value="1"/>
+               <Property name="extrudeAlongSplineNode" type="unkown"/>
+               <Property name="extrudeAlongSplineSegments" type="int" value="6"/>
+               <Property name="extrudeAlongSplineTaper" type="float" value="0.000000"/>
+               <Property name="extrudeAlongSplineTaperCurve" type="float" value="0.000000"/>
+               <Property name="extrudeAlongSplineTwist" type="float" value="0.000000"/>
+               <Property name="extrudeAlongSplineRotation" type="float" value="0.000000"/>
+               <Property name="extrudeAlongSplineAlign" type="int" value="0"/>
+               <Property name="hingeAngle" type="float" value="0.523599"/>
+               <Property name="hinge" type="int" value="-1"/>
+               <Property name="hingeSegments" type="int" value="1"/>
+               <Property name="paintDeformMode" type="int" value="0"/>
+               <Property name="paintDeformValue" type="float" value="10.000000"/>
+               <Property name="paintDeformSize" type="float" value="20.000000"/>
+               <Property name="paintDeformStrength" type="float" value="1.000000"/>
+               <Property name="paintDeformAxis" type="int" value="1"/>
+               <Property name="cutStartLevel" type="int" value="1"/>
+               <Property name="cutStartIndex" type="int" value="0"/>
+               <Property name="cutStartCoords" type="point3" x="0.000000" y="0.000000" z="0.000000"/>
+               <Property name="cutEndCoords" type="point3" x="0.000000" y="0.000000" z="0.000000"/>
+               <Property name="cutNormal" type="point3" x="0.000000" y="0.000000" z="0.000000"/>
+               <Property name="bridgeSegments" type="int" value="1"/>
+               <Property name="bridgeTaper" type="float" value="0.000000"/>
+               <Property name="bridgeBias" type="float" value="0.000000"/>
+               <Property name="bridgeSmoothThreshold" type="float" value="0.785398"/>
+               <Property name="bridgeSelected" type="int" value="1"/>
+               <Property name="bridgeTwist1" type="int" value="0"/>
+               <Property name="bridgeTwist2" type="int" value="0"/>
+               <Property name="bridgeTarget1" type="int" value="0"/>
+               <Property name="bridgeTarget2" type="int" value="0"/>
+               <Property name="relaxAmount" type="float" value="0.500000"/>
+               <Property name="relaxIterations" type="int" value="1"/>
+               <Property name="relaxHoldBoundaryPoints" type="int" value="1"/>
+               <Property name="relaxHoldOuterPoints" type="int" value="0"/>
+               <Property name="vertexChamferOpen" type="int" value="0"/>
+               <Property name="edgeChamferOpen" type="int" value="0"/>
+               <Property name="bridgeAdjacentAngle" type="float" value="0.785398"/>
+               <Property name="bridgeReverseTriangle" type="int" value="0"/>
+               <Property name="connectEdgePinch" type="int" value="0"/>
+               <Property name="connectEdgeSlide" type="int" value="0"/>
+               <Property name="cageColor" type="point3" x="0.992157" y="0.584314" z="0.000000"/>
+               <Property name="selectedCageColor" type="point3" x="0.784314" y="0.784314" z="0.274510"/>
+               <Property name="selectMode" type="int" value="0"/>
+            </Properties>
+            <Matrix>
+               <ObjectMatrix tx="1.652511" ty="-43.506233" tz="-1.090939" rx="0.892678" ry="-0.000000" rz="-0.371573" sx="99.999992" sy="100.000008" sz="100.000000"/>
+               <LocalMatrix tx="1.652511" ty="-43.506233" tz="-1.090939" rx="0.892678" ry="-0.000000" rz="-0.371573" sx="99.999992" sy="100.000008" sz="100.000000"/>
+               <WorldMatrix tx="1.652511" ty="-43.506233" tz="-1.090939" rx="0.892678" ry="-0.000000" rz="-0.371573" sx="99.999992" sy="100.000008" sz="100.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="mt_006"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="可编辑网格" name="ms_004" vertex_count="1474" normal_count="1474" binormal_count="1474" tangent_count="1474" face_count="2816" coord_count="2131">
+            <Matrix>
+               <ObjectMatrix tx="1.652511" ty="-43.506233" tz="-1.090939" rx="0.892678" ry="-0.000000" rz="-0.371573" sx="99.999992" sy="100.000008" sz="100.000000"/>
+               <LocalMatrix tx="1.652511" ty="-43.506233" tz="-1.090939" rx="0.892678" ry="-0.000000" rz="-0.371573" sx="99.999992" sy="100.000008" sz="100.000000"/>
+               <WorldMatrix tx="1.652511" ty="-43.506233" tz="-1.090939" rx="0.892678" ry="-0.000000" rz="-0.371573" sx="99.999992" sy="100.000008" sz="100.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="1" name="mt_004"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="可编辑网格" name="ms_005" vertex_count="958" normal_count="958" binormal_count="958" tangent_count="958" face_count="1692" coord_count="958">
+            <Matrix>
+               <ObjectMatrix tx="1.652511" ty="-43.506233" tz="-1.090939" rx="0.892678" ry="-0.000000" rz="-0.371573" sx="99.999992" sy="100.000008" sz="100.000000"/>
+               <LocalMatrix tx="1.652511" ty="-43.506233" tz="-1.090939" rx="0.892678" ry="-0.000000" rz="-0.371573" sx="99.999992" sy="100.000008" sz="100.000000"/>
+               <WorldMatrix tx="1.652511" ty="-43.506233" tz="-1.090939" rx="0.892678" ry="-0.000000" rz="-0.371573" sx="99.999992" sy="100.000008" sz="100.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="2" name="mt_005"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="可编辑网格" name="ms_001" vertex_count="2327" normal_count="2327" binormal_count="2375" tangent_count="2375" face_count="4398" coord_count="2326">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="0.000000" ty="0.000000" tz="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="0.000000" ty="0.000000" tz="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="3" name="mt_001"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="可编辑网格" name="ms_002" vertex_count="8936" normal_count="8936" binormal_count="9202" tangent_count="9202" face_count="17518" coord_count="9184">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="0.000000" ty="0.000000" tz="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="0.000000" ty="0.000000" tz="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="4" name="mt_002"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="可编辑网格" name="ms_003_001" vertex_count="7994" normal_count="7994" binormal_count="8812" tangent_count="8812" face_count="15780" coord_count="43731">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="0.000000" ty="0.000000" tz="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="0.000000" ty="0.000000" tz="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="5" name="mt_003"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="可编辑网格" name="ms_008" vertex_count="10533" normal_count="10533" binormal_count="10533" tangent_count="10533" face_count="13240" coord_count="3801">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="0.000000" ty="0.000000" tz="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="0.000000" ty="0.000000" tz="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="6" name="mt_008"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="可编辑网格" name="ms_007" vertex_count="939" normal_count="939" binormal_count="939" tangent_count="939" face_count="1644" coord_count="939">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="0.000000" ty="0.000000" tz="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="0.000000" ty="0.000000" tz="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="7" name="mt_007"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="可编辑网格" name="ms_009" vertex_count="6257" normal_count="6257" binormal_count="6995" tangent_count="6995" face_count="11298" coord_count="5431">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="0.000000" ty="0.000000" tz="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="0.000000" ty="0.000000" tz="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="8" name="mt_009"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="可编辑网格" name="ms_010" vertex_count="2554" normal_count="2554" binormal_count="2757" tangent_count="2757" face_count="4938" coord_count="2757">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="0.000000" ty="0.000000" tz="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="0.000000" ty="0.000000" tz="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="9" name="mt_010"/>
+            </MaterialCollection>
+            <ModifierCollection count="1">
+               <Modifier class="X 变换" name="X 变换"/>
+            </ModifierCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="可编辑网格" name="ms_003_002" vertex_count="7707" normal_count="7707" binormal_count="8297" tangent_count="8297" face_count="14998" coord_count="8262">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="0.000000" ty="0.000000" tz="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="0.000000" ty="0.000000" tz="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="5" name="mt_003"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+      </Mesh>
+      <Skeleton bone_count="0"/>
+      <Animation frame_tick="160" frame_count="100" frame_start="0" frame_end="16000" bone_count="0"/>
+   </Scene>
+   <Logger/>
+</M3xExport>

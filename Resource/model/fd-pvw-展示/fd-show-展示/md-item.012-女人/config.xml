@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Configuration version="1.0">
+   <Model name='show.0012'>
+      <Mesh>
+         <Geometry valid='Y' name='ms_001' material='\pvw\show\012.01' />
+         <Geometry valid='Y' name='ms_002' material='\pvw\show\012.02' />
+         <Geometry valid='Y' name='ms_003_001' material='\pvw\show\012.03' />
+         <Geometry valid='Y' name='ms_003_002' material='\pvw\show\012.03' />
+         <Geometry valid='Y' name='ms_004' material='\pvw\show\012.04' />
+         <Geometry valid='Y' name='ms_005' material='\pvw\show\012.05' />
+         <Geometry valid='Y' name='ms_006' material='\pvw\show\012.06' />
+         <Geometry valid='Y' name='ms_007' material='\pvw\show\012.07' />
+         <Geometry valid='Y' name='ms_008' material='\pvw\show\012.08' />
+         <Geometry valid='Y' name='ms_009' material='\pvw\show\012.09' />
+         <Geometry valid='Y' name='ms_010' material='\pvw\show\012.10' />
+      </Mesh>
+   </Model>
+</Configuration>
