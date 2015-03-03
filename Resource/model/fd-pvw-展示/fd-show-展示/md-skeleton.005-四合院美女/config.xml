@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Model name="\pvw\show\skeleton.005" label="四合院美女">
+    <Mesh>
+      <Geometry valid="Y" name="ms_001_001" material="\pvw\show\017.01" option_instanced="0" option_dynamic="0" option_bone_scale="0" option_shadow="2" option_self_shadow="2" option_normal="2" option_light="0" option_double="0" option_symmetry="0" option_transmittance="0" option_select="0" option_ground="0" instance_count="1" />
+      <Geometry valid="Y" name="ms_001_002" material="\pvw\show\017.01" option_instanced="0" option_dynamic="0" option_bone_scale="0" option_shadow="2" option_self_shadow="2" option_normal="2" option_light="0" option_double="0" option_symmetry="0" option_transmittance="0" option_select="0" option_ground="0" instance_count="2" />
+      <Geometry valid="Y" name="ms_001_003" material="\pvw\show\017.01" option_instanced="0" option_dynamic="0" option_bone_scale="0" option_shadow="2" option_self_shadow="2" option_normal="2" option_light="0" option_double="0" option_symmetry="0" option_transmittance="0" option_select="0" option_ground="0" instance_count="2" />
+      <Geometry valid="Y" name="ms_002_001" material="\pvw\show\017.02" option_instanced="0" option_dynamic="0" option_bone_scale="0" option_shadow="2" option_self_shadow="2" option_normal="2" option_light="0" option_double="0" option_symmetry="0" option_transmittance="0" option_select="0" option_ground="0" instance_count="1" />
+      <Geometry valid="Y" name="ms_002_002" material="\pvw\show\017.02" option_instanced="0" option_dynamic="0" option_bone_scale="0" option_shadow="2" option_self_shadow="2" option_normal="2" option_light="0" option_double="0" option_symmetry="0" option_transmittance="0" option_select="0" option_ground="0" instance_count="3" />
+      <Geometry valid="Y" name="ms_003_001" material="\pvw\show\017.03" option_instanced="0" option_dynamic="0" option_bone_scale="0" option_shadow="2" option_self_shadow="2" option_normal="2" option_light="0" option_double="0" option_symmetry="0" option_transmittance="0" option_select="0" option_ground="0" instance_count="21" />
+    </Mesh>
+    <Animation />
+  </Model>
+</Configuration>

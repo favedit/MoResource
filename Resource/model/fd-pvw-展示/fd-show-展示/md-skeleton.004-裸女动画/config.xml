@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Configuration version="1.0">
+   <Model name='show.0016'>
+      <Mesh>
+         <Geometry valid='Y' name='MMS_BodyDown'    material='\pvw\show\016.01' />
+         <Geometry valid='Y' name='MMS_BodyUp'    material='\pvw\show\016.01' />
+         <Geometry valid='Y' name='MMS_ArmRight'    material='\pvw\show\016.01' />
+         <Geometry valid='Y' name='MMS_ArmLeft'    material='\pvw\show\016.01' />
+         <Geometry valid='Y' name='MMS_Face'    material='\pvw\show\016.02' />
+         <Geometry valid='Y' name='MMS_Eye'    material='\pvw\show\016.02' />
+         <Geometry valid='Y' name='MMS_Hair'    material='\pvw\show\016.03' />
+      </Mesh>
+   </Model>
+</Configuration>

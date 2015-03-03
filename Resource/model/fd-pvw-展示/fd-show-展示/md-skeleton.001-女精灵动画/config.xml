@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Model name="\pvw\show\skeleton.001" src="model.swf">
+    <Mesh>
+      <Geometry valid="Y" name="ms_body" material="\pvw\show\013.01" />
+      <Geometry valid="Y" name="ms_clothes" material="\pvw\show\013.02" />
+      <Geometry valid="Y" name="ms_hair" material="\pvw\show\013.03" />
+    </Mesh>
+    <Animation>
+      <Movie name="idle" frame_begin="0" frame_end="10" rate="1.5" />
+      <Movie name="walk" frame_begin="11" frame_end="44" rate="4" />
+    </Animation>
+  </Model>
+</Configuration>
