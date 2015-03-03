@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Texture name="pvw.scene.house.001.002" label="贴图">
+    <Bitmap type="diffuse" source="diffuse.jpg" />
+  </Texture>
+</Configuration>

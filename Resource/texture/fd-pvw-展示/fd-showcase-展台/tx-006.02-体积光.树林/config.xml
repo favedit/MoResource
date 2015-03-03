@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Texture name="pvw.showcase.006.02" label="体积光.树林">
+    <Bitmap type="alpha" source="alpha.jpg" />
+    <Bitmap type="diffuse" source="diffuse.jpg" />
+  </Texture>
+</Configuration>

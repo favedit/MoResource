@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Texture name="pvw.scene.car.002.03" label="汽车展厅">
+    <Bitmap type="diffuse" source="diffuse.jpg" />
+  </Texture>
+</Configuration>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Texture name="pvw.show.018.2" label="卡通人物.可爱女孩">
+    <Bitmap type="diffuse"                    source="diffuse.jpg" />
+   </Texture>
+</Configuration>

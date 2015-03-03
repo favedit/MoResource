@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Texture name="pvw.show.016.02" label="裸女动画">
+    <Bitmap type="diffuse" source="diffuse.jpg" />
+    <Bitmap type="normal" source="normal.jpg" />
+    <Bitmap type="specular.level" source="specular.level.jpg" />
+    <Bitmap type="transmittance.color" source="transmittance.color.jpg" />
+    <Bitmap type="alpha" source="alpha.jpg" />
+  </Texture>
+</Configuration>

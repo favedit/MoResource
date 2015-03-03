@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Texture name="pvw.show.004.01" label="人头像">
+    <Bitmap type="diffuse" source="diffuse.jpg" />
+    <Bitmap type="specular.level" source="specular.level.jpg" />
+  </Texture>
+</Configuration>

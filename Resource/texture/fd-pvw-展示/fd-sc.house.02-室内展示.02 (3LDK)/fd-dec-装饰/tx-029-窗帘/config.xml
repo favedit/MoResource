@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Texture name="gvw.scene.house.002.dec.029" label="窗帘">
+    <Bitmap type="diffuse" source="diffuse.jpg" />
+    <Bitmap type="normal" source="normal.jpg" />
+    <Bitmap type="alpha" source="alpha.jpg" />
+  </Texture>
+</Configuration>

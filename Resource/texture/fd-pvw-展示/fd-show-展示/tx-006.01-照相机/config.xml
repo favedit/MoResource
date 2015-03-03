@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Texture name="pvw.show.006.01" label="照相机">
+    <Bitmap type="diffuse" source="diffuse.jpg" />
+  </Texture>
+</Configuration>

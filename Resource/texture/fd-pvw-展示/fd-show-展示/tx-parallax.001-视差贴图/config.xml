@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Texture name="pvw.show.parallax.001" label="视差贴图">
+    <Bitmap type="diffuse" source="diffuse.jpg" />
+    <Bitmap type="height" source="height.jpg" />
+    <Bitmap type="normal" source="normal.jpg" />
+    <Bitmap type="specular.level" source="specular.level.jpg" />
+  </Texture>
+</Configuration>

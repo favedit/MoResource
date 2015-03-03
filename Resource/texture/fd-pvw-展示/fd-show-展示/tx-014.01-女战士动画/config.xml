@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Texture name="pvw.show.014.01" label="女战士动画">
+    <Bitmap type="diffuse" source="diffuse.jpg" />
+    <Bitmap type="normal" source="normal.jpg" />
+  </Texture>
+</Configuration>

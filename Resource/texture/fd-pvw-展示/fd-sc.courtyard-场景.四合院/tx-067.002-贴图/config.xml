@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Texture name="pvw.scene.courtyard.001.surface.067.002" label="贴图">
+    <Bitmap type="alpha" source="alpha.jpg" />
+    <Bitmap type="diffuse" source="diffuse.jpg" />
+    <Bitmap type="normal" source="normal.jpg" />
+    <Bitmap type="specular.level" source="specular.level.jpg" />
+  </Texture>
+</Configuration>

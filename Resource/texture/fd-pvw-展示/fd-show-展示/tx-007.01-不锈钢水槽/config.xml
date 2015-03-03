@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Texture name="pvw.show.007.01" label="不锈钢水槽">
+    <Bitmap type="environment" source="environment.jpg" />
+  </Texture>
+</Configuration>

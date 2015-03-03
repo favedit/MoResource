@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Texture name="gvw.scene.car2.dec.0016" label="内室01">
+    <Bitmap type="diffuse" source="diffuse.jpg" />
+    <Bitmap type="normal" source="normal.jpg" />
+  </Texture>
+</Configuration>

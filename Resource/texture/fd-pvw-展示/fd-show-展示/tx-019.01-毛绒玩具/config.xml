@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Texture name="pvw.show.019.1" label="毛绒玩具">
+    <Bitmap type="diffuse"                    source="diffuse.jpg" />
+    <Bitmap type="height"                    source="height.jpg" />
+   </Texture>
+</Configuration>

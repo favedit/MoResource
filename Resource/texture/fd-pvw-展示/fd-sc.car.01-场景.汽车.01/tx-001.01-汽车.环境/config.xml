@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Texture name="pvw.scene.car.001.01" label="汽车.环境">
+    <Bitmap type="environment" source="environment.jpg" />
+  </Texture>
+</Configuration>
