@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Model name="\pvw\show\cartoon.001" label="卡通人物.可爱女孩" option_bone_scale="2">
+    <Mesh>
+      <Geometry valid="Y" name="ms_001_001" material="\pvw\show\018.01" option_double="1" option_shadow="2" option_symmetry="1" option_transmittance="1" option_select="0" option_ground="0" />
+      <Geometry valid="Y" name="ms_002_001" material="\pvw\show\018.02" option_double="1" option_shadow="2" option_symmetry="1" option_transmittance="1" option_select="0" option_ground="0" />
+      <Geometry valid="Y" name="ms_002_002" material="\pvw\show\018.02" option_double="1" option_shadow="2" option_symmetry="1" option_transmittance="1" option_select="0" option_ground="0" />
+      <Geometry valid="Y" name="ms_002_003" material="\pvw\show\018.02" option_double="1" option_shadow="2" option_symmetry="1" option_transmittance="1" option_select="0" option_ground="0" />
+      <Geometry valid="Y" name="ms_003_001" material="\pvw\show\018.03" option_double="1" option_shadow="2" option_symmetry="1" option_transmittance="1" option_select="0" option_ground="0" />
+      <Geometry valid="Y" name="ms_004_001" material="\pvw\show\018.04" option_double="1" option_shadow="2" option_symmetry="1" option_transmittance="1" option_select="0" option_ground="0" />
+      <Geometry valid="Y" name="ms_005_001" material="\pvw\show\018.05" option_double="1" option_shadow="2" option_symmetry="1" option_transmittance="1" option_select="0" option_ground="0" />
+      <Geometry valid="Y" name="ms_006_001" material="\pvw\show\018.06" option_double="1" option_shadow="2" option_symmetry="1" option_transmittance="1" option_select="0" option_ground="0" />
+      <Geometry valid="Y" name="ms_007_001" material="\pvw\show\018.07" option_double="1" option_shadow="2" option_symmetry="1" option_transmittance="1" option_select="0" option_ground="0" />
+      <Geometry valid="Y" name="ms_008_001" material="\pvw\show\018.08" option_double="1" option_shadow="2" option_symmetry="1" option_transmittance="1" option_select="0" option_ground="0" />
+      <Geometry valid="Y" name="ms_009_001" material="\pvw\show\018.09" option_double="1" option_shadow="2" option_symmetry="1" option_transmittance="1" option_select="0" option_ground="0" />
+      <Geometry valid="Y" name="ms_010_001" material="\pvw\show\018.10" option_double="1" option_shadow="2" option_symmetry="1" option_transmittance="1" option_select="0" option_ground="0" />
+      <Geometry valid="Y" name="ms_011_001" material="\pvw\show\018.11" option_double="1" option_shadow="2" option_symmetry="1" option_transmittance="1" option_select="0" option_ground="0" />
+    </Mesh>
+    <Animation />
+  </Model>
+</Configuration>
