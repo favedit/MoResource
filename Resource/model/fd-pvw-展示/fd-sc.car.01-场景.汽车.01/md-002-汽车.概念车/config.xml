@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Model name="\pvw\scene.car\car.002" src="model.swf">
+    <MaterialCollection />
+    <Mesh>
+      <Geometry valid="Y" name="ms_001_001" material="\pvw\sc.car.01\002.01" />
+      <Geometry valid="Y" name="ms_002_001" material="\pvw\sc.car.01\002.02" />
+      <Geometry valid="Y" name="ms_002_002" material="\pvw\sc.car.01\002.02" />
+      <Geometry valid="Y" name="ms_003_001" material="\pvw\sc.car.01\002.03" />
+      <Geometry valid="Y" name="ms_004_001" material="\pvw\sc.car.01\002.04" />
+      <Geometry valid="Y" name="ms_005_001" material="\pvw\sc.car.01\002.05" />
+      <Geometry valid="Y" name="ms_005_002" material="\pvw\sc.car.01\002.05" />
+      <Geometry valid="Y" name="ms_005_003" material="\pvw\sc.car.01\002.05" />
+      <Geometry valid="Y" name="ms_006_001" material="\pvw\sc.car.01\002.06" />
+      <Geometry valid="Y" name="ms_008_001" material="\pvw\sc.car.01\002.08" />
+      <Geometry valid="Y" name="ms_008_003" material="\pvw\sc.car.01\002.08" />
+      <Geometry valid="Y" name="ms_008_004" material="\pvw\sc.car.01\002.08" />
+      <Geometry valid="Y" name="ms_008_005" material="\pvw\sc.car.01\002.08" />
+    </Mesh>
+  </Model>
+</Configuration>

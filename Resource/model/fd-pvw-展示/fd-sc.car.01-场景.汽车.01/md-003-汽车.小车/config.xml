@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Model name="\pvw\scene.car\car.003" src="model.swf">
+    <MaterialCollection />
+    <Mesh>
+      <Geometry valid="Y" name="ms_001_001" material="\pvw\sc.car.01\003.01" />
+      <Geometry valid="Y" name="ms_001_002" material="\pvw\sc.car.01\003.01" />
+      <Geometry valid="Y" name="ms_001_003" material="\pvw\sc.car.01\003.01" />
+      <Geometry valid="Y" name="ms_002_001" material="\pvw\sc.car.01\003.02" />
+      <Geometry valid="Y" name="ms_002_002" material="\pvw\sc.car.01\003.02" />
+      <Geometry valid="Y" name="ms_002_003" material="\pvw\sc.car.01\003.02" />
+      <Geometry valid="Y" name="ms_002_004" material="\pvw\sc.car.01\003.02" />
+      <Geometry valid="Y" name="ms_002_005" material="\pvw\sc.car.01\003.02" />
+      <Geometry valid="Y" name="ms_002_006" material="\pvw\sc.car.01\003.02" />
+      <Geometry valid="Y" name="ms_002_007" material="\pvw\sc.car.01\003.02" />
+      <Geometry valid="Y" name="ms_002_008" material="\pvw\sc.car.01\003.02" />
+      <Geometry valid="Y" name="ms_002_009" material="\pvw\sc.car.01\003.02" />
+      <Geometry valid="Y" name="ms_003_001" material="\pvw\sc.car.01\003.03" />
+      <Geometry valid="Y" name="ms_003_002" material="\pvw\sc.car.01\003.03" />
+      <Geometry valid="Y" name="ms_003_003" material="\pvw\sc.car.01\003.03" />
+      <Geometry valid="Y" name="ms_004_001" material="\pvw\sc.car.01\003.04" />
+      <Geometry valid="Y" name="ms_004_002" material="\pvw\sc.car.01\003.04" />
+      <Geometry valid="Y" name="ms_004_003" material="\pvw\sc.car.01\003.04" />
+      <Geometry valid="Y" name="ms_004_004" material="\pvw\sc.car.01\003.04" />
+      <Geometry valid="Y" name="ms_005_001" material="\pvw\sc.car.01\003.05" />
+      <Geometry valid="Y" name="ms_005_002" material="\pvw\sc.car.01\003.05" />
+      <Geometry valid="Y" name="ms_005_003" material="\pvw\sc.car.01\003.05" />
+      <Geometry valid="Y" name="ms_006_001" material="\pvw\sc.car.01\003.06" />
+      <Geometry valid="Y" name="ms_006_002" material="\pvw\sc.car.01\003.06" />
+      <Geometry valid="Y" name="ms_006_003" material="\pvw\sc.car.01\003.06" />
+      <Geometry valid="Y" name="ms_007_001" material="\pvw\sc.car.01\003.07" />
+      <Geometry valid="Y" name="ms_007_002" material="\pvw\sc.car.01\003.07" />
+      <Geometry valid="Y" name="ms_007_003" material="\pvw\sc.car.01\003.07" />
+      <Geometry valid="Y" name="ms_007_004" material="\pvw\sc.car.01\003.07" />
+      <Geometry valid="Y" name="ms_007_005" material="\pvw\sc.car.01\003.07" />
+      <Geometry valid="Y" name="ms_007_006" material="\pvw\sc.car.01\003.07" />
+      <Geometry valid="Y" name="ms_007_007" material="\pvw\sc.car.01\003.07" />
+      <Geometry valid="Y" name="ms_007_008" material="\pvw\sc.car.01\003.07" />
+      <Geometry valid="Y" name="ms_008_001" material="\pvw\sc.car.01\003.08" />
+      <Geometry valid="Y" name="ms_008_002" material="\pvw\sc.car.01\003.08" />
+      <Geometry valid="Y" name="ms_008_003" material="\pvw\sc.car.01\003.08" />
+      <Geometry valid="Y" name="ms_008_004" material="\pvw\sc.car.01\003.08" />
+      <Geometry valid="Y" name="ms_009_001" material="\pvw\sc.car.01\003.09" />
+      <Geometry valid="Y" name="ms_010_001" material="\pvw\sc.car.01\003.10" />
+      <Geometry valid="Y" name="ms_010_002" material="\pvw\sc.car.01\003.10" />
+      <Geometry valid="Y" name="ms_010_003" material="\pvw\sc.car.01\003.10" />
+      <Geometry valid="Y" name="ms_010_004" material="\pvw\sc.car.01\003.10" />
+      <Geometry valid="Y" name="ms_010_005" material="\pvw\sc.car.01\003.10" />
+      <Geometry valid="Y" name="ms_010_006" material="\pvw\sc.car.01\003.10" />
+      <Geometry valid="Y" name="ms_010_007" material="\pvw\sc.car.01\003.10" />
+      <Geometry valid="Y" name="ms_010_008" material="\pvw\sc.car.01\003.10" />
+      <Geometry valid="Y" name="ms_011_001" material="\pvw\sc.car.01\003.11" />
+      <Geometry valid="Y" name="ms_011_002" material="\pvw\sc.car.01\003.11" />
+      <Geometry valid="Y" name="ms_011_003" material="\pvw\sc.car.01\003.11" />
+      <Geometry valid="Y" name="ms_011_004" material="\pvw\sc.car.01\003.11" />
+      <Geometry valid="Y" name="ms_011_005" material="\pvw\sc.car.01\003.11" />
+      <Geometry valid="Y" name="ms_011_006" material="\pvw\sc.car.01\003.11" />
+      <Geometry valid="Y" name="ms_012_001" material="\pvw\sc.car.01\003.12" />
+      <Geometry valid="Y" name="ms_012_002" material="\pvw\sc.car.01\003.12" />
+      <Geometry valid="Y" name="ms_013_001" material="\pvw\sc.car.01\003.13" />
+      <Geometry valid="Y" name="ms_014_001" material="\pvw\sc.car.01\003.14" />
+      <Geometry valid="Y" name="ms_015_001" material="\pvw\sc.car.01\003.15" />
+      <Geometry valid="Y" name="ms_015_002" material="\pvw\sc.car.01\003.15" />
+      <Geometry valid="Y" name="ms_015_003" material="\pvw\sc.car.01\003.15" />
+      <Geometry valid="Y" name="ms_016_001" material="\pvw\sc.car.01\003.16" />
+      <Geometry valid="Y" name="ms_016_002" material="\pvw\sc.car.01\003.16" />
+    </Mesh>
+  </Model>
+</Configuration>
