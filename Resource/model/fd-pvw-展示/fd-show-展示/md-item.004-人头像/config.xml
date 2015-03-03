@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Configuration version="1.0">
+   <Model name='show.004'>
+      <Mesh>
+         <Geometry valid='Y' name='ms_eye_inner_right' material='\pvw\show\004.01' />
+         <Geometry valid='Y' name='ms_eye_inner_left'  material='\pvw\show\004.01' />
+         <Geometry valid='Y' name='ms_head'            material='\pvw\show\004.02' />
+         <Geometry valid='Y' name='ms_eye_lash_left'   material='\pvw\show\004.03' />
+         <Geometry valid='Y' name='ms_eye_lash_right'  material='\pvw\show\004.03' />
+      </Mesh>
+   </Model>
+</Configuration>
