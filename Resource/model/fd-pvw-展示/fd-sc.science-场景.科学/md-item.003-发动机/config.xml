@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Configuration version="1.0">
+   <Model name='science.003' src='model.mrm'>
+      <Mesh>
+         <Geometry valid='Y' name='ms_001_001' material='\pvw\sc.science\003.01'/>
+         <Geometry valid='Y' name='ms_001_002' material='\pvw\sc.science\003.01'/>
+         <Geometry valid='Y' name='ms_001_003' material='\pvw\sc.science\003.01'/>
+         <Geometry valid='Y' name='ms_001_004' material='\pvw\sc.science\003.01'/>
+         <Geometry valid='Y' name='ms_001_005' material='\pvw\sc.science\003.01'/>
+         <Geometry valid='Y' name='ms_001_006' material='\pvw\sc.science\003.01'/>
+         <Geometry valid='Y' name='ms_001_007' material='\pvw\sc.science\003.01'/>
+         <Geometry valid='Y' name='ms_001_008' material='\pvw\sc.science\003.01'/>
+         <Geometry valid='Y' name='ms_002_001' material='\pvw\sc.science\003.02'/>
+         <Geometry valid='Y' name='ms_003_001' material='\pvw\sc.science\003.03'/>
+         <Geometry valid='Y' name='ms_003_002' material='\pvw\sc.science\003.03'/>
+         <Geometry valid='Y' name='ms_003_003' material='\pvw\sc.science\003.03'/>
+         <Geometry valid='Y' name='ms_003_004' material='\pvw\sc.science\003.03'/>
+         <Geometry valid='Y' name='ms_003_005' material='\pvw\sc.science\003.03'/>
+         <Geometry valid='Y' name='ms_003_006' material='\pvw\sc.science\003.03'/>
+         <Geometry valid='Y' name='ms_003_007' material='\pvw\sc.science\003.03'/>
+         <Geometry valid='Y' name='ms_003_008' material='\pvw\sc.science\003.03'/>
+         <Geometry valid='Y' name='ms_003_009' material='\pvw\sc.science\003.03'/>
+         <Geometry valid='Y' name='ms_003_010' material='\pvw\sc.science\003.03'/>
+         <Geometry valid='Y' name='ms_003_011' material='\pvw\sc.science\003.03'/>
+         <Geometry valid='Y' name='ms_003_012' material='\pvw\sc.science\003.03'/>
+         <Geometry valid='Y' name='ms_004_001' material='\pvw\sc.science\003.04'/>
+         <Geometry valid='Y' name='ms_004_002' material='\pvw\sc.science\003.04'/>
+         <Geometry valid='Y' name='ms_004_003' material='\pvw\sc.science\003.04'/>
+         <Geometry valid='Y' name='ms_004_004' material='\pvw\sc.science\003.04'/>
+         <Geometry valid='Y' name='ms_004_005' material='\pvw\sc.science\003.04'/>
+         <Geometry valid='Y' name='ms_005_001' material='\pvw\sc.science\003.05'/>
+         <Geometry valid='Y' name='ms_005_002' material='\pvw\sc.science\003.05'/>
+         <Geometry valid='Y' name='ms_005_003' material='\pvw\sc.science\003.05'/>
+         <Geometry valid='Y' name='ms_005_004' material='\pvw\sc.science\003.05'/>
+         <Geometry valid='Y' name='ms_005_005' material='\pvw\sc.science\003.05'/>
+         <Geometry valid='Y' name='ms_005_006' material='\pvw\sc.science\003.05'/>
+         <Geometry valid='Y' name='ms_005_007' material='\pvw\sc.science\003.05'/>
+         <Geometry valid='Y' name='ms_005_008' material='\pvw\sc.science\003.05'/>
+         <Geometry valid='Y' name='ms_006_001' material='\pvw\sc.science\003.06'/>
+         <Geometry valid='Y' name='ms_006_002' material='\pvw\sc.science\003.06'/>
+      </Mesh>
+   </Model>
+</Configuration>

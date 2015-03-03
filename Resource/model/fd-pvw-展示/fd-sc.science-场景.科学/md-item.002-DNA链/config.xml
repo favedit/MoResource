@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Configuration version="1.0">
+   <Model name='tst-scene-water-01' src='model.mrm'>
+      <Mesh>
+         <Geometry valid='Y' name='ms_001_001' material='\pvw\sc.science\002.01'/>
+         <Geometry valid='Y' name='ms_002_001' material='\pvw\sc.science\002.02'/>
+         <Geometry valid='Y' name='ms_003_001' material='\pvw\sc.science\002.03'/>
+         <Geometry valid='Y' name='ms_004_001' material='\pvw\sc.science\002.04'/>
+         <Geometry valid='Y' name='ms_005_001' material='\pvw\sc.science\002.05'/>
+         <Geometry valid='Y' name='ms_006_001' material='\pvw\sc.science\002.06'/>
+      </Mesh>
+   </Model>
+</Configuration>
