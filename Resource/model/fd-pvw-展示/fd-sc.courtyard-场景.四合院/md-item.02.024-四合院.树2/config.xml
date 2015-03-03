@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Configuration version="1.0">
+   <Model name='show.003'>
+      <Mesh>
+         <Geometry valid='Y' name='ms_021' material='\pvw\sc.courtyard\022' />
+         <Geometry valid='Y' name='ms_022' material='\pvw\sc.courtyard\022' />
+      </Mesh>
+   </Model>
+</Configuration>

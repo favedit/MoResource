@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="GB2312"?>
+<M3xExport version="1.0">
+   <Scene start_time="0" end_time="16000" tick="160" file="model.max">
+      <Struct total="102">
+         <Node id="0" name="场景根">
+            <Node id="1402" name="Particle View 01"/>
+            <Node id="1403" name="Particle View 02"/>
+            <Node id="1410" name="Particle View 02"/>
+            <Node id="1409" name="Particle View 01"/>
+            <Node id="1415" name="Particle View 02"/>
+            <Node id="1414" name="Particle View 01"/>
+            <Node id="1450" name="Particle View 01"/>
+            <Node id="1451" name="Particle View 01"/>
+            <Node id="1573" name="Particle View 01"/>
+            <Node id="1574" name="Particle View 01"/>
+            <Node id="1575" name="Particle View 01"/>
+            <Node id="1576" name="Particle View 01"/>
+            <Node id="1698" name="Particle View 01"/>
+            <Node id="1697" name="Particle View 01"/>
+            <Node id="1750" name="Particle View 01"/>
+            <Node id="1749" name="Particle View 01"/>
+            <Node id="1748" name="Particle View 01"/>
+            <Node id="1747" name="Particle View 01"/>
+            <Node id="1745" name="Particle View 01"/>
+            <Node id="1744" name="Particle View 01"/>
+            <Node id="1752" name="Particle View 003"/>
+            <Node id="1753" name="Particle View 004"/>
+            <Node id="1754" name="Particle View 005"/>
+            <Node id="1756" name="Particle View 006"/>
+            <Node id="1757" name="Particle View 007"/>
+            <Node id="1758" name="Particle View 008"/>
+            <Node id="1773" name="Particle View 009"/>
+            <Node id="1774" name="Particle View 010"/>
+            <Node id="1775" name="Particle View 011"/>
+            <Node id="1776" name="Particle View 012"/>
+            <Node id="1785" name="Particle View 013"/>
+            <Node id="1786" name="Particle View 014"/>
+            <Node id="1787" name="Particle View 015"/>
+            <Node id="1788" name="Particle View 016"/>
+            <Node id="1797" name="Particle View 017"/>
+            <Node id="1798" name="Particle View 018"/>
+            <Node id="1799" name="Particle View 019"/>
+            <Node id="1800" name="Particle View 020"/>
+            <Node id="4233" name="Particle View 01"/>
+            <Node id="4234" name="Particle View 01"/>
+            <Node id="4236" name="Particle View 01"/>
+            <Node id="4237" name="Particle View 01"/>
+            <Node id="4238" name="Particle View 01"/>
+            <Node id="4239" name="Particle View 01"/>
+            <Node id="4404" name="Particle View 01"/>
+            <Node id="4405" name="Particle View 01"/>
+            <Node id="4407" name="Particle View 01"/>
+            <Node id="4408" name="Particle View 01"/>
+            <Node id="4409" name="Particle View 01"/>
+            <Node id="4410" name="Particle View 01"/>
+            <Node id="4733" g_buff_id="2" name="ms_044"/>
+            <Node id="6292" name="Particle View 021"/>
+            <Node id="6293" name="Particle View 022"/>
+            <Node id="6294" name="Particle View 02"/>
+            <Node id="6295" name="Particle View 01"/>
+            <Node id="6296" name="Particle View 02"/>
+            <Node id="6297" name="Particle View 01"/>
+            <Node id="6298" name="Particle View 01"/>
+            <Node id="6299" name="Particle View 01"/>
+            <Node id="6300" name="Particle View 01"/>
+            <Node id="6301" name="Particle View 01"/>
+            <Node id="6302" name="Particle View 01"/>
+            <Node id="6303" name="Particle View 01"/>
+            <Node id="6304" name="Particle View 01"/>
+            <Node id="6305" name="Particle View 01"/>
+            <Node id="6306" name="Particle View 01"/>
+            <Node id="6307" name="Particle View 01"/>
+            <Node id="6308" name="Particle View 01"/>
+            <Node id="6309" name="Particle View 01"/>
+            <Node id="6310" name="Particle View 01"/>
+            <Node id="6311" name="Particle View 01"/>
+            <Node id="6312" name="Particle View 023"/>
+            <Node id="6313" name="Particle View 024"/>
+            <Node id="6314" name="Particle View 025"/>
+            <Node id="6315" name="Particle View 026"/>
+            <Node id="6316" name="Particle View 027"/>
+            <Node id="6317" name="Particle View 028"/>
+            <Node id="6318" name="Particle View 029"/>
+            <Node id="6319" name="Particle View 030"/>
+            <Node id="6320" name="Particle View 031"/>
+            <Node id="6321" name="Particle View 032"/>
+            <Node id="6322" name="Particle View 033"/>
+            <Node id="6323" name="Particle View 034"/>
+            <Node id="6324" name="Particle View 035"/>
+            <Node id="6325" name="Particle View 036"/>
+            <Node id="6326" name="Particle View 037"/>
+            <Node id="6327" name="Particle View 038"/>
+            <Node id="6328" name="Particle View 039"/>
+            <Node id="6329" name="Particle View 040"/>
+            <Node id="6330" name="Particle View 01"/>
+            <Node id="6331" name="Particle View 01"/>
+            <Node id="6332" name="Particle View 01"/>
+            <Node id="6333" name="Particle View 01"/>
+            <Node id="6334" name="Particle View 01"/>
+            <Node id="6335" name="Particle View 01"/>
+            <Node id="6336" name="Particle View 01"/>
+            <Node id="6337" name="Particle View 01"/>
+            <Node id="6338" name="Particle View 01"/>
+            <Node id="6339" name="Particle View 01"/>
+            <Node id="6340" name="Particle View 01"/>
+            <Node id="6341" name="Particle View 01"/>
+         </Node>
+      </Struct>
+      <MaterialCollection count="1">
+         <Material class="Standard" name="mt_044">
+            <Properties>
+               <Property name="shaderType" type="int" value="1"/>
+               <Property name="wire" type="int" value="0"/>
+               <Property name="twoSided" type="int" value="0"/>
+               <Property name="faceMap" type="int" value="0"/>
+               <Property name="faceted" type="int" value="0"/>
+               <Property name="shaderByName" type="string" value="(B)Blinn"/>
+               <Property name="opacityType" type="int" value="0"/>
+               <Property name="opacity" type="float" value="1.000000"/>
+               <Property name="filterColor" type="point3" x="0.500000" y="0.500000" z="0.500000"/>
+               <Property name="filterMap" type="unkown"/>
+               <Property name="opacityFallOffType" type="int" value="0"/>
+               <Property name="opacityFallOff" type="float" value="0.000000"/>
+               <Property name="ior" type="float" value="1.500000"/>
+               <Property name="wireSize" type="float" value="1.000000"/>
+               <Property name="wireUnits" type="int" value="0"/>
+               <Property name="applyReflectionDimming" type="int" value="0"/>
+               <Property name="dimLevel" type="float" value="0.000000"/>
+               <Property name="reflectionLevel" type="float" value="3.000000"/>
+               <Property name="sampler" type="int" value="1"/>
+               <Property name="samplerQuality" type="float" value="0.500000"/>
+               <Property name="samplerEnable" type="int" value="0"/>
+               <Property name="samplerAdaptThreshold" type="float" value="0.100000"/>
+               <Property name="samplerAdaptOn" type="int" value="1"/>
+               <Property name="subSampleTextureOn" type="int" value="1"/>
+               <Property name="samplerAdvancedOptions" type="int" value="1"/>
+               <Property name="samplerByName" type="string" value="Max 2.5 星"/>
+               <Property name="UserParam0" type="float" value="0.000000"/>
+               <Property name="UserParam1" type="float" value="0.000000"/>
+               <Property name="samplerUseGlobal" type="int" value="1"/>
+               <Property name="mapEnables" type="unkown"/>
+               <Property name="maps" type="unkown"/>
+               <Property name="mapAmounts" type="unkown"/>
+               <Property name="adTextureLock" type="int" value="1"/>
+               <Property name="bounce" type="float" value="1.000000"/>
+               <Property name="staticFriction" type="float" value="0.000000"/>
+               <Property name="slidingFriction" type="float" value="0.000000"/>
+               <Property name="ambient" type="point3" x="0.588235" y="0.588235" z="0.588235"/>
+               <Property name="diffuse" type="point3" x="0.588235" y="0.588235" z="0.588235"/>
+               <Property name="specular" type="point3" x="0.900000" y="0.900000" z="0.900000"/>
+               <Property name="adTextureLock" type="int" value="1"/>
+               <Property name="adLock" type="int" value="1"/>
+               <Property name="dsLock" type="int" value="0"/>
+               <Property name="useSelfIllumColor" type="int" value="0"/>
+               <Property name="selfIllumAmount" type="float" value="0.000000"/>
+               <Property name="selfIllumColor" type="point3" x="0.000000" y="0.000000" z="0.000000"/>
+               <Property name="specularLevel" type="float" value="0.850000"/>
+               <Property name="glossiness" type="float" value="0.430000"/>
+               <Property name="soften" type="float" value="0.100000"/>
+               <Property name="enabled" type="int" value="0"/>
+               <Property name="effect" type="int" value="0"/>
+               <Property name="dxStdMat" type="int" value="0"/>
+               <Property name="SaveFXFile" type="unkown"/>
+               <Property name="Opaque" type="int" value="0"/>
+               <Property name="Surface" type="unkown"/>
+               <Property name="Displacement" type="unkown"/>
+               <Property name="Shadow" type="unkown"/>
+               <Property name="Volume" type="unkown"/>
+               <Property name="Environment" type="unkown"/>
+               <Property name="Contour" type="unkown"/>
+               <Property name="Photon" type="unkown"/>
+               <Property name="PhotonVolume" type="unkown"/>
+               <Property name="LightMap" type="unkown"/>
+               <Property name="SurfaceLocked" type="int" value="1"/>
+               <Property name="DisplacementLocked" type="int" value="1"/>
+               <Property name="ShadowLocked" type="int" value="1"/>
+               <Property name="VolumeLocked" type="int" value="1"/>
+               <Property name="EnvironmentLocked" type="int" value="1"/>
+               <Property name="ContourLocked" type="int" value="1"/>
+               <Property name="PhotonLocked" type="int" value="1"/>
+               <Property name="PhotonVolumeLocked" type="int" value="1"/>
+               <Property name="LightMapLocked" type="int" value="1"/>
+               <Property name="SurfaceLockShow" type="int" value="1"/>
+               <Property name="DisplacementLockShow" type="int" value="1"/>
+               <Property name="ShadowLockShow" type="int" value="1"/>
+               <Property name="VolumeLockShow" type="int" value="0"/>
+               <Property name="EnvironmentLockShow" type="int" value="0"/>
+               <Property name="ContourLockShow" type="int" value="0"/>
+               <Property name="PhotonLockShow" type="int" value="1"/>
+               <Property name="PhotonVolumeLockShow" type="int" value="0"/>
+               <Property name="LightMapLockShow" type="int" value="0"/>
+               <Property name="SurfaceON" type="int" value="1"/>
+               <Property name="DisplacementON" type="int" value="1"/>
+               <Property name="ShadowON" type="int" value="1"/>
+               <Property name="VolumeON" type="int" value="1"/>
+               <Property name="EnvironmentON" type="int" value="1"/>
+               <Property name="ContourON" type="int" value="1"/>
+               <Property name="PhotonON" type="int" value="1"/>
+               <Property name="ON" type="int" value="1"/>
+               <Property name="LightMapON" type="int" value="1"/>
+            </Properties>
+            <Diffuse r="0.588235" g="0.588235" b="0.588235"/>
+            <Ambient r="0.588235" g="0.588235" b="0.588235"/>
+            <Specular r="0.900000" g="0.900000" b="0.900000"/>
+            <SpecularLevel type="float" value="0.850000"/>
+            <Emissive r="0.000000" g="0.000000" b="0.000000"/>
+            <EmissiveAmt type="float" value="0.000000"/>
+            <Glossiness type="float" value="0.430000"/>
+            <Opacity type="float" value="1.000000"/>
+            <Textures>
+               <Texture id="0" class="Bitmap" name="Map #174" slot_name="漫反射颜色" texture_name="Map #174" texture_class="Bitmap" map_channel="1" std_map_slot="1" file="D:\工作\四合院\tst-scene-courtyard\texture\rs_044_c.jpg">
+                  <ClipU type="float" value="0.000000"/>
+                  <ClipV type="float" value="0.000000"/>
+                  <ClipW type="float" value="1.000000"/>
+                  <ClipH type="float" value="1.000000"/>
+                  <Properties>
+                     <Property name="clipu" type="float" value="0.000000"/>
+                     <Property name="clipv" type="float" value="0.000000"/>
+                     <Property name="clipw" type="float" value="1.000000"/>
+                     <Property name="cliph" type="float" value="1.000000"/>
+                     <Property name="jitter" type="float" value="1.000000"/>
+                     <Property name="useJitter" type="int" value="0"/>
+                     <Property name="apply" type="int" value="0"/>
+                     <Property name="cropPlace" type="int" value="0"/>
+                     <Property name="filtering" type="int" value="0"/>
+                     <Property name="monoOutput" type="int" value="0"/>
+                     <Property name="rgbOutput" type="int" value="0"/>
+                     <Property name="alphaSource" type="int" value="2"/>
+                     <Property name="preMultAlpha" type="int" value="1"/>
+                     <Property name="bitmap" type="unkown"/>
+                     <Property name="coords" type="unkown"/>
+                     <Property name="output" type="unkown"/>
+                     <Property name="fileName" type="unkown"/>
+                     <Property name="startTime" type="int" value="0"/>
+                     <Property name="playBackRate" type="float" value="1.000000"/>
+                     <Property name="endCondition" type="int" value="0"/>
+                     <Property name="tieTimeToMatIDs" type="int" value="0"/>
+                  </Properties>
+               </Texture>
+               <Texture id="1" class="Bitmap" name="Map #175" slot_name="高光级别" texture_name="Map #175" texture_class="Bitmap" map_channel="1" std_map_slot="3" file="D:\工作\四合院\tst-scene-courtyard\texture\rs_044_s.jpg">
+                  <ClipU type="float" value="0.000000"/>
+                  <ClipV type="float" value="0.000000"/>
+                  <ClipW type="float" value="1.000000"/>
+                  <ClipH type="float" value="1.000000"/>
+                  <Properties>
+                     <Property name="clipu" type="float" value="0.000000"/>
+                     <Property name="clipv" type="float" value="0.000000"/>
+                     <Property name="clipw" type="float" value="1.000000"/>
+                     <Property name="cliph" type="float" value="1.000000"/>
+                     <Property name="jitter" type="float" value="1.000000"/>
+                     <Property name="useJitter" type="int" value="0"/>
+                     <Property name="apply" type="int" value="0"/>
+                     <Property name="cropPlace" type="int" value="0"/>
+                     <Property name="filtering" type="int" value="0"/>
+                     <Property name="monoOutput" type="int" value="0"/>
+                     <Property name="rgbOutput" type="int" value="0"/>
+                     <Property name="alphaSource" type="int" value="2"/>
+                     <Property name="preMultAlpha" type="int" value="1"/>
+                     <Property name="bitmap" type="unkown"/>
+                     <Property name="coords" type="unkown"/>
+                     <Property name="output" type="unkown"/>
+                     <Property name="fileName" type="unkown"/>
+                     <Property name="startTime" type="int" value="0"/>
+                     <Property name="playBackRate" type="float" value="1.000000"/>
+                     <Property name="endCondition" type="int" value="0"/>
+                     <Property name="tieTimeToMatIDs" type="int" value="0"/>
+                  </Properties>
+               </Texture>
+               <Texture id="2" class="法线凹凸" name="Map #176" slot_name="凹凸" texture_name="Map #176" texture_class="法线凹凸" map_channel="1" std_map_slot="8">
+                  <Properties>
+                     <Property name="mult_spin" type="float" value="1.000000"/>
+                     <Property name="bump_spin" type="float" value="1.000000"/>
+                     <Property name="normal_map" type="unkown"/>
+                     <Property name="bump_map" type="unkown"/>
+                     <Property name="map1on" type="int" value="1"/>
+                     <Property name="map2on" type="int" value="1"/>
+                     <Property name="method" type="int" value="0"/>
+                     <Property name="flipred" type="int" value="0"/>
+                     <Property name="flipgreen" type="int" value="0"/>
+                     <Property name="swap_rg" type="int" value="0"/>
+                  </Properties>
+                  <TextureList count="2">
+                     <Texture name="Map #177" node_name="No node name" full_name="Map #177 (rs_044_n.jpg)"/>
+                  </TextureList>
+               </Texture>
+            </Textures>
+         </Material>
+      </MaterialCollection>
+      <Mesh count="1">
+         <Geometry class="可编辑多边形" name="ms_044" vertex_count="8030" color_count="32102" normal_count="8132" binormal_count="9304" tangent_count="9304" face_count="16064" coord_count="9196">
+            <Properties>
+               <Property name="selByVertex" type="int" value="0"/>
+               <Property name="ignoreBackfacing" type="int" value="0"/>
+               <Property name="selectByAngle" type="int" value="0"/>
+               <Property name="selectAngle" type="float" value="0.785398"/>
+               <Property name="useSoftSel" type="int" value="0"/>
+               <Property name="ssUseEdgeDist" type="int" value="0"/>
+               <Property name="ssEdgeDist" type="int" value="1"/>
+               <Property name="affectBackfacing" type="int" value="1"/>
+               <Property name="falloff" type="float" value="20.000000"/>
+               <Property name="pinch" type="float" value="0.000000"/>
+               <Property name="bubble" type="float" value="0.000000"/>
+               <Property name="lockSoftSel" type="int" value="0"/>
+               <Property name="paintSelMode" type="int" value="0"/>
+               <Property name="paintSelValue" type="float" value="1.000000"/>
+               <Property name="paintSelSize" type="float" value="20.000000"/>
+               <Property name="paintSelStrength" type="float" value="1.000000"/>
+               <Property name="constrainType" type="int" value="0"/>
+               <Property name="deleteIsolatedVerts" type="int" value="1"/>
+               <Property name="fullyInteractive" type="int" value="1"/>
+               <Property name="showCage" type="int" value="1"/>
+               <Property name="split" type="int" value="0"/>
+               <Property name="preserveUVs" type="int" value="0"/>
+               <Property name="surfSubdivide" type="int" value="0"/>
+               <Property name="subdivSmoothing" type="int" value="1"/>
+               <Property name="isolineDisplay" type="int" value="1"/>
+               <Property name="iterations" type="int" value="1"/>
+               <Property name="surfaceSmoothness" type="float" value="1.000000"/>
+               <Property name="useRenderIterations" type="int" value="0"/>
+               <Property name="renderIterations" type="int" value="0"/>
+               <Property name="useRenderSmoothness" type="int" value="0"/>
+               <Property name="renderSmoothness" type="float" value="1.000000"/>
+               <Property name="sepByMats" type="int" value="0"/>
+               <Property name="sepBySmGroups" type="int" value="0"/>
+               <Property name="update" type="int" value="0"/>
+               <Property name="vertSelectionColor" type="point3" x="1.000000" y="1.000000" z="1.000000"/>
+               <Property name="vertSelectBy" type="int" value="0"/>
+               <Property name="vertSelectionRedRange" type="int" value="10"/>
+               <Property name="vertSelectionGreenRange" type="int" value="10"/>
+               <Property name="vertSelectionBlueRange" type="int" value="10"/>
+               <Property name="autoSmoothThreshold" type="float" value="0.785398"/>
+               <Property name="useSubdivisionDisplacement" type="int" value="0"/>
+               <Property name="displaceSplitMesh" type="int" value="1"/>
+               <Property name="displaceMethod" type="int" value="3"/>
+               <Property name="displaceSteps" type="int" value="2"/>
+               <Property name="displaceEdge" type="float" value="20.000000"/>
+               <Property name="displaceDistance" type="float" value="20.000000"/>
+               <Property name="displaceAngle" type="float" value="0.174533"/>
+               <Property name="viewDependent" type="int" value="0"/>
+               <Property name="displaceStyle" type="int" value="1"/>
+               <Property name="displaceMinLevels" type="int" value="0"/>
+               <Property name="displaceMaxLevels" type="int" value="2"/>
+               <Property name="displaceMaxTris" type="int" value="20000"/>
+               <Property name="extrusionType" type="int" value="0"/>
+               <Property name="bevelType" type="int" value="0"/>
+               <Property name="faceExtrudeHeight" type="float" value="10.000000"/>
+               <Property name="vertexExtrudeHeight" type="float" value="10.000000"/>
+               <Property name="edgeExtrudeHeight" type="float" value="10.000000"/>
+               <Property name="vertexExtrudeWidth" type="float" value="3.000000"/>
+               <Property name="edgeExtrudeWidth" type="float" value="3.000000"/>
+               <Property name="bevelHeight" type="float" value="10.000000"/>
+               <Property name="bevelOutline" type="float" value="-1.000000"/>
+               <Property name="outlineAmount" type="float" value="-1.000000"/>
+               <Property name="insetAmount" type="float" value="1.000000"/>
+               <Property name="insetType" type="int" value="0"/>
+               <Property name="vertexChamfer" type="float" value="1.000000"/>
+               <Property name="edgeChamfer" type="float" value="1.000000"/>
+               <Property name="edgeChamferSegments" type="int" value="1"/>
+               <Property name="vertexBreak" type="float" value="0.000000"/>
+               <Property name="weldThreshold" type="float" value="0.100000"/>
+               <Property name="edgeWeldThreshold" type="float" value="0.100000"/>
+               <Property name="weldPixels" type="int" value="4"/>
+               <Property name="smoothness" type="float" value="1.000000"/>
+               <Property name="separateBySmoothing" type="int" value="0"/>
+               <Property name="separateByMaterial" type="int" value="0"/>
+               <Property name="tesselateBy" type="int" value="0"/>
+               <Property name="tessTension" type="float" value="0.000000"/>
+               <Property name="connectEdgeSegments" type="int" value="1"/>
+               <Property name="extrudeAlongSplineNode" type="unkown"/>
+               <Property name="extrudeAlongSplineSegments" type="int" value="6"/>
+               <Property name="extrudeAlongSplineTaper" type="float" value="0.000000"/>
+               <Property name="extrudeAlongSplineTaperCurve" type="float" value="0.000000"/>
+               <Property name="extrudeAlongSplineTwist" type="float" value="0.000000"/>
+               <Property name="extrudeAlongSplineRotation" type="float" value="0.000000"/>
+               <Property name="extrudeAlongSplineAlign" type="int" value="0"/>
+               <Property name="hingeAngle" type="float" value="0.523599"/>
+               <Property name="hinge" type="int" value="-1"/>
+               <Property name="hingeSegments" type="int" value="1"/>
+               <Property name="paintDeformMode" type="int" value="0"/>
+               <Property name="paintDeformValue" type="float" value="10.000000"/>
+               <Property name="paintDeformSize" type="float" value="20.000000"/>
+               <Property name="paintDeformStrength" type="float" value="1.000000"/>
+               <Property name="paintDeformAxis" type="int" value="1"/>
+               <Property name="cutStartLevel" type="int" value="1"/>
+               <Property name="cutStartIndex" type="int" value="0"/>
+               <Property name="cutStartCoords" type="point3" x="0.000000" y="0.000000" z="0.000000"/>
+               <Property name="cutEndCoords" type="point3" x="0.000000" y="0.000000" z="0.000000"/>
+               <Property name="cutNormal" type="point3" x="0.000000" y="0.000000" z="0.000000"/>
+               <Property name="bridgeSegments" type="int" value="1"/>
+               <Property name="bridgeTaper" type="float" value="0.000000"/>
+               <Property name="bridgeBias" type="float" value="0.000000"/>
+               <Property name="bridgeSmoothThreshold" type="float" value="0.785398"/>
+               <Property name="bridgeSelected" type="int" value="1"/>
+               <Property name="bridgeTwist1" type="int" value="0"/>
+               <Property name="bridgeTwist2" type="int" value="0"/>
+               <Property name="bridgeTarget1" type="int" value="0"/>
+               <Property name="bridgeTarget2" type="int" value="0"/>
+               <Property name="relaxAmount" type="float" value="0.500000"/>
+               <Property name="relaxIterations" type="int" value="1"/>
+               <Property name="relaxHoldBoundaryPoints" type="int" value="1"/>
+               <Property name="relaxHoldOuterPoints" type="int" value="0"/>
+               <Property name="vertexChamferOpen" type="int" value="0"/>
+               <Property name="edgeChamferOpen" type="int" value="0"/>
+               <Property name="bridgeAdjacentAngle" type="float" value="0.785398"/>
+               <Property name="bridgeReverseTriangle" type="int" value="0"/>
+               <Property name="connectEdgePinch" type="int" value="0"/>
+               <Property name="connectEdgeSlide" type="int" value="0"/>
+               <Property name="cageColor" type="point3" x="0.992157" y="0.584314" z="0.000000"/>
+               <Property name="selectedCageColor" type="point3" x="0.784314" y="0.784314" z="0.274510"/>
+               <Property name="selectMode" type="int" value="0"/>
+            </Properties>
+            <Matrix>
+               <ObjectMatrix tx="-1.788574" ty="-1.151337" tz="-0.546997" rx="0.000000" ry="-0.000000" rz="0.000000" sx="3.649086" sy="3.649086" sz="3.649086"/>
+               <LocalMatrix tx="0.000000" ty="0.000000" tz="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="3.649086" sy="3.649086" sz="3.649086"/>
+               <WorldMatrix tx="0.000000" ty="0.000000" tz="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="3.649086" sy="3.649086" sz="3.649086"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="mt_044"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+      </Mesh>
+      <Skeleton bone_count="0"/>
+      <Animation frame_tick="160" frame_count="100" frame_start="0" frame_end="16000" bone_count="0"/>
+   </Scene>
+   <Logger/>
+</M3xExport>

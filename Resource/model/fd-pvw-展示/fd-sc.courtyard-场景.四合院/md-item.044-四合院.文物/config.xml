@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Model name="\pvw\scene.courtyard\item.044" src="model.swf">
+    <MaterialCollection />
+    <Mesh>
+      <Geometry valid="Y" name="ms_044" material="\pvw\sc.courtyard\044" />
+    </Mesh>
+  </Model>
+</Configuration>
