@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Model name="\pvw\showcase\007" src="model.swf">
+    <MaterialCollection />
+    <Mesh>
+      <Geometry valid="Y" name="ms_031_001" material="\pvw\showcase\007.31" />
+      <Geometry valid="Y" name="ms_032_001" material="\pvw\showcase\007.32" />
+      <Geometry valid="Y" name="ms_033_001" material="\pvw\showcase\007.33" />
+      <Geometry valid="Y" name="ms_034_001" material="\pvw\showcase\007.34" />
+      <Geometry valid="Y" name="ms_035_001" material="\pvw\showcase\007.35" />
+      <Geometry valid="Y" name="ms_036_001" material="\pvw\showcase\007.36" />
+      <Geometry valid="Y" name="ms_037_001" material="\pvw\showcase\007.37" />
+      <Geometry valid="Y" name="ms_038_001" material="\pvw\showcase\007.38" />
+      <Geometry valid="Y" name="ms_039_001" material="\pvw\showcase\007.39" />
+      <Geometry valid="Y" name="ms_040_001" material="\pvw\showcase\007.40" />
+      <Geometry valid="Y" name="ms_041_001" material="\pvw\showcase\007.41" />
+      <Geometry valid="Y" name="ms_042_001" material="\pvw\showcase\007.42" />
+    </Mesh>
+  </Model>
+</Configuration>

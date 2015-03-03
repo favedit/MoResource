@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Model name="\pvw\showcase\003" src="model.swf">
+    <MaterialCollection />
+    <Mesh>
+      <Geometry valid="Y" name="ms_001_001" material="\pvw\showcase\003.01" />
+      <Geometry valid="Y" name="ms_002_001" material="\pvw\showcase\003.02" />
+      <Geometry valid="Y" name="ms_003_001" material="\pvw\showcase\003.03" />
+    </Mesh>
+  </Model>
+</Configuration>

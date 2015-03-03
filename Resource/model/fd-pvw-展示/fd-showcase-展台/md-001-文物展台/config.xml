@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Model name="\pvw\showcase\001" label="文物展台">
+    <Mesh>
+      <Geometry valid="Y" name="ms_001_001" material="\pvw\showcase\001.01" option_instanced="0" option_dynamic="0" option_bone_scale="0" option_shadow="2" option_self_shadow="2" option_normal="2" option_light="0" option_double="0" option_symmetry="0" option_transmittance="0" option_select="0" option_ground="0" instance_count="42" />
+      <Geometry valid="Y" name="ms_002_001" material="\pvw\showcase\001.02" option_instanced="0" option_dynamic="0" option_bone_scale="0" option_shadow="2" option_self_shadow="2" option_normal="2" option_light="0" option_double="0" option_symmetry="0" option_transmittance="0" option_select="0" option_ground="0" instance_count="42" />
+      <Geometry valid="Y" name="ms_003_001" material="\pvw\showcase\001.03" option_instanced="0" option_dynamic="0" option_bone_scale="0" option_shadow="2" option_self_shadow="2" option_normal="2" option_light="0" option_double="0" option_symmetry="0" option_transmittance="0" option_select="0" option_ground="0" instance_count="42" />
+    </Mesh>
+    <Animation />
+  </Model>
+</Configuration>
