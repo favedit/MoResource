@@ -1,0 +1,210 @@
+//============================================================
+// 基础信息
+float4      _flags;
+float4      _status;
+float4x4    _modelMatrix;
+float4x4    _viewMatrix;
+float4x4    _projectionMatrix;
+float3      _cameraPosition;
+float3      _lightPosition;
+float3      _lightDirection;
+//............................................................
+// 材质列表
+float4      _ambientColor;
+float4      _diffuseColor;
+float4      _specularColor;
+//............................................................
+// 纹理列表
+Texture2D   _textureDiffuse;
+Texture2D   _textureAlpha;
+Texture2D   _textureNormal;
+Texture2D   _textureHeight;
+Texture2D   _textureSpecular;
+Texture2D   _textureSpecularLevel;
+Texture2D   _textureEnvironment;
+
+SamplerState ModelTextureSampler {
+   Filter = MIN_MAG_MIP_LINEAR;
+   AddressU = Wrap;
+   AddressV = Wrap;
+};
+
+//============================================================
+struct VS_INPUT {
+   float4 position : POSITION;
+   float4 color    : COLOR;
+   float2 coord    : COORD;
+   float4 normal   : NORMAL;
+   float3 binormal : BINORMAL;
+   float3 tangent  : TANGENT;
+};
+
+//------------------------------------------------------------
+struct VS_OUTPUT {
+   float4 position           : SV_POSITION;
+   float4 projectionPosition : PROJECTION_POSITION;
+   float3 worldPosition      : POSITION;
+   float4 color              : COLOR;
+   float2 coord              : COORD;
+   float3 normalWs           : NORMAL;
+   float3 cameraDirectionWs  : CAMERA_DIRECTION_WS;
+   float3 cameraDirectionTs  : CAMERA_DIRECTION_TS;
+   float3 lightDirectionWs   : LIGHT_DIRECTION_WS;
+   float3 lightDirectionTs   : LIGHT_DIRECTION_TS;
+};
+
+//============================================================
+VS_OUTPUT ProcessVertex( VS_INPUT input ) {
+   VS_OUTPUT output;
+   // 计算世界坐标
+   float4 worldPosition = mul(input.position, _modelMatrix);
+   float4 viewPosition = mul(worldPosition, _viewMatrix);
+   float4 projectionPosition = mul(viewPosition, _projectionMatrix);
+   // 计算切线转换矩阵
+   float3 normalWs = mul(input.normal.xyz, (float3x3)_modelMatrix);
+   float3 binormalWs = mul(input.binormal.xyz, (float3x3)_modelMatrix);
+   float3 tangentWs = mul(input.tangent.xyz, (float3x3)_modelMatrix);
+   normalWs = normalize(normalWs);
+   binormalWs = normalize(binormalWs);
+   tangentWs = normalize(tangentWs);
+   float3x3 tangentMatrix = float3x3(tangentWs, binormalWs, normalWs);
+   // 计算切线空间相机的方向
+   float3 cameraDirectionWs = _cameraPosition - worldPosition.xyz;
+   float3 cameraDirectionTs = mul(cameraDirectionWs, tangentMatrix);
+   // 计算切线空间光的方向
+   float3 lightDirectionWs = _lightPosition - worldPosition.xyz;
+   float3 lightDirectionTs = mul(lightDirectionWs, tangentMatrix);
+   // 输出结果
+   output.position = projectionPosition;
+   output.projectionPosition = projectionPosition;
+   output.worldPosition = worldPosition.xyz;
+   output.color = input.color;
+   output.coord = input.coord;
+   output.normalWs = normalWs;
+   output.cameraDirectionWs = normalize(cameraDirectionWs);
+   output.cameraDirectionTs = normalize(cameraDirectionTs);
+   output.lightDirectionWs = normalize(lightDirectionWs);
+   output.lightDirectionTs = normalize(lightDirectionTs);
+   return output;
+}
+
+//============================================================
+struct GS_PARTICLE_INPUT
+{
+   float3 worldPosition     : POSITION;
+   float4 color             : COLOR;
+   float2 coord             : COORD;
+   float3 cameraDirectionTs : CAMERA_DIRECTION_TS;
+   float3 lightDirectionTs  : LIGHT_DIRECTION_TS;
+};
+
+struct PS_PARTICLE_INPUT
+{
+   float3 worldPosition     : POSITION;
+   float4 color             : COLOR;
+   float2 coord             : COORD;
+   float3 cameraDirectionTs : CAMERA_DIRECTION_TS;
+   float3 lightDirectionTs  : LIGHT_DIRECTION_TS;
+};
+
+#define FIXED_VERTEX_RADIUS 5.0
+
+//============================================================
+[maxvertexcount(4)]
+void ProcessGeometry(point GS_PARTICLE_INPUT input[1], inout TriangleStream<PS_PARTICLE_INPUT> stream){
+   const float3 g_positions[4] = {
+      float3( -1.0,  1.0, 0.0 ),
+      float3(  1.0,  1.0, 0.0 ),
+      float3( -1.0, -1.0, 0.0 ),
+      float3(  1.0, -1.0, 0.0 ),
+   };
+   const float2 g_texcoords[4] = {
+      float2( 0.0, 1.0 ), 
+      float2( 1.0, 1.0 ),
+      float2( 0.0, 0.0 ),
+      float2( 1.0, 0.0 ),
+   };
+   PS_PARTICLE_INPUT output = (PS_PARTICLE_INPUT)0;
+
+   // Emit two new triangles
+   [unroll]
+   for( int i=0; i<4; ++i ){
+      float3 position = g_positions[i] * FIXED_VERTEX_RADIUS;
+      // position = mul( position, (float3x3)g_mInvView ) + input[0].WSPos;
+      // output.Pos = mul( float4( position, 1.0 ), g_mViewProjection );
+      // Pass texture coordinates
+      // output.Tex = g_texcoords[i];
+      // Add vertex
+      stream.Append( output );
+   }
+   stream.RestartStrip();
+}
+
+
+//------------------------------------------------------------
+struct PS_INPUT {
+   uint   primitiveId        : SV_PrimitiveID;
+   float4 projectionPosition : PROJECTION_POSITION;
+   float3 worldPosition      : POSITION;
+   float4 color              : COLOR;
+   float2 coord              : COORD;
+   float3 normalWs           : NORMAL;
+   float3 cameraDirectionWs  : CAMERA_DIRECTION_WS;
+   float3 cameraDirectionTs  : CAMERA_DIRECTION_TS;
+   float3 lightDirectionWs   : LIGHT_DIRECTION_WS;
+   float3 lightDirectionTs   : LIGHT_DIRECTION_TS;
+};
+//------------------------------------------------------------
+struct PS_OUTPUT {
+   int4   flags     : SV_TARGET0;
+   float4 color     : SV_TARGET1;
+   float4 position  : SV_TARGET3;
+   float4 normal    : SV_TARGET4;
+   float4 selected  : SV_TARGET5;
+};
+
+//============================================================
+PS_OUTPUT ProcessPixel(PS_INPUT input) : SV_TARGET{
+   PS_OUTPUT output = (PS_OUTPUT)0;
+   // 获得颜色
+   float4 color = float4(1.0, 1.0, 1.0, 1.0);
+   // 获得颜色，检查透明度
+   float4 colorDiffuse = _textureDiffuse.Sample(ModelTextureSampler, input.coord);
+   if(colorDiffuse.a < 0.5){
+      discard;
+   }
+   // 计算顶点色
+   color = colorDiffuse * input.color * 0.4;
+   // 计算法线
+   float3 lightDirectionTs = input.lightDirectionTs;
+   float4 normalColor = _textureNormal.Sample(ModelTextureSampler, input.coord);
+   float3 normalTs = normalize(normalColor.xyz * 2 - 1);
+   float diffuseRate = saturate(dot(normalTs, lightDirectionTs));
+   color += colorDiffuse * diffuseRate * 0.8;
+   // 计算高光
+   float3 cameraDirectionTs = input.cameraDirectionTs;
+   float4 colorSpecular = _textureSpecular.Sample(ModelTextureSampler, input.coord);
+   float3 reflectionTs = normalize(dot(normalTs, cameraDirectionTs) * normalTs * 2 - cameraDirectionTs);
+   float powerRL = saturate(dot(reflectionTs, lightDirectionTs));
+   float3 specularColor = saturate(pow(powerRL, 40)) * colorSpecular.rgb * normalColor.a;
+   color.xyz += specularColor;
+   // 设置结果
+   output.flags = _flags;
+   output.color = color;
+   output.position.xyz = input.projectionPosition.xyz / input.projectionPosition.w;
+   output.normal.xyz = normalize(input.normalWs);
+   if(_status.x == 1){
+      output.selected.w = input.primitiveId;
+   }
+   return output;
+}
+
+//============================================================
+technique10 Render
+{
+   pass P0
+   {
+      SetVertexShader( CompileShader( vs_5_0, ProcessVertex() ) );
+      SetPixelShader( CompileShader( ps_5_0, ProcessPixel() ) );
+   }
+}

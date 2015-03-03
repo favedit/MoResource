@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Configuration version="1.0">
+   <Model name='plane' src='model.mrm'>
+      <MaterialCollection>
+         <Material name='mt_all'>
+            <TextureCollection>
+               <Texture type='diffuse'  src='rs_ground_d.jpg'/>
+               <Texture type='normal'   src='rs_ground_n.jpg'/>
+               <Texture type='specular' src='rs_ground_s.jpg'/>
+            </TextureCollection>
+         </Material>
+      </MaterialCollection>
+      <Mesh>
+         <Geometry valid='Y' name="ms_all" material='mt_all'/>
+      </Mesh>
+   </Model>
+</Configuration>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Template name="\pvw\show\cartoon.001" label="卡通人物.可爱女孩" option_loaded="0" option_select="0" option_merge="0" option_light_map="0">
+    <Renderables count="13">
+      <Renderable id="1" model="\pvw\show\cartoon.001" geometry="ms_001_001" material="\pvw\show\018.01" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="2" model="\pvw\show\cartoon.001" geometry="ms_002_001" material="\pvw\show\018.02" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="3" model="\pvw\show\cartoon.001" geometry="ms_002_002" material="\pvw\show\018.02" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="4" model="\pvw\show\cartoon.001" geometry="ms_002_003" material="\pvw\show\018.02" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="5" model="\pvw\show\cartoon.001" geometry="ms_003_001" material="\pvw\show\018.03" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="6" model="\pvw\show\cartoon.001" geometry="ms_004_001" material="\pvw\show\018.04" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="7" model="\pvw\show\cartoon.001" geometry="ms_005_001" material="\pvw\show\018.05" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="8" model="\pvw\show\cartoon.001" geometry="ms_006_001" material="\pvw\show\018.06" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="9" model="\pvw\show\cartoon.001" geometry="ms_007_001" material="\pvw\show\018.07" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="10" model="\pvw\show\cartoon.001" geometry="ms_008_001" material="\pvw\show\018.08" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="11" model="\pvw\show\cartoon.001" geometry="ms_009_001" material="\pvw\show\018.09" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="12" model="\pvw\show\cartoon.001" geometry="ms_010_001" material="\pvw\show\018.10" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="13" model="\pvw\show\cartoon.001" geometry="ms_011_001" material="\pvw\show\018.11" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+    </Renderables>
+    <Animation>
+      <Movie name="idle" frame_begin="0" frame_end="140" frame_rate="4" />
+    </Animation>
+  </Template>
+</Configuration>

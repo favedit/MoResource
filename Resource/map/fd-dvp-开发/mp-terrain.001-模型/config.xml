@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Map id="101" name="develop.terrain.001" layer_count="8" size="1024,1024" range="128,128" deep="600">
+    <Height source="height.raw" />
+    <Color source="color.jpg" />
+    <Layers>
+      <Layer index="0" material="\trn\001\001" />
+      <Layer index="1" material="\trn\001\002" />
+      <Layer index="2" material="\trn\001\003" />
+      <Layer index="3" material="\trn\001\004" />
+      <Layer index="4" material="\trn\001\005" />
+      <Layer index="5" material="\trn\001\006" />
+      <Layer index="6" material="\trn\001\007" />
+      <Layer index="7" material="\trn\001\008" />
+    </Layers>
+  </Map>
+</Configuration>

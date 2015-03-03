@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Template name="pvw.scene.courtyard.item.054" label="四合院.文物">
+    <Renderables count="1">
+      <Renderable model="\pvw\sc.courtyard\item.054" geometry="ms_054" material="\pvw\sc.courtyard\054" />
+    </Renderables>
+  </Template>
+</Configuration>

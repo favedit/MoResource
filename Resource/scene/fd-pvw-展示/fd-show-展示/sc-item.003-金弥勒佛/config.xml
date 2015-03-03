@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Scene version="1.0">
+  <Technique name="shadow" />
+  <Region>
+    <Color r="0.4470588" g="0.2" b="0.2" power="1" />
+    <Fog near="0" far="0" rate="2.1795" attenuation="0" r="1" g="1" b="1" power="1" />
+    <Camera type_name="perspective">
+      <Center front="0.3" back="0" />
+      <Position x="120" y="28" z="0" />
+      <Direction x="0" y="-0.06651901" z="0.9977852" />
+      <Focal near="0" far="0" />
+      <Viewport angle="45" near="0.1" far="200" />
+    </Camera>
+    <Light type_name="directional" option_track="2">
+      <Shadow base1="0.001026" rate1="0" level1="0.01603" range1="3.205" base2="1.5E-05" rate2="0" level2="0" range2="0" base3="0" rate3="0" level3="0" range3="0" />
+      <Material name="" effect_name="" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_shadow="2" option_symmetry="0" option_transmittance="0">
+        <Color min="0" max="1" rate="1" merge="1" />
+        <Alpha base="0.2" rate="1" level="1" merge="1" />
+        <Ambient r="1" g="1" b="1" power="1.54" shadow="0" />
+        <Diffuse r="1" g="1" b="1" power="1.024" shadow="0" />
+        <DiffuseView r="1" g="1" b="1" power="0.896" shadow="0.73" />
+        <Specular r="1.223529" g="1.003922" b="1" power="1.512" base="1" rate="71.79" average="0.1474" shadow="1" />
+        <SpecularView r="1.223529" g="1.003922" b="1" power="1.512" base="0.7308" rate="67.31" average="0.1731" shadow="1" />
+        <Reflect r="0.7843137" g="0.3882353" b="0.3882353" power="1" merge="1" shadow="1" />
+        <RefractFront r="1" g="1" b="1" power="1" />
+        <RefractBack r="1" g="1" b="1" power="0.1" />
+        <Opacity r="1" g="1" b="1" power="1" />
+        <Emissive r="1" g="1" b="1" power="0" />
+      </Material>
+      <Camera type_name="perspective">
+        <Center front="1" back="0" />
+        <Position x="195.3" y="97" z="93.4" />
+        <Direction x="-0.628" y="-0.725" z="-0.28" />
+        <Focal near="0" far="0" />
+        <Viewport angle="30" near="1" far="200" />
+      </Camera>
+    </Light>
+  </Region>
+  <Map>
+  </Map>
+  <Space>
+    <Display source="pvw.show.item.003">
+      <Matrix translation="120,28,60" rotation="0,0,0" scale="0.16,0.16,0.16" />
+      <Movies>
+        <Movie type_name="rotation" interval="10" rotation="0,0.4,0" />
+      </Movies>
+      <Materials>
+        <Material name="pvw.show.003.01" effect_name="" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_shadow="2" option_symmetry="0" option_transmittance="0">
+          <Color min="0" max="1" rate="1" merge="1" />
+          <Alpha base="0.2" rate="1" level="1" merge="1" />
+          <Ambient r="1" g="1" b="1" power="1" shadow="1" />
+          <Diffuse r="1" g="1" b="1" power="1" shadow="1" />
+          <DiffuseView r="1" g="1" b="1" power="1" shadow="1" />
+          <Specular r="1" g="1" b="1" power="1" base="1" rate="1" average="1" shadow="1" />
+          <SpecularView r="1" g="1" b="1" power="1" base="1" rate="1" average="1" shadow="1" />
+          <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1" />
+          <RefractFront r="1" g="1" b="1" power="1" />
+          <RefractBack r="1" g="1" b="1" power="1" />
+          <Opacity r="1" g="1" b="1" power="1" />
+          <Emissive r="1" g="1" b="1" power="1" />
+        </Material>
+      </Materials>
+    </Display>
+  </Space>
+</Scene>

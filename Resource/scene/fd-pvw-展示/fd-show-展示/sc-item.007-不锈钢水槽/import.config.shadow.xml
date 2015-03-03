@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Scene version="1.0">
+   <Timeline support="N" tick="0"/>
+   <Region technique="shadow">
+      <Technique/>
+      <Sensitivity smooth_translation="0.5" smooth_rotation="0.5" focus_translation="1" focus_rotation="1" focus_scale="1" translation="1" rotation="1" scale="1"/>
+      <Color r="0.21176470588235297" g="0.21176470588235297" b="0.2" a="1" level_r="0" level_g="0" level_b="0" level_power="0"/>
+      <Face range="0" limit="0" rate="0"/>
+      <Fog near="0" far="0" attenuation="0" r="1" g="1" b="1" a="1"/>
+      <Edge rate="1" level="1" width="1" r="1" g="1" b="1" a="1"/>
+      <Quality high="0.5" middle="0.8" low="1"/>
+      <Visible radius="16"/>
+      <Camera type="perspective" center_front="0.276" center_back="0">
+         <Viewport angle="45" znear="0.1" zfar="200"/>
+         <Position x="119.21981099448612" y="27" z="20.793026465268163"/>
+         <Direction x="0.07952185267226591" y="-0.4533322738031942" z="0.8877872067539585" distance="30.047129970469044"/>
+         <Target x="121.60921443722219" y="13.378666249227166" z="47.46848405272402"/>
+         <Focal near="0" far="0" attenuation="0" range="0"/>
+      </Camera>
+      <Light type="directional">
+         <Matrix translation="0,0,0" rotation="0,0,0" scale="1,1,1"/>
+         <Center x="0" y="0" z="0" w="0"/>
+         <Option range="1" innerAngle="1" outerAngle="1" attenuation1="1" attenuation2="1" attenuation3="1"/>
+         <Shadow mode="auto" base1="0.000641" rate1="0" level1="0" range1="0.897" base2="0.000029" rate2="0" level2="0" range2="0" base3="0" rate3="0" level3="0" range3="0" ambient_min="0" ambient_max="0" ambient_thick="0" ambient_range="0" merge1_base="0" merge1_rate="0" merge2_base="0" merge2_rate="0"/>
+         <Volumetric base="1" attenuation="1" rate="1" power="1" merge_base="1" merge_level="1" merge_range="1"/>
+         <Material option_shadow="Y" option_border="Y" option_transmittance="N">
+            <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+            <Color min="0" max="1" merge="1" rate="1"/>
+            <Alpha enable="N" base="0.2" rate="1" level="1" merge="0.994"/>
+            <Ambient r="1.011764705882353" g="0.9725490196078431" b="1.011764705882353" power="0" shadow="0.172"/>
+            <Diffuse r="1.0235294117647058" g="0.9529411764705882" b="1.011764705882353" power="0.668" shadow="0.616" camera_r="1.0235294117647058" camera_g="0.9725490196078431" camera_b="1.0235294117647058" camera_power="0.26" camera_shadow="1"/>
+            <Specular r="0.9725490196078431" g="1" b="0.9725490196078431" power="0.82" base="0.423" rate="23.76" average="0.0577" shadow="1" camera_r="1" camera_g="1.011764705882353" camera_b="1" camera_power="0.82" camera_base="1" camera_rate="21.15" camera_average="0.1346" camera_shadow="1"/>
+            <Reflect r="0.7843137254901961" g="0.38823529411764707" b="0.38823529411764707" power="1" merge="1" shadow="1"/>
+            <Refract front_r="1" front_g="1" front_b="1" front_power="1" front_merge="1" front_shadow="1" back_r="1" back_g="1" back_b="1" back_power="0.1" back_merge="1" back_shadow="1"/>
+            <Opacity enable="N" r="1" g="1" b="1" power="1" rate="0.2" alpha="1" depth="0" transmittance="0"/>
+            <Emissive r="1" g="1" b="1" power="0"/>
+            <Layer1 r="1" g="1" b="1" power="1" alpha="1" shadow="1"/>
+            <Layer2 r="1" g="1" b="1" power="1" alpha="1" shadow="1"/>
+            <Layer3 r="1" g="1" b="1" power="1" alpha="1" shadow="1"/>
+            <Layer4 r="1" g="1" b="1" power="1" alpha="1" shadow="1"/>
+            <Bloom enable="N" base="1.44" power="1.54"/>
+            <Glossiness enable="N" base="0" power="0"/>
+            <Height enable="N" depth="0.01"/>
+            <Layer depth="1" count="1" space="0.001" power="0"/>
+            <Surface rate="1" reflect="1" bright="1" bright_level="1" coarse="1" coarse_level="1" merge="1" power="1"/>
+            <Visible radius="1"/>
+         </Material>
+         <Camera type="ortho" center_front="1" center_back="0">
+            <Viewport angle="45" znear="184.38493182512332" zfar="278.12068142163173"/>
+            <Position x="224.25762894061316" y="195.1010638558674" z="-21.181545571118512"/>
+            <Direction x="-0.5184112632623575" y="-0.8296581800086765" z="0.20716434651603866" distance="202.6148453741629"/>
+            <Target x="119.21981099448612" y="27" z="20.793026465268163"/>
+            <Focal near="0" far="0" attenuation="0" range="0"/>
+         </Camera>
+      </Light>
+   </Region>
+   <Template/>
+   <Map valid="Y" focus="N" name="showcase.05" option_loaded="N" option_shadow="Y" option_fog="Y" option_reflect="N" option_refract="N">
+      <Matrix translation="120,10,60" rotation="0,0,0" scale="0.07788656582264944,0.07788656582264944,0.07788656582264944"/>
+      <Display valid="Y" name="pvw.showcase.004" option_loaded="N" option_shadow="Y" option_transmittance="N" shadow="auto" play_rate="1" src="pvw.showcase.004">
+         <Materials>
+            <Material name="pvw.showcase.004.01" option_shadow="Y" option_border="Y" option_transmittance="N">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha enable="N" base="0.2" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="0.668" shadow="1" camera_r="1" camera_g="1" camera_b="1" camera_power="0.412" camera_shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0.641" rate="1" average="1" shadow="1" camera_r="1" camera_g="1" camera_b="1" camera_power="1" camera_base="0.769" camera_rate="1" camera_average="1" camera_shadow="1"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Refract front_r="1" front_g="1" front_b="1" front_power="1" front_merge="1" front_shadow="1" back_r="1" back_g="1" back_b="1" back_power="0.1" back_merge="1" back_shadow="1"/>
+               <Opacity enable="N" r="1" g="1" b="1" power="1" rate="0.2" alpha="1" depth="0" transmittance="1"/>
+               <Emissive r="1" g="1" b="1" power="0"/>
+               <Layer1 r="1" g="1" b="1" power="1" alpha="1" shadow="1"/>
+               <Layer2 r="1" g="1" b="1" power="1" alpha="1" shadow="1"/>
+               <Layer3 r="1" g="1" b="1" power="1" alpha="1" shadow="1"/>
+               <Layer4 r="1" g="1" b="1" power="1" alpha="1" shadow="1"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="0" power="0"/>
+               <Height enable="N" depth="0"/>
+               <Layer depth="1" count="1" space="0.001" power="0"/>
+               <Surface rate="1" reflect="1" bright="1" bright_level="1" coarse="1" coarse_level="1" merge="1" power="1"/>
+               <Visible radius="1"/>
+               <Effect>
+                  <Water speed="0.01" depth="0.1"/>
+                  <Direction x="1" y="1" z="1" w="0"/>
+               </Effect>
+            </Material>
+         </Materials>
+         <Renderables>
+            <Renderable valid="N" id="1" config_id="0" name="ms_001_001" option_light="N" option_shadow="Y" option_double="N"/>
+         </Renderables>
+      </Display>
+   </Map>
+   <Space>
+      <Node valid="Y" focus="N" name="specular-07" type="still" option_loaded="N" option_shadow="Y" option_fog="Y" option_reflect="N" option_refract="N">
+         <Matrix translation="121.5533,14.1,43.1215" rotation="0,6.283185307179586,0" scale="0.5806,0.5806,0.5806"/>
+         <Display valid="Y" name="pvw.show.item.007" option_loaded="N" option_shadow="Y" option_transmittance="N" shadow="auto" play_rate="1" src="pvw.show.item.007">
+            <Matrix translation="0,0,0" rotation="0,8.833185307179532,0" scale="1,1,1"/>
+            <Movies>
+               <Movie type="rotation" tick="10" rotation="0,0.01,0"/>
+            </Movies>
+            <Materials>
+               <Material name="pvw.show.007.01" option_shadow="Y" option_border="Y" option_transmittance="N">
+                  <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+                  <Color min="0" max="1" merge="1" rate="1"/>
+                  <Alpha enable="N" base="0.2" rate="1" level="1" merge="1"/>
+                  <Ambient r="0.5843137254901961" g="0.5843137254901961" b="0.5843137254901961" power="0.692" shadow="0.994"/>
+                  <Diffuse r="0.5725490196078431" g="0.5843137254901961" b="0.5843137254901961" power="1.92" shadow="1" camera_r="1" camera_g="1" camera_b="1" camera_power="1" camera_shadow="1"/>
+                  <Specular r="0.5647058823529412" g="0.7843137254901961" b="0.8980392156862745" power="2.18" base="1" rate="1" average="1" shadow="1" camera_r="1" camera_g="1" camera_b="1" camera_power="1" camera_base="1" camera_rate="1" camera_average="1" camera_shadow="1"/>
+                  <Reflect r="0.5411764705882353" g="1.1725490196078432" b="1.223529411764706" power="5.321" merge="1.346" shadow="1"/>
+                  <Refract front_r="1" front_g="1" front_b="1" front_power="1" front_merge="1" front_shadow="1" back_r="1" back_g="1" back_b="1" back_power="0.1" back_merge="1" back_shadow="1"/>
+                  <Opacity enable="N" r="1" g="1" b="1" power="1" rate="0.2" alpha="1" depth="0" transmittance="0"/>
+                  <Emissive r="1" g="1" b="1" power="0"/>
+                  <Layer1 r="1" g="1" b="1" power="1" alpha="1" shadow="1"/>
+                  <Layer2 r="1" g="1" b="1" power="1" alpha="1" shadow="1"/>
+                  <Layer3 r="1" g="1" b="1" power="1" alpha="1" shadow="1"/>
+                  <Layer4 r="1" g="1" b="1" power="1" alpha="1" shadow="1"/>
+                  <Bloom enable="Y" base="1.02" power="1.12"/>
+                  <Glossiness enable="N" base="0" power="0"/>
+                  <Height enable="N" depth="0.01"/>
+                  <Layer depth="1" count="1" space="0.001" power="0"/>
+                  <Surface rate="1" reflect="1" bright="1" bright_level="1" coarse="1" coarse_level="1" merge="1" power="1"/>
+                  <Visible radius="1"/>
+                  <Effect>
+                     <Water speed="0.01" depth="0.1"/>
+                     <Direction x="1" y="1" z="1" w="0"/>
+                  </Effect>
+               </Material>
+            </Materials>
+            <Renderables>
+               <Renderable valid="N" id="2" config_id="0" name="ms_001_001" option_light="N" option_shadow="Y" option_double="N"/>
+            </Renderables>
+         </Display>
+      </Node>
+   </Space>
+</Scene>

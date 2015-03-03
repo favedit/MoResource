@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Template name="lgt.item.002" label="辟邪雕塑">
+    <Renderables count="1">
+      <Renderable id="0" model="\lgt\sta\0002" geometry="ms_001" material="\lgt\sta\0002" />
+    </Renderables>
+  </Template>
+</Configuration>

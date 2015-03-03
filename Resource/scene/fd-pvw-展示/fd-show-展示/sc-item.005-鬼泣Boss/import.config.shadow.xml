@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Scene version="1.0">
+   <TimeLine support="N" tick="3"/>
+   <Region technique="scene">
+      <Color r="0.21176470588235297" g="0.21176470588235297" b="0.2" a="1"/>
+      <Camera>
+         <Viewport round="4" znear="0.1" zfar="200"/>
+         <Position x="119.99767289427109" y="21" z="25.949045229078216"/>
+         <Target x="120" y="24" z="60"/>
+      </Camera>
+      <Light type="directional">
+         <Camera>
+            <Viewport round="6" znear="1" zfar="200"/>
+            <Position x="200" y="100" z="40"/>
+            <Target x="120" y="10" z="60"/>
+         </Camera>
+         <Matrix translation="0,0,0" rotation="0,0,0" scale="1,1,1"/>
+         <Center x="0" y="0" z="0" w="0"/>
+         <Option range="1" innerAngle="1" outerAngle="1" attenuation1="1" attenuation2="1" attenuation3="1"/>
+         <Bloom power_rate="0"/>
+         <Shadow base1="0" rate1="0" base2="0.00002945" rate2="0" ambient="0.486" diffuse="0.795" specular="0.685" level="0"/>
+         <Material>
+            <Power ambient="1" diffuse="1" specular="1" opacity="1"/>
+            <Color min="0" max="1" rate="1"/>
+            <Ambient r="1" g="1" b="1" a="0.51"/>
+            <Diffuse r="1" g="1" b="1" a="2.33"/>
+            <Specular r="1" g="1" b="1" a="1.36"/>
+            <SpecularLevel base="0.6026" rate="0.3333" average="0.2308"/>
+            <Emissive r="1" g="1" b="1" a="1"/>
+            <Reflect r="0.7843137254901961" g="0.39215686274509803" b="0.39215686274509803" a="1"/>
+            <Height depth="0.02"/>
+         </Material>
+      </Light>
+   </Region>
+   <Example/>
+   <Map valid="Y" name="test.001" force_loaded="N">
+      <Matrix translation="120,10,60" rotation="0,0,0" scale="1,1,1"/>
+      <Display valid="Y" src="test.001">
+         <Matrix translation="0,0,0" rotation="0,0,0" scale="1,1,1"/>
+         <Materials>
+            <Material name="mt_all">
+               <Power ambient="1" diffuse="1" specular="1" opacity="1"/>
+               <Color min="0" max="1" rate="1"/>
+               <Ambient r="1" g="1" b="1" a="0"/>
+               <Diffuse r="1" g="1" b="1" a="0.36"/>
+               <Specular r="1" g="1" b="1" a="0.36"/>
+               <SpecularLevel base="0" rate="0" average="0"/>
+               <Emissive r="1" g="1" b="1" a="1"/>
+               <Reflect r="0.7843137254901961" g="0.39215686274509803" b="0.39215686274509803" a="1"/>
+               <Height depth="0.02"/>
+               <Effect>
+                  <Water speed="0.1" depth="0.1"/>
+                  <Direction x="1" y="1" z="1" w="0"/>
+               </Effect>
+            </Material>
+         </Materials>
+         <Renderables>
+            <Renderable id="1" name="ms_all" option_light="N" option_shadow="Y"/>
+         </Renderables>
+      </Display>
+   </Map>
+   <Space>
+      <Node valid="Y" name="tst-scene-specular-04" type="still" force_loaded="N">
+         <Matrix translation="118.5,9.6,60" rotation="0,395,0" scale="0.28,0.28,0.28"/>
+         <Display valid="N" name="tst-scene-specular-04" src="preview.specular.005">
+            <Matrix translation="0,0,0" rotation="0,0,0" scale="1,1,1"/>
+            <Materials>
+               <Material name="mt_all">
+                  <Power ambient="1" diffuse="1" specular="1" opacity="1"/>
+                  <Color min="0" max="1" rate="1"/>
+                  <Ambient r="0.5843137254901961" g="0.5843137254901961" b="0.5843137254901961" a="0.33"/>
+                  <Diffuse r="0.5843137254901961" g="0.5843137254901961" b="0.5843137254901961" a="0.59"/>
+                  <Specular r="0.8980392156862745" g="0.8980392156862745" b="0.8980392156862745" a="1.79"/>
+                  <SpecularLevel base="0.3077" rate="1" average="0.0128"/>
+                  <Emissive r="0" g="0" b="0" a="0"/>
+                  <Reflect r="0.7843137254901961" g="0.39215686274509803" b="0.39215686274509803" a="1"/>
+                  <Height depth="0.02"/>
+                  <Effect>
+                     <Water speed="0.1" depth="0.1"/>
+                     <Direction x="1" y="1" z="1" w="0"/>
+                  </Effect>
+               </Material>
+            </Materials>
+            <Renderables>
+               <Renderable id="2" name="ms_all" option_light="N" option_shadow="Y"/>
+            </Renderables>
+         </Display>
+      </Node>
+   </Space>
+</Scene>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Template name="pvw.sky.002" label="黄昏天空球">
+    <Renderables count="1">
+      <Renderable model="\sky\002" geometry="ms_all" material="\sky\002">
+        <Matrix tx="0" ty="0" tz="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+    </Renderables>
+  </Template>
+</Configuration>

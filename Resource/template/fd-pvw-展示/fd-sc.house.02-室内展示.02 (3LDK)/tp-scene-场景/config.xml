@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Template name="pvw.scene.house.002" label="室内展示 (3LDK)" Loaded="2">
+    <Renderables count="102">
+      <Renderable id="0" model="\pvw\sc.house.02\bld\0001" geometry="ms_001_001" material="\pvw\sc.house.02\bld\001">
+        <Matrix tx="0" ty="-34.48785" tz="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="1" model="\pvw\sc.house.02\bld\0001" geometry="ms_001_006" material="\pvw\sc.house.02\bld\006">
+        <Matrix tx="0" ty="-34.48785" tz="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="2" model="\pvw\sc.house.02\bld\0001" geometry="ms_001_005" material="\pvw\sc.house.02\bld\005">
+        <Matrix tx="0" ty="-34.48785" tz="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="3" model="\pvw\sc.house.02\bld\0001" geometry="ms_001_004" material="\pvw\sc.house.02\bld\004">
+        <Matrix tx="0" ty="-34.48785" tz="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="4" model="\pvw\sc.house.02\bld\0001" geometry="ms_001_003" material="\pvw\sc.house.02\bld\003">
+        <Matrix tx="0" ty="-34.48785" tz="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="5" model="\pvw\sc.house.02\bld\0001" geometry="ms_001_002" material="\pvw\sc.house.02\bld\002">
+        <Matrix tx="0" ty="-34.48785" tz="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="6" model="\pvw\sc.house.02\bld\0002" geometry="ms_001_001" material="\pvw\sc.house.02\bld\010">
+        <Matrix tx="0" ty="-34.48785" tz="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="7" model="\pvw\sc.house.02\bld\0002" geometry="ms_001_003" material="\pvw\sc.house.02\bld\008">
+        <Matrix tx="0" ty="-34.48785" tz="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="8" model="\pvw\sc.house.02\bld\0002" geometry="ms_001_002" material="\pvw\sc.house.02\bld\009">
+        <Matrix tx="0" ty="-34.48785" tz="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="9" model="\pvw\sc.house.02\bld\0002" geometry="ms_001_005" material="\pvw\sc.house.02\bld\007">
+        <Matrix tx="0" ty="-34.48785" tz="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="10" model="\pvw\sc.house.02\bld\0002" geometry="ms_001_004" material="\pvw\sc.house.02\bld\011">
+        <Matrix tx="0" ty="-34.48785" tz="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="11" model="\pvw\sc.house.02\bld\0002" geometry="ms_001_006" material="\pvw\sc.house.02\bld\012">
+        <Matrix tx="0" ty="-34.48785" tz="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="12" model="\pvw\sc.house.02\bld\0002" geometry="ms_001_007" material="\pvw\sc.house.02\bld\013">
+        <Matrix tx="0" ty="-34.48785" tz="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="13" model="\pvw\sc.house.02\bld\0002" geometry="ms_001_008" material="\pvw\sc.house.02\bld\014">
+        <Matrix tx="0" ty="-34.48785" tz="0" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="14" model="\pvw\sc.house.02\dec\0001" geometry="ms_001_001" material="\pvw\sc.house.02\dec\034">
+        <Matrix tx="-338.0502" ty="-34.48785" tz="195.7747" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="15" model="\pvw\sc.house.02\dec\0002" geometry="ms_001_001" material="\pvw\sc.house.02\dec\035">
+        <Matrix tx="65.98369" ty="-34.48785" tz="-253.3859" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="16" model="\pvw\sc.house.02\dec\0003" geometry="ms_001_002" material="\pvw\sc.house.02\dec\003">
+        <Matrix tx="-363.4521" ty="-34.48785" tz="69.39514" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="17" model="\pvw\sc.house.02\dec\0003" geometry="ms_001_003" material="\pvw\sc.house.02\dec\002">
+        <Matrix tx="-363.4521" ty="-34.48785" tz="69.39514" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="18" model="\pvw\sc.house.02\dec\0003" geometry="ms_001_004" material="\pvw\sc.house.02\dec\001">
+        <Matrix tx="-363.4521" ty="-34.48785" tz="69.39514" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="19" model="\pvw\sc.house.02\dec\0003" geometry="ms_001_001" material="\pvw\sc.house.02\dec\058">
+        <Matrix tx="-363.4521" ty="-34.48785" tz="69.39514" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="20" model="\pvw\sc.house.02\dec\0004" geometry="ms_001_001" material="\pvw\sc.house.02\dec\036">
+        <Matrix tx="-89.23074" ty="-34.48785" tz="-73.49796" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="21" model="\pvw\sc.house.02\dec\0005" geometry="ms_001_001" material="\pvw\sc.house.02\dec\004">
+        <Matrix tx="-50.28534" ty="-34.48785" tz="374.3647" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="22" model="\pvw\sc.house.02\dec\0006" geometry="ms_001_001" material="\pvw\sc.house.02\dec\005">
+        <Matrix tx="-173.0179" ty="-34.48785" tz="325.7984" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="23" model="\pvw\sc.house.02\dec\0007" geometry="ms_001_001" material="\pvw\sc.house.02\dec\006">
+        <Matrix tx="424.4174" ty="-34.48785" tz="299.3957" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="24" model="\pvw\sc.house.02\dec\0008" geometry="ms_001_001" material="\pvw\sc.house.02\dec\037">
+        <Matrix tx="602.6119" ty="137.4125" tz="48.72727" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="25" model="\pvw\sc.house.02\dec\0009" geometry="ms_001_001" material="\pvw\sc.house.02\dec\007">
+        <Matrix tx="472.6154" ty="-34.48785" tz="-509.8422" rx="0" ry="0" rz="3.141593" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="26" model="\pvw\sc.house.02\dec\0010" geometry="ms_001_002" material="\pvw\sc.house.02\dec\040">
+        <Matrix tx="561.7447" ty="-34.48785" tz="-623.8208" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="27" model="\pvw\sc.house.02\dec\0010" geometry="ms_001_001" material="\pvw\sc.house.02\dec\008">
+        <Matrix tx="561.7447" ty="-34.48785" tz="-623.8208" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="28" model="\pvw\sc.house.02\dec\0011" geometry="ms_001_001" material="\pvw\sc.house.02\dec\009">
+        <Matrix tx="393.3275" ty="-34.48785" tz="-66.00397" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="29" model="\pvw\sc.house.02\dec\0011" geometry="ms_001_003" material="\pvw\sc.house.02\dec\060">
+        <Matrix tx="393.3275" ty="-34.48785" tz="-66.00397" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="30" model="\pvw\sc.house.02\dec\0011" geometry="ms_001_002" material="\pvw\sc.house.02\dec\038">
+        <Matrix tx="393.3275" ty="-34.48785" tz="-66.00397" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="31" model="\pvw\sc.house.02\dec\0012" geometry="ms_001_001" material="\pvw\sc.house.02\dec\039">
+        <Matrix tx="393.6561" ty="-34.48785" tz="-168.6359" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="32" model="\pvw\sc.house.02\dec\0013" geometry="ms_001_002" material="\pvw\sc.house.02\dec\011">
+        <Matrix tx="-150.414" ty="132.6933" tz="-282.4449" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="33" model="\pvw\sc.house.02\dec\0013" geometry="ms_001_001" material="\pvw\sc.house.02\dec\010">
+        <Matrix tx="-150.414" ty="132.6933" tz="-282.4449" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="34" model="\pvw\sc.house.02\dec\0014" geometry="ms_001_001" material="\pvw\sc.house.02\dec\012">
+        <Matrix tx="101.8335" ty="99.12659" tz="-439.4845" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="35" model="\pvw\sc.house.02\dec\0015" geometry="ms_001_001" material="\pvw\sc.house.02\dec\013">
+        <Matrix tx="168.3855" ty="80.90897" tz="229.7921" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="36" model="\pvw\sc.house.02\dec\0016" geometry="ms_001_001" material="\pvw\sc.house.02\dec\014">
+        <Matrix tx="-250.7066" ty="121.1578" tz="514.8813" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="37" model="\pvw\sc.house.02\dec\0017" geometry="ms_001_002" material="\pvw\sc.house.02\dec\015">
+        <Matrix tx="585.1426" ty="142.1635" tz="-753.22" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="38" model="\pvw\sc.house.02\dec\0017" geometry="ms_001_001" material="\pvw\sc.house.02\bld\009">
+        <Matrix tx="585.1426" ty="142.1635" tz="-753.22" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="39" model="\pvw\sc.house.02\dec\0018" geometry="ms_001_001" material="\pvw\sc.house.02\dec\041">
+        <Matrix tx="-68.49751" ty="1.801472" tz="-73.05943" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="40" model="\pvw\sc.house.02\dec\0019" geometry="ms_001_001" material="\pvw\sc.house.02\dec\042">
+        <Matrix tx="-88.72845" ty="1.378445" tz="-59.28684" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="41" model="\pvw\sc.house.02\dec\0020" geometry="ms_001_001" material="\pvw\sc.house.02\dec\043">
+        <Matrix tx="-143.2418" ty="-14.31503" tz="91.37965" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="42" model="\pvw\sc.house.02\dec\0021" geometry="ms_001_001" material="\pvw\sc.house.02\dec\044">
+        <Matrix tx="-112.2227" ty="-14.31342" tz="90.28514" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="43" model="\pvw\sc.house.02\dec\0022" geometry="ms_001_001" material="\pvw\sc.house.02\dec\016">
+        <Matrix tx="600.1533" ty="-34.48785" tz="40.41653" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="44" model="\pvw\sc.house.02\dec\0023" geometry="ms_001_001" material="\pvw\sc.house.02\dec\017">
+        <Matrix tx="632.2662" ty="-34.48785" tz="-220.6013" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="45" model="\pvw\sc.house.02\dec\0024" geometry="ms_001_001" material="\pvw\sc.house.02\dec\018">
+        <Matrix tx="-341.7057" ty="34.50298" tz="179.7338" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="46" model="\pvw\sc.house.02\dec\0025" geometry="ms_001_001" material="\pvw\sc.house.02\dec\019">
+        <Matrix tx="-119.23" ty="47.87836" tz="84.83995" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="47" model="\pvw\sc.house.02\dec\0026" geometry="ms_001_001" material="\pvw\sc.house.02\dec\045">
+        <Matrix tx="561.4455" ty="35.81466" tz="-636.9875" rx="0" ry="-1.791595" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="48" model="\pvw\sc.house.02\dec\0027" geometry="ms_001_001" material="\pvw\sc.house.02\dec\020">
+        <Matrix tx="-137.3504" ty="18.17326" tz="487.573" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="49" model="\pvw\sc.house.02\dec\0027" geometry="ms_001_001" material="\pvw\sc.house.02\dec\020">
+        <Matrix tx="-367.5754" ty="18.17326" tz="487.573" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="50" model="\pvw\sc.house.02\dec\0028" geometry="ms_001_002" material="\pvw\sc.house.02\dec\046">
+        <Matrix tx="-340.449" ty="-34.48785" tz="-261.0792" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="51" model="\pvw\sc.house.02\dec\0028" geometry="ms_001_001" material="\pvw\sc.house.02\dec\021">
+        <Matrix tx="-340.449" ty="-34.48785" tz="-261.0792" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="52" model="\pvw\sc.house.02\dec\0029" geometry="ms_001_001" material="\pvw\sc.house.02\dec\022">
+        <Matrix tx="-157.3019" ty="-34.48785" tz="-110.5628" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="53" model="\pvw\sc.house.02\dec\0030" geometry="ms_001_002" material="\pvw\sc.house.02\dec\024">
+        <Matrix tx="-146.0425" ty="-34.48785" tz="-195.8708" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="54" model="\pvw\sc.house.02\dec\0030" geometry="ms_001_001" material="\pvw\sc.house.02\dec\023">
+        <Matrix tx="-146.0425" ty="-34.48785" tz="-195.8708" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="55" model="\pvw\sc.house.02\dec\0031" geometry="ms_001_001" material="\pvw\sc.house.02\dec\025">
+        <Matrix tx="-251.2103" ty="-34.48785" tz="407.5974" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="56" model="\pvw\sc.house.02\dec\0032" geometry="ms_001_001" material="\pvw\sc.house.02\dec\026">
+        <Matrix tx="581.5255" ty="-34.48785" tz="264.2083" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="57" model="\pvw\sc.house.02\dec\0033" geometry="ms_001_001" material="\pvw\sc.house.02\dec\027">
+        <Matrix tx="473.9727" ty="-34.48785" tz="-761.1046" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="58" model="\pvw\sc.house.02\dec\0034" geometry="ms_001_001" material="\pvw\sc.house.02\dec\047">
+        <Matrix tx="392.9417" ty="-34.48785" tz="53.08519" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="59" model="\pvw\sc.house.02\dec\0035" geometry="ms_001_001" material="\pvw\sc.house.02\dec\048">
+        <Matrix tx="401.4013" ty="-34.48785" tz="9.902466" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="60" model="\pvw\sc.house.02\dec\0035" geometry="ms_001_002" material="\pvw\sc.house.02\dec\049">
+        <Matrix tx="401.4013" ty="-34.48785" tz="9.902466" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="61" model="\pvw\sc.house.02\dec\0035" geometry="ms_001_003" material="\pvw\sc.house.02\dec\059">
+        <Matrix tx="401.4013" ty="-34.48785" tz="9.902466" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="62" model="\pvw\sc.house.02\dec\0035" geometry="ms_001_001" material="\pvw\sc.house.02\dec\048">
+        <Matrix tx="319.3347" ty="-34.48785" tz="18.52461" rx="0" ry="-0.7131181" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="63" model="\pvw\sc.house.02\dec\0035" geometry="ms_001_002" material="\pvw\sc.house.02\dec\049">
+        <Matrix tx="319.3347" ty="-34.48785" tz="18.52461" rx="0" ry="-0.7131181" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="64" model="\pvw\sc.house.02\dec\0035" geometry="ms_001_003" material="\pvw\sc.house.02\dec\059">
+        <Matrix tx="319.3347" ty="-34.48785" tz="18.52461" rx="0" ry="-0.7131181" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="65" model="\pvw\sc.house.02\dec\0036" geometry="ms_001_001" material="\pvw\sc.house.02\dec\028">
+        <Matrix tx="-297.8982" ty="-34.48785" tz="233.6871" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="66" model="\pvw\sc.house.02\dec\0036" geometry="ms_001_001" material="\pvw\sc.house.02\dec\028">
+        <Matrix tx="454.5737" ty="-34.48785" tz="-572.9752" rx="0" ry="2.340233" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="67" model="\pvw\sc.house.02\dec\0037" geometry="ms_001_001" material="\pvw\sc.house.02\dec\029">
+        <Matrix tx="-412.5907" ty="-34.48785" tz="73.84213" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="68" model="\pvw\sc.house.02\dec\0037" geometry="ms_001_001" material="\pvw\sc.house.02\dec\029">
+        <Matrix tx="-412.5907" ty="-34.48785" tz="-136.2855" rx="0" ry="0" rz="3.141593" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="69" model="\pvw\sc.house.02\dec\0037" geometry="ms_001_001" material="\pvw\sc.house.02\dec\029">
+        <Matrix tx="653.908" ty="-34.48785" tz="-20.52457" rx="3.141593" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="70" model="\pvw\sc.house.02\dec\0037" geometry="ms_001_001" material="\pvw\sc.house.02\dec\029">
+        <Matrix tx="653.908" ty="-34.48785" tz="-141.7014" rx="0" ry="-3.141593" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="71" model="\pvw\sc.house.02\dec\0038" geometry="ms_001_001" material="\pvw\sc.house.02\dec\029">
+        <Matrix tx="260.5286" ty="32.81171" tz="453.1024" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="72" model="\pvw\sc.house.02\dec\0039" geometry="ms_001_001" material="\pvw\sc.house.02\dec\030">
+        <Matrix tx="169.2482" ty="-34.48785" tz="402.6042" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="73" model="\pvw\sc.house.02\dec\0039" geometry="ms_001_001" material="\pvw\sc.house.02\dec\030">
+        <Matrix tx="252.3669" ty="-34.48785" tz="296.7124" rx="0" ry="3.141593" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="74" model="\pvw\sc.house.02\dec\0040" geometry="ms_001_002" material="\pvw\sc.house.02\dec\061">
+        <Matrix tx="147.0658" ty="-34.48785" tz="293.6296" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="75" model="\pvw\sc.house.02\dec\0040" geometry="ms_001_001" material="\pvw\sc.house.02\dec\031">
+        <Matrix tx="147.0658" ty="-34.48785" tz="293.6296" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="76" model="\pvw\sc.house.02\dec\0041" geometry="ms_001_001" material="\pvw\sc.house.02\dec\032">
+        <Matrix tx="50.34579" ty="-8.284149" tz="430.0016" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="77" model="\pvw\sc.house.02\dec\0041" geometry="ms_001_001" material="\pvw\sc.house.02\dec\032">
+        <Matrix tx="319.0519" ty="-8.284149" tz="430.0016" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="78" model="\pvw\sc.house.02\dec\0042" geometry="ms_001_006" material="\pvw\sc.house.02\dec\053">
+        <Matrix tx="487.9337" ty="-34.48785" tz="-356.6626" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="79" model="\pvw\sc.house.02\dec\0042" geometry="ms_001_008" material="\pvw\sc.house.02\dec\055">
+        <Matrix tx="487.9337" ty="-34.48785" tz="-356.6626" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="80" model="\pvw\sc.house.02\dec\0042" geometry="ms_001_003" material="\pvw\sc.house.02\dec\051">
+        <Matrix tx="487.9337" ty="-34.48785" tz="-356.6626" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="81" model="\pvw\sc.house.02\dec\0042" geometry="ms_001_007" material="\pvw\sc.house.02\dec\054">
+        <Matrix tx="487.9337" ty="-34.48785" tz="-356.6626" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="82" model="\pvw\sc.house.02\dec\0042" geometry="ms_001_009" material="\pvw\sc.house.02\dec\056">
+        <Matrix tx="487.9337" ty="-34.48785" tz="-356.6626" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="83" model="\pvw\sc.house.02\dec\0042" geometry="ms_001_005" material="\pvw\sc.house.02\dec\033">
+        <Matrix tx="487.9337" ty="-34.48785" tz="-356.6626" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="84" model="\pvw\sc.house.02\dec\0042" geometry="ms_001_004" material="\pvw\sc.house.02\dec\052">
+        <Matrix tx="487.9337" ty="-34.48785" tz="-356.6626" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="85" model="\pvw\sc.house.02\dec\0042" geometry="ms_001_002" material="\pvw\sc.house.02\dec\050">
+        <Matrix tx="487.9337" ty="-34.48785" tz="-356.6626" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="86" model="\pvw\sc.house.02\dec\0042" geometry="ms_001_001" material="\pvw\sc.house.02\dec\057">
+        <Matrix tx="487.9337" ty="-34.48785" tz="-356.6626" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="87" model="\pvw\sc.house.02\dec\0011" geometry="ms_001_001" material="\pvw\sc.house.02\dec\009">
+        <Matrix tx="455.161" ty="-34.48785" tz="-128.2621" rx="0" ry="1.570796" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="88" model="\pvw\sc.house.02\dec\0011" geometry="ms_001_002" material="\pvw\sc.house.02\dec\038">
+        <Matrix tx="455.161" ty="-34.48785" tz="-128.2621" rx="0" ry="1.570796" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="89" model="\pvw\sc.house.02\dec\0011" geometry="ms_001_003" material="\pvw\sc.house.02\dec\060">
+        <Matrix tx="455.161" ty="-34.48785" tz="-128.2621" rx="0" ry="1.570796" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="90" model="\pvw\sc.house.02\dec\0011" geometry="ms_001_001" material="\pvw\sc.house.02\dec\009">
+        <Matrix tx="455.161" ty="-34.48785" tz="-208.4403" rx="0" ry="1.570796" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="91" model="\pvw\sc.house.02\dec\0011" geometry="ms_001_002" material="\pvw\sc.house.02\dec\038">
+        <Matrix tx="455.161" ty="-34.48785" tz="-208.4403" rx="0" ry="1.570796" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="92" model="\pvw\sc.house.02\dec\0011" geometry="ms_001_003" material="\pvw\sc.house.02\dec\060">
+        <Matrix tx="455.161" ty="-34.48785" tz="-208.4403" rx="0" ry="1.570796" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="93" model="\pvw\sc.house.02\dec\0011" geometry="ms_001_001" material="\pvw\sc.house.02\dec\009">
+        <Matrix tx="331.8112" ty="-34.48785" tz="-208.415" rx="0" ry="-1.570796" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="94" model="\pvw\sc.house.02\dec\0011" geometry="ms_001_002" material="\pvw\sc.house.02\dec\038">
+        <Matrix tx="331.8112" ty="-34.48785" tz="-208.415" rx="0" ry="-1.570796" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="95" model="\pvw\sc.house.02\dec\0011" geometry="ms_001_003" material="\pvw\sc.house.02\dec\060">
+        <Matrix tx="331.8112" ty="-34.48785" tz="-208.415" rx="0" ry="-1.570796" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="96" model="\pvw\sc.house.02\dec\0011" geometry="ms_001_001" material="\pvw\sc.house.02\dec\009">
+        <Matrix tx="331.8112" ty="-34.48785" tz="-128.2368" rx="0" ry="-1.570796" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="97" model="\pvw\sc.house.02\dec\0011" geometry="ms_001_002" material="\pvw\sc.house.02\dec\038">
+        <Matrix tx="331.8112" ty="-34.48785" tz="-128.2368" rx="0" ry="-1.570796" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="98" model="\pvw\sc.house.02\dec\0011" geometry="ms_001_003" material="\pvw\sc.house.02\dec\060">
+        <Matrix tx="331.8112" ty="-34.48785" tz="-128.2368" rx="0" ry="-1.570796" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="99" model="\pvw\sc.house.02\dec\0011" geometry="ms_001_001" material="\pvw\sc.house.02\dec\009">
+        <Matrix tx="393.3022" ty="-34.48785" tz="-272.1603" rx="0" ry="3.141593" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="100" model="\pvw\sc.house.02\dec\0011" geometry="ms_001_003" material="\pvw\sc.house.02\dec\060">
+        <Matrix tx="393.3022" ty="-34.48785" tz="-272.1603" rx="0" ry="3.141593" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="101" model="\pvw\sc.house.02\dec\0011" geometry="ms_001_002" material="\pvw\sc.house.02\dec\038">
+        <Matrix tx="393.3022" ty="-34.48785" tz="-272.1603" rx="0" ry="3.141593" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+    </Renderables>
+  </Template>
+</Configuration>

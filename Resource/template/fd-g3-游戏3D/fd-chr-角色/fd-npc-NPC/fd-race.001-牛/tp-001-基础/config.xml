@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Template name="\g3\chr\npc\race.001\001" label="基础" option_loaded="0" option_merge="0">
+    <Renderables count="1">
+      <Renderable id="1" model="\g3\chr\npc\race.001\001" geometry="ms_001" material="\g3\chr\npc\race.001\001" option_select="0" option_ground="0" />
+    </Renderables>
+    <Animation />
+  </Template>
+</Configuration>

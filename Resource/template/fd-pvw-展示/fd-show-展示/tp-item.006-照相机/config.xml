@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Template name="\pvw\show\item.006" label="照相机" option_loaded="0" option_select="0" option_merge="0" option_light_map="0">
+    <Renderables count="23">
+      <Renderable id="1" model="\pvw\show\item.006" geometry="ms_001_001" material="\pvw\show\006.01" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="2" model="\pvw\show\item.006" geometry="ms_001_002" material="\pvw\show\006.01" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="3" model="\pvw\show\item.006" geometry="ms_001_003" material="\pvw\show\006.01" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="4" model="\pvw\show\item.006" geometry="ms_002_001" material="\pvw\show\006.02" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="5" model="\pvw\show\item.006" geometry="ms_003_001" material="\pvw\show\006.03" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="6" model="\pvw\show\item.006" geometry="ms_003_002" material="\pvw\show\006.03" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="7" model="\pvw\show\item.006" geometry="ms_003_003" material="\pvw\show\006.03" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="8" model="\pvw\show\item.006" geometry="ms_003_004" material="\pvw\show\006.03" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="9" model="\pvw\show\item.006" geometry="ms_003_005" material="\pvw\show\006.03" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="10" model="\pvw\show\item.006" geometry="ms_003_006" material="\pvw\show\006.03" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="11" model="\pvw\show\item.006" geometry="ms_003_007" material="\pvw\show\006.03" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="12" model="\pvw\show\item.006" geometry="ms_003_008" material="\pvw\show\006.03" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="13" model="\pvw\show\item.006" geometry="ms_003_009" material="\pvw\show\006.03" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="14" model="\pvw\show\item.006" geometry="ms_003_010" material="\pvw\show\006.03" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="15" model="\pvw\show\item.006" geometry="ms_003_012" material="\pvw\show\006.03" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="16" model="\pvw\show\item.006" geometry="ms_003_013" material="\pvw\show\006.03" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="17" model="\pvw\show\item.006" geometry="ms_003_014" material="\pvw\show\006.03" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="18" model="\pvw\show\item.006" geometry="ms_003_015" material="\pvw\show\006.03" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="19" model="\pvw\show\item.006" geometry="ms_004_001" material="\pvw\show\006.04" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="20" model="\pvw\show\item.006" geometry="ms_005_001" material="\pvw\show\006.05" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="21" model="\pvw\show\item.006" geometry="ms_006_001" material="\pvw\show\006.06" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="22" model="\pvw\show\item.006" geometry="ms_007_001" material="\pvw\show\006.07" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="23" model="\pvw\show\item.006" geometry="ms_008_001" material="\pvw\show\006.08" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+    </Renderables>
+    <Animation />
+  </Template>
+</Configuration>

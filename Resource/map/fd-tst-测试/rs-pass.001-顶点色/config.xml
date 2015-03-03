@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="GB2312"?>
+<M3XRoot version="1.0">
+   <MaterialList>
+      <Material name='mt_001'>
+         <TextureList>
+            <Texture type='color'  src='rs_color.jpg'/>
+            <Texture type='normal' src='rs_normal.jpg'/>
+         </TextureList>
+      </Material>
+      <Material name='mt_002'>
+         <TextureList>
+            <Texture type='color'  src='rs_color.jpg'/>
+            <Texture type='normal' src='rs_normal.jpg'/>
+         </TextureList>
+      </Material>
+      <Material name='mt_003'>
+         <TextureList>
+            <Texture type='color'  src='rs_ground.jpg'/>
+         </TextureList>
+      </Material>
+   </MaterialList>
+   <Mesh>
+      <SubMesh valid='Y' name="ms_001"   material='mt_001' />
+      <SubMesh valid='Y' name="ms_002"   material='mt_001' />
+      <SubMesh valid='Y' name="ms_003"   material='mt_003' />
+      <SubMesh valid='Y' name="ms_004"   material='mt_003' />
+      <SubMesh valid='Y' name="ms_005"   material='mt_003' />
+      <SubMesh valid='Y' name="ms_006"   material='mt_003' />
+   </Mesh>
+</M3XRoot>

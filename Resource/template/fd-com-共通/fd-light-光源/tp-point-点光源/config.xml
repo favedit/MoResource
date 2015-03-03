@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Template name="com.light.point" label="点光源">
+    <Renderables count="1">
+      <Renderable id="0" model="\com\light\point" geometry="ms_light" material="\com\light\point" />
+    </Renderables>
+  </Template>
+</Configuration>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Template name="pvw.scene.car.car.001" label="汽车.奥迪">
+    <Renderables count="97">
+      <Renderable model="\pvw\sc.science\item.002" geometry='ms_001_001' material='\pvw\sc.science\002.01'/>
+      <Renderable model="\pvw\sc.science\item.002" geometry='ms_002_001' material='\pvw\sc.science\002.02'/>
+      <Renderable model="\pvw\sc.science\item.002" geometry='ms_003_001' material='\pvw\sc.science\002.03'/>
+      <Renderable model="\pvw\sc.science\item.002" geometry='ms_004_001' material='\pvw\sc.science\002.04'/>
+      <Renderable model="\pvw\sc.science\item.002" geometry='ms_005_001' material='\pvw\sc.science\002.05'/>
+      <Renderable model="\pvw\sc.science\item.002" geometry='ms_006_001' material='\pvw\sc.science\002.06'/>
+    </Renderables>
+  </Template>
+</Configuration>

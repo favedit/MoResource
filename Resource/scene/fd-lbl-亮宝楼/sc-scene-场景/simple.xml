@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Scene name="root" version="1.0">
+   <Technique name="simple">
+      <Pass name="simple"/>
+   </Technique>
+   <Region>
+      <Color r="0.062745101749897" g="0.2705881893634796" b="1" power="0.4099999964237213"/>
+      <Fog near="0.204998" far="0.230000" rate="2.179500" attenuation="2.440000" r="0.06666667014360428" g="0.1411765068769455" b="0.23137259483337402" power="0.6200000047683716"/>
+      <Camera type_name="perspective">
+         <Center front="1" back="0.17900000512599945"/>
+         <Position x="572.2732103796662" y="89.96188987022734" z="912.5367180792649"/>
+         <Direction x="-0.7264660845032794" y="-0.029237209886776156" z="-0.6865800853684226"/>
+         <Focal near="0" far="1"/>
+         <Viewport angle="20.799999237060547" near="1" far="2000"/>
+      </Camera>
+      <Light type_name="directional" option_track="0">
+         <Shadow base1="0.0000128" rate1="0.046" level1="0" range1="0" base2="0" rate2="0.046" level2="0" range2="0" base3="0" rate3="0.1" level3="0" range3="0" ambient_min="0" ambient_max="0" ambient_thick="0" ambient_range="0" merge1_base="0" merge1_rate="0" merge2_base="0" merge2_rate="0"/>
+         <Material option_alpha="0" option_double="0" option_border="2" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+            <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+            <Coord rate_width="1" rate_height="1"/>
+            <Color min="0" max="1" merge="0.423" rate="0.859"/>
+            <Alpha base="1" rate="1" level="1" merge="1"/>
+            <Ambient r="0.6705882352941176" g="0.7450980392156863" b="0.8627450980392157" power="0.512" shadow="0.142"/>
+            <Diffuse r="1.2156862745098038" g="1.1529411764705881" b="1.0901960784313725" power="0.54" shadow="0.652"/>
+            <DiffuseView r="1.0274509803921568" g="1.0666666666666667" b="0.9019607843137255" power="0.432" shadow="0.6"/>
+            <Specular r="0.7803921568627451" g="1.0509803921568628" b="1.011764705882353" power="2.24" base="1.922" rate="42.27" average="0.2178" shadow="1"/>
+            <SpecularView r="0.8980392156862745" g="0.9882352941176471" b="0.8431372549019608" power="3" base="2.051" rate="31.39" average="0.1089" shadow="1"/>
+            <Reflect r="0.792156862745098" g="0.3764705882352941" b="0.4117647058823529" power="0" merge="1" shadow="1"/>
+            <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+            <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+            <Opacity r="1" g="1" b="1" power="0" rate="1" alpha="1" depth="1" transmittance="1"/>
+            <Emissive r="1" g="1" b="1" power="0"/>
+            <Bloom enable="N" base="1" power="0"/>
+            <Glossiness enable="N" base="0" power="0"/>
+            <Height depth="0"/>
+            <Layer depth="1" count="1" space="0.001" power="0"/>
+            <Surface rate="1" reflect="1" bright="1" bright_level="1" coarse="1" coarse_level="1" merge="1" power="1"/>
+            <Visible radius="1"/>
+         </Material>
+         <Camera type_name="perspective">
+            <Center front="1" back="0"/>
+            <Position x="-1000" y="1000" z="-1000"/>
+            <Direction x="0.405" y="-0.787" z="0.46"/>
+            <Focal near="0" far="1"/>
+            <Viewport angle="90" near="0" far="0"/>
+         </Camera>
+      </Light>
+   </Region>
+   <Map valid="Y" option_visible="0" option_depth="0" option_light="0" option_shadow="2" option_double="0" option_transmittance="0" option_loaded="0" option_select="0" option_ground="0" option_instanced="0" focus="N">
+      <Display valid="Y" name="lbl.scene" option_visible="2" option_depth="2" option_light="0" option_shadow="2" option_double="0" option_transmittance="0" option_loaded="0" option_select="0" option_ground="0" option_instanced="0" source="lbl.scene" shadow="auto" play_rate="1">
+         <Matrix translation="120,0,60" rotation="0,0,0" scale="1,1,1"/>
+         <Materials>
+            <Material name="lbl.bld.0001" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.bld.0002" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.bld.0003" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="0.10000000149011612" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.bld.0004" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.bld.0005" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.dec.0001" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.dec.0002" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.dec.0003" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.dec.0004" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.dec.0005" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.dec.0006" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="1" rate="0.262800008058548" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="0.10000000149011612" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.dec.0011" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.dec.0012" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.dec.0013" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.dec.0014" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.dec.0015" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.dec.0016" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.dec.0017" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.dec.0018" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.dec.0019" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.dec.0020" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.dec.0021" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.pic.0001" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.pic.0002" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.pic.0003" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.pic.0004" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.pic.0005" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.pic.0006" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="lbl.pic.0007" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.4000000059604645" rate="1" level="1" merge="1"/>
+               <Ambient r="1" g="1" b="1" power="1" shadow="1"/>
+               <Diffuse r="1" g="1" b="1" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="0" alpha="0" depth="0" transmittance="0"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="0" reflect="0" bright="0" bright_level="0" coarse="0" coarse_level="0" merge="0" power="0"/>
+               <Visible radius="1"/>
+            </Material>
+         </Materials>
+      </Display>
+   </Map>
+   <Space valid="Y" option_visible="0" option_depth="0" option_light="0" option_shadow="2" option_double="0" option_transmittance="0" option_loaded="0" option_select="0" option_ground="0" option_instanced="0" focus="N"/>
+</Scene>

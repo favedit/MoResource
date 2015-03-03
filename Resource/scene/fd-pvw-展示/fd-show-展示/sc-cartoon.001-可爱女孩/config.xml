@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Scene name="root" version="1.0" theme_code="shadow">
+   <Technique name="cartoon">
+      <Pass group="light.depth" name="light.depth" render_target_size="2048,2048"/>
+      <Pass group="camera.distance" name="camera.distance"/>
+      <Pass group="line" name="line"/>
+      <Pass group="blur" name="blur"/>
+      <Pass group="cartoon" name="cartoon"/>
+      <Pass group="cartoon.merge" name="cartoon.merge"/>
+   </Technique>
+   <Region>
+      <Color r="0.16862750053405762" g="0.16862750053405762" b="0.21960780024528503" power="1.2599999904632568"/>
+      <ColorLevel r="255" g="255" b="255" a="1"/>
+      <Fog near="0" far="0" rate="2.179500" attenuation="0" r="0" g="1" b="1" power="1.159999966621399"/>
+      <Edge rate="0.000057" level="16.34116" width="0" r="1" g="1" b="1" power="0.6700000166893005"/>
+      <Face range="0" limit="0" rate="0"/>
+      <Camera type_name="perspective">
+         <Center front="1" back="0"/>
+         <Position x="38.89717102050781" y="35.1988410949707" z="-0.007264519110321999"/>
+         <Direction x="-0.959043025970459" y="-0.2831538915634155" z="0.007765532936900854"/>
+         <Focal near="0" far="1"/>
+         <Viewport angle="25.299999237060547" near="0.10000000149011612" far="211"/>
+      </Camera>
+      <Light type_name="directional" option_track="2">
+         <Shadow base1="0.004679400008171797" rate1="0.7039999961853027" level1="0.0070500001311302185" range1="0.8330000042915344" base2="0.0000019000000293090125" rate2="0" level2="0" range2="0" base3="0" rate3="0" level3="0" range3="0" ambient_min="0" ambient_max="0" ambient_thick="0" ambient_range="0" merge1_base="0" merge1_rate="0" merge2_base="0" merge2_rate="0"/>
+         <Material option_merge="0" option_depth="0" option_compare="less" option_alpha="0" option_double="0" option_border="2" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0" sort_level="0">
+            <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+            <Coord rate_width="1" rate_height="1"/>
+            <Color min="1" max="1" merge="0.5" rate="1.4620000123977661"/>
+            <Alpha base="0.20000000298023224" rate="1" level="1" merge="1"/>
+            <Ambient r="1.1019610166549683" g="1" b="1.0941179990768433" power="1.6920000314712524" shadow="0"/>
+            <Diffuse r="1" g="1" b="1" power="0.5120000243186951" shadow="0.24400000274181366"/>
+            <DiffuseView r="1" g="1" b="1" power="0.328000009059906" shadow="1"/>
+            <Specular r="1" g="1" b="0.9882352948188782" power="1.1299999952316284" base="2.0510001182556152" rate="39.09000015258789" average="0.23029999434947968" shadow="0.9940000176429749"/>
+            <SpecularView r="1" g="1" b="0.9882352948188782" power="1.1299999952316284" base="0.5130000114440918" rate="48.08000183105469" average="0.21150000393390656" shadow="1"/>
+            <Reflect r="0.7803922295570374" g="0.38823530077934265" b="0.38823530077934265" power="1" merge="1" shadow="1"/>
+            <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+            <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+            <Opacity r="1" g="1" b="1" power="0.009999999776482582" rate="1" alpha="1" depth="1" transmittance="1"/>
+            <Emissive r="0" g="0" b="0" power="0"/>
+            <Bloom enable="N" base="1" power="0"/>
+            <Glossiness enable="N" base="1" power="0"/>
+            <Height depth="0.00989999994635582"/>
+            <Layer depth="0" count="0" space="0" power="0"/>
+            <Surface rate="1" reflect="1" bright="1" bright_level="1" coarse="1" coarse_level="1" merge="1" power="1"/>
+            <Visible radius="1"/>
+         </Material>
+         <Camera type_name="perspective">
+            <Center front="1" back="0"/>
+            <Position x="-9.009123736541106" y="108.23008332685168" z="55.97899582379749"/>
+            <Direction x="-0.40338360621399294" y="-0.839798615920783" z="-0.36334549802540755"/>
+            <Focal near="0" far="1"/>
+            <Viewport angle="60" near="62.34927784833506" far="258.8575147258175"/>
+         </Camera>
+      </Light>
+   </Region>
+   <Sky valid="Y" name="normal" option_visible="0" option_depth="0" option_light="0" option_shadow="2" option_double="0" option_transmittance="0" option_loaded="0" option_select="0" option_ground="0" focus="N">
+      <Matrix translation="38.89717102050781,0,-0.007264519110321999" rotation="0,0,0" scale="1,1,1"/>
+   </Sky>
+   <Map valid="Y" name="normal" option_visible="0" option_depth="0" option_light="0" option_shadow="2" option_double="0" option_transmittance="0" option_loaded="0" option_select="0" option_ground="0" focus="N"/>
+   <Space valid="Y" name="normal" option_visible="0" option_depth="0" option_light="0" option_shadow="2" option_double="0" option_transmittance="0" option_loaded="0" option_select="0" option_ground="0" focus="N">
+      <Display valid="Y" name="pvw.show.cartoon.001" label="卡通人物.可爱女孩" option_visible="2" option_depth="2" option_light="0" option_shadow="2" option_double="0" option_transmittance="0" option_loaded="0" option_select="0" option_ground="0" source="pvw.show.cartoon.001" shadow="auto" play_rate="1">
+         <Matrix translation="0,15.689410209655762,0" rotation="0,-1.4999992847442627,0" scale="0.2938781976699829,0.3205944001674652,0.2938781976699829"/>
+         <Materials>
+            <Material name="pvw.show.018.01" transform="automatic" option_merge="0" option_depth="2" option_compare="less" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0" sort_level="1">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.2" rate="1" level="1" merge="1"/>
+               <Ambient r="0.9019607843137255" g="0.5843137254901961" b="0.3411764705882353" power="0.744" shadow="1"/>
+               <Diffuse r="0.5843137254901961" g="0.5843137254901961" b="0.5843137254901961" power="3.692" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="0.8980392156862745" g="0.8980392156862745" b="0.8980392156862745" power="0" base="1" rate="1" average="1" shadow="1"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="0.615" rate="1.9" average="1" shadow="1"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="0" rate="1" alpha="1" depth="1" transmittance="1"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="0" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="1" count="1" space="0.001" power="0"/>
+               <Surface rate="1" reflect="1" bright="1" bright_level="1" coarse="1" coarse_level="1" merge="1" power="1"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="pvw.show.018.02" transform="automatic" option_merge="0" option_depth="2" option_compare="less" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0" sort_level="1">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.20000000298023224" rate="1" level="1" merge="1"/>
+               <Ambient r="0.5843138098716736" g="0.5843138098716736" b="0.5843138098716736" power="1" shadow="1"/>
+               <Diffuse r="0.5843138098716736" g="0.5843138098716736" b="0.5843138098716736" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="0.8980392217636108" g="0.8980392217636108" b="0.8980392217636108" power="0" base="1" rate="1" average="1" shadow="1"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="1" rate="1" average="1" shadow="1"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="0.10000000149011612" rate="1" alpha="1" depth="1" transmittance="1"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="1" reflect="1" bright="1" bright_level="1" coarse="1" coarse_level="1" merge="1" power="1"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="pvw.show.018.03" transform="automatic" option_merge="0" option_depth="2" option_compare="less" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0" sort_level="1">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.20000000298023224" rate="1" level="1" merge="1"/>
+               <Ambient r="0.5879999995231628" g="0.5879999995231628" b="0.5879999995231628" power="1" shadow="1"/>
+               <Diffuse r="0.5879999995231628" g="0.5879999995231628" b="0.5879999995231628" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="0.8999999761581421" g="0.8999999761581421" b="0.8999999761581421" power="0" base="1" rate="1" average="1" shadow="1"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="1" rate="1" average="1" shadow="1"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="1" alpha="1" depth="1" transmittance="1"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="1" reflect="1" bright="1" bright_level="1" coarse="1" coarse_level="1" merge="1" power="1"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="pvw.show.018.04" transform="automatic" option_merge="0" option_depth="2" option_compare="less" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0" sort_level="1">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.20000000298023224" rate="1" level="1" merge="1"/>
+               <Ambient r="0.5879999995231628" g="0.5879999995231628" b="0.5879999995231628" power="1" shadow="1"/>
+               <Diffuse r="0.5879999995231628" g="0.5879999995231628" b="0.5879999995231628" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="0.8999999761581421" g="0.8999999761581421" b="0.8999999761581421" power="0" base="1" rate="1" average="1" shadow="1"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="1" rate="1" average="1" shadow="1"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="1" alpha="1" depth="1" transmittance="1"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="1" reflect="1" bright="1" bright_level="1" coarse="1" coarse_level="1" merge="1" power="1"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="pvw.show.018.05" transform="automatic" option_merge="0" option_depth="2" option_compare="less" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0" sort_level="1">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.20000000298023224" rate="1" level="1" merge="1"/>
+               <Ambient r="0.5879999995231628" g="0.5879999995231628" b="0.5879999995231628" power="1" shadow="1"/>
+               <Diffuse r="0.5879999995231628" g="0.5879999995231628" b="0.5879999995231628" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="0.8999999761581421" g="0.8999999761581421" b="0.8999999761581421" power="0" base="1" rate="1" average="1" shadow="1"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="1" rate="1" average="1" shadow="1"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="1" alpha="1" depth="1" transmittance="1"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="1" reflect="1" bright="1" bright_level="1" coarse="1" coarse_level="1" merge="1" power="1"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="pvw.show.018.06" transform="automatic" option_merge="0" option_depth="2" option_compare="less" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0" sort_level="1">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.20000000298023224" rate="1" level="1" merge="1"/>
+               <Ambient r="0.5879999995231628" g="0.5879999995231628" b="0.5879999995231628" power="1" shadow="1"/>
+               <Diffuse r="0.5879999995231628" g="0.5879999995231628" b="0.5879999995231628" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="0.8999999761581421" g="0.8999999761581421" b="0.8999999761581421" power="0" base="1" rate="1" average="1" shadow="1"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="1" rate="1" average="1" shadow="1"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="1" alpha="1" depth="1" transmittance="1"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="1" reflect="1" bright="1" bright_level="1" coarse="1" coarse_level="1" merge="1" power="1"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="pvw.show.018.07" transform="automatic" option_merge="0" option_depth="2" option_compare="less" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0" sort_level="1">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.20000000298023224" rate="1" level="1" merge="1"/>
+               <Ambient r="0.7333332896232605" g="0.5843138098716736" b="0.15294119715690613" power="0.6399999856948853" shadow="1"/>
+               <Diffuse r="0.5843138098716736" g="0.5843138098716736" b="0.5843138098716736" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="0.8980392217636108" g="0.8980392217636108" b="0.8980392217636108" power="0" base="1" rate="1" average="1" shadow="1"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="1" rate="1" average="1" shadow="1"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="1" alpha="1" depth="1" transmittance="1"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="1" reflect="1" bright="1" bright_level="1" coarse="1" coarse_level="1" merge="1" power="1"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="pvw.show.018.08" transform="automatic" option_merge="0" option_depth="2" option_compare="less" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0" sort_level="1">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.20000000298023224" rate="1" level="1" merge="1"/>
+               <Ambient r="0.5843138098716736" g="0.5843138098716736" b="0.5843138098716736" power="1" shadow="1"/>
+               <Diffuse r="0.5843138098716736" g="0.5843138098716736" b="0.5843138098716736" power="1" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="0.8980392217636108" g="0.8980392217636108" b="0.8980392217636108" power="0" base="1" rate="1" average="1" shadow="1"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="1" rate="1" average="1" shadow="1"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="1" rate="1" alpha="1" depth="1" transmittance="1"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="1" reflect="1" bright="1" bright_level="1" coarse="1" coarse_level="1" merge="1" power="1"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="pvw.show.018.09" transform="automatic" option_merge="0" option_depth="2" option_compare="less" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0" sort_level="1">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.20000000298023224" rate="1" level="1" merge="1"/>
+               <Ambient r="0.9647058844566345" g="0.8627451062202454" b="0.45098039507865906" power="0.5680000185966492" shadow="1"/>
+               <Diffuse r="0.5843138098716736" g="0.5843138098716736" b="0.5843138098716736" power="2.1519999504089355" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="0.8980392217636108" g="0.8980392217636108" b="0.8980392217636108" power="0" base="1" rate="1" average="1" shadow="1"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="1" rate="1" average="1" shadow="1"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="0.10000000149011612" rate="1" alpha="1" depth="1" transmittance="1"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="1" reflect="1" bright="1" bright_level="1" coarse="1" coarse_level="1" merge="1" power="1"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="pvw.show.018.10" transform="automatic" option_merge="0" option_depth="2" option_compare="less" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0" sort_level="1">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="1" rate="1"/>
+               <Alpha base="0.20000000298023224" rate="1" level="1" merge="1"/>
+               <Ambient r="0.5843138098716736" g="0.5843138098716736" b="0.5843138098716736" power="0.8479999899864197" shadow="1"/>
+               <Diffuse r="0.5843138098716736" g="0.5843138098716736" b="0.5843138098716736" power="2.0239999294281006" shadow="1"/>
+               <DiffuseView r="1" g="1" b="1" power="1" shadow="1"/>
+               <Specular r="0.8980392217636108" g="0.8980392217636108" b="0.8980392217636108" power="0" base="1" rate="1" average="1" shadow="1"/>
+               <SpecularView r="1" g="1" b="1" power="1" base="1" rate="1" average="1" shadow="1"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="0.0010000000474974513" rate="1" alpha="1" depth="1" transmittance="1"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="1" reflect="1" bright="1" bright_level="1" coarse="1" coarse_level="1" merge="1" power="1"/>
+               <Visible radius="1"/>
+            </Material>
+            <Material name="pvw.show.018.11" transform="automatic" option_merge="0" option_depth="2" option_compare="less" option_alpha="0" option_double="0" option_border="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" option_height="0" sort_level="1">
+               <Power rate="1" attenuation="1" merge="1" shadow="1"/>
+               <Coord rate_width="1" rate_height="1"/>
+               <Color min="0" max="1" merge="0" rate="1.0260000228881836"/>
+               <Alpha base="0.20000000298023224" rate="1" level="1" merge="1"/>
+               <Ambient r="0.5411764979362488" g="0.8352941274642944" b="0.4627451002597809" power="2.0239999294281006" shadow="1"/>
+               <Diffuse r="0.30588239431381226" g="0.30588239431381226" b="0.30588239431381226" power="3.6679999828338623" shadow="1"/>
+               <DiffuseView r="1.0196080207824707" g="1" b="1" power="0.4359999895095825" shadow="1"/>
+               <Specular r="0.8980392217636108" g="0.9098039269447327" b="0.8980392217636108" power="2.440000057220459" base="1" rate="1" average="1" shadow="1"/>
+               <SpecularView r="1" g="1" b="1" power="0" base="1" rate="0" average="1" shadow="1"/>
+               <Reflect r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractFront r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <RefractBack r="1" g="1" b="1" power="1" merge="1" shadow="1"/>
+               <Opacity r="1" g="1" b="1" power="0" rate="1" alpha="1" depth="1" transmittance="1"/>
+               <Emissive r="0" g="0" b="0" power="0"/>
+               <Bloom enable="N" base="1" power="0"/>
+               <Glossiness enable="N" base="1" power="0"/>
+               <Height depth="0"/>
+               <Layer depth="0" count="0" space="0" power="0"/>
+               <Surface rate="1" reflect="1" bright="1" bright_level="1" coarse="1" coarse_level="1" merge="1" power="1"/>
+               <Visible radius="1"/>
+            </Material>
+         </Materials>
+      </Display>
+   </Space>
+</Scene>

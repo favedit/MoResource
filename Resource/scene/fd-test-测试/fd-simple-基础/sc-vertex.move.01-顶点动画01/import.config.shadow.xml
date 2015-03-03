@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Scene version="1.0">
+   <TimeLine support="Y" tick="360"/>
+   <Region technique="shadow">
+      <Sensitivity translation="1.99" rotation="0.9" scale="1"/>
+      <Color r="0.4823529411764706" g="0.5686274509803921" b="0.7568627450980392" a="1"/>
+      <Fog r="0.00784313725490196" g="0.8509803921568627" b="1" a="1"/>
+      <Edge rate="0.0001" level="1" width="0.1" r="1" g="1" b="1" a="1"/>
+      <Camera type="perspective">
+         <Viewport angle="45" znear="0.1" zfar="1000"/>
+         <Position x="197.78516743964894" y="138.76121969442505" z="64.47770257394727"/>
+         <Direction x="-0.7741243055387897" y="-0.6329661454162634" z="-0.009242203793689067" distance="29.70873306113089"/>
+         <Target x="174.7869150902637" y="119.95659744352032" z="64.20312840854399"/>
+         <Focal range="0.01" percent="0.75" distince="-60" x="0" y="0" z="1"/>
+      </Camera>
+      <Light type="directional">
+         <Matrix translation="0,0,0" rotation="0,0,0" scale="1,1,1"/>
+         <Center x="0" y="0" z="0" w="0"/>
+         <Option range="1" innerAngle="1" outerAngle="1" attenuation1="1" attenuation2="1" attenuation3="1"/>
+         <Shadow mode="fix" base1="6e-9" rate1="0.1027" base2="0.0000068" rate2="0" base3="0" rate3="0" base4="0" rate4="0" ambient="0.288" diffuse="0.438" specular="0.521" level="0"/>
+         <Material>
+            <Power ambient="1" diffuse="1" specular="1" opacity="1"/>
+            <Color min="0" max="1" rate="1"/>
+            <Ambient r="1" g="1" b="1" a="1"/>
+            <Diffuse r="1" g="1" b="1" a="1"/>
+            <Specular r="1" g="1" b="1" a="1"/>
+            <SpecularLevel base="0" rate="1" average="0"/>
+            <Emissive r="1" g="1" b="1" a="1"/>
+            <Bloom enable="N" base="1" power="1"/>
+            <Opacity enable="N" rate="0.2" alpha="1"/>
+            <Glossiness power="0"/>
+            <Height enable="N" depth="0.001"/>
+            <Reflect r="1" g="1" b="1" a="1"/>
+            <Refract r="1" g="1" b="1" a="1"/>
+            <Surface rate="1" reflect="1" bright="1" bright_level="1" coarse="1" coarse_level="1" merge="1" power="1"/>
+         </Material>
+         <Camera type="perspective">
+            <Viewport angle="45" znear="0.1" zfar="200"/>
+            <Position x="164.630859375" y="80" z="90.09888458251952"/>
+            <Direction x="-0.4627308962224776" y="-0.8296587415490608" z="-0.31232433503070417" distance="96.43650760992956"/>
+            <Target x="120.00670778009152" y="-0.009391543040592865" z="59.97941647056483"/>
+            <Focal range="0.01" percent="0.75" distince="-60" x="0" y="0" z="1"/>
+         </Camera>
+      </Light>
+   </Region>
+   <Template/>
+   <Space>
+      <Node valid="Y" type="sprite" option_loaded="N" option_shadow="Y" option_fog="Y">
+         <Matrix translation="120,20,60" rotation="0,180,0" scale="1,1,1"/>
+         <Display option_loaded="N" option_shadow="Y" shadow="auto" valid="Y" name="specular" src="test.simple.vertex.move.001">
+            <Matrix translation="0,0,0" rotation="0,0,0" scale="1,1,1"/>
+            <Materials>
+               <Material name="mt_001">
+                  <Power ambient="1" diffuse="1" specular="1" opacity="1"/>
+                  <Color min="0" max="1" rate="1"/>
+                  <Ambient r="0.5843137254901961" g="0.5843137254901961" b="0.5843137254901961" a="1"/>
+                  <Diffuse r="0.5843137254901961" g="0.5843137254901961" b="0.5843137254901961" a="1"/>
+                  <Specular r="0.8980392156862745" g="0.8980392156862745" b="0.8980392156862745" a="0"/>
+                  <SpecularLevel base="0" rate="1" average="0"/>
+                  <Emissive r="0" g="0" b="0" a="0"/>
+                  <Bloom enable="N" base="1" power="1"/>
+                  <Opacity enable="N" rate="0.2" alpha="1"/>
+                  <Glossiness power="0"/>
+                  <Height enable="N" depth="0"/>
+                  <Reflect r="1" g="1" b="1" a="1"/>
+                  <Refract r="1" g="1" b="1" a="1"/>
+                  <Surface rate="1" reflect="1" bright="1" bright_level="1" coarse="1" coarse_level="1" merge="1" power="1"/>
+                  <Effect>
+                     <Water speed="0.01" depth="0.1"/>
+                     <Direction x="1" y="1" z="1" w="0"/>
+                  </Effect>
+               </Material>
+            </Materials>
+            <Renderables>
+               <Renderable id="1" name="ms_001_001" option_light="N" option_shadow="Y" option_double="N"/>
+               <Renderable id="2" name="ms_001_002" option_light="N" option_shadow="Y" option_double="N"/>
+               <Renderable id="3" name="ms_001_003" option_light="N" option_shadow="Y" option_double="N"/>
+            </Renderables>
+         </Display>
+      </Node>
+   </Space>
+</Scene>

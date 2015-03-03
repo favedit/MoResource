@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Template name="\pvw\show\cartoon.002" label="毛绒玩具" option_loaded="0" option_select="0" option_merge="0" option_light_map="0">
+    <Renderables count="3">
+      <Renderable id="1" model="\pvw\show\cartoon.002" geometry="ms_001_001" material="\pvw\show\019.01" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="2" model="\pvw\show\cartoon.002" geometry="ms_001_002" material="\pvw\show\019.01" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="3" model="\pvw\show\cartoon.002" geometry="ms_002_001" material="\pvw\show\019.02" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+    </Renderables>
+    <Animation />
+  </Template>
+</Configuration>

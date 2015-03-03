@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Template name="\com\design\scale" label="缩放" Loaded="1">
+    <Renderables count="4">
+      <Renderable id="0" model="\com\design\scale" geometry="ms_scale_all" material="\com\design\scale.all" />
+      <Renderable id="0" model="\com\design\scale" geometry="ms_scale_x" material="\com\design\scale.x" />
+      <Renderable id="0" model="\com\design\scale" geometry="ms_scale_y" material="\com\design\scale.y" />
+      <Renderable id="0" model="\com\design\scale" geometry="ms_scale_z" material="\com\design\scale.z" />
+    </Renderables>
+  </Template>
+</Configuration>

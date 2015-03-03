@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Template name="pvw.scene.courtyard.person.002" label="路人甲.交替">
+    <Renderables count="5">
+      <Renderable model="\pvw\sc.courtyard\person.002" geometry="ms_001_001" material="\pvw\sc.courtyard\067.001" />
+      <Renderable model="\pvw\sc.courtyard\person.002" geometry="ms_001_002" material="\pvw\sc.courtyard\067.001" />
+      <Renderable model="\pvw\sc.courtyard\person.002" geometry="ms_001_003" material="\pvw\sc.courtyard\067.001" />
+      <Renderable model="\pvw\sc.courtyard\person.002" geometry="ms_002_001" material="\pvw\sc.courtyard\067.004" />
+      <Renderable model="\pvw\sc.courtyard\person.002" geometry="ms_002_002" material="\pvw\sc.courtyard\067.004" />
+      <Renderable model="\pvw\sc.courtyard\person.002" geometry="ms_003_001" material="\pvw\sc.courtyard\067.003" />
+    </Renderables>
+  </Template>
+</Configuration>

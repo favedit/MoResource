@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Template name="com.light.spot" label="聚光灯">
+    <Renderables count="1">
+      <Renderable id="0" model="\com\light\spot" geometry="ms_light" material="\com\light\spot" />
+    </Renderables>
+  </Template>
+</Configuration>

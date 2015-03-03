@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="GB2312"?>
+<M3XRoot version="1.0">
+   <MaterialList>
+      <Material id='0' name='sky' source='Sky' effect='texture'>
+         <TextureList>
+            <Texture id='0' type='color' src='/3d/ground/rs_sky.jpg'/>
+         </TextureList>
+      </Material>
+      <Material id='1' name='terrain' source='Terrain' effect='texture'>
+         <TextureList>
+            <Texture id='0' type='color' src='/3d/ground/rs_terrain_c.png'/>
+            <Texture id='1' type='normal' src='/3d/ground/rs_terrain_h.png'/>
+         </TextureList>
+      </Material>
+      <Material id='2' name='ground' source='Ground' effect='texture'>
+         <TextureList>
+            <Texture id='0' type='color' src='/3d/ground/rs_ground_c.png'/>
+            <Texture id='1' type='normal' src='/3d/ground/rs_ground_n.png'/>
+            <Texture id='2' type='light' src='/3d/ground/rs_ground_l.png'/>
+            <Texture id='3' type='height' src='/3d/ground/rs_ground_h.png'/>
+         </TextureList>
+      </Material>
+      <Material id='3' name='water' source='Water' effect='texture'>
+         <TextureList>
+            <Texture id='0' type='color' src='/3d/ground/rs_water.png'/>
+         </TextureList>
+      </Material>
+   </MaterialList>
+   <Mesh>
+      <SubMesh valid='Y' name='Sky' material_name='sky' render='simple' />
+      <SubMesh valid='N' name='Terrain' material_name='terrain' render='simple' />
+      <SubMesh valid='Y' name='Ground' material_name='ground' render='simple' />
+      <SubMesh valid='N' name='Water' material_name='water' render='simple' />
+   </Mesh>
+</M3XRoot>

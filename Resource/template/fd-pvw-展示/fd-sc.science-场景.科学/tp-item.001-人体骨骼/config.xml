@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Template name="pvw.scene.house.001" label="室内展示">
+    <Renderables count="38">
+      <Renderable model="\pvw\sc.science\item.001" geometry='ms_000_001' material='\pvw\sc.science\001.01'/>
+      <Renderable model="\pvw\sc.science\item.001" geometry='ms_001_001' material='\pvw\sc.science\001.01'/>
+      <Renderable model="\pvw\sc.science\item.001" geometry='ms_002_001' material='\pvw\sc.science\001.02'/>
+      <Renderable model="\pvw\sc.science\item.001" geometry='ms_003_001' material='\pvw\sc.science\001.03'/>
+      <Renderable model="\pvw\sc.science\item.001" geometry='ms_004_001' material='\pvw\sc.science\001.04'/>
+      <Renderable model="\pvw\sc.science\item.001" geometry='ms_005_001' material='\pvw\sc.science\001.05'/>
+      <Renderable model="\pvw\sc.science\item.001" geometry='ms_006_001' material='\pvw\sc.science\001.06'/>
+      <Renderable model="\pvw\sc.science\item.001" geometry='ms_007_001' material='\pvw\sc.science\001.07'/>
+      <Renderable model="\pvw\sc.science\item.001" geometry='ms_008_001' material='\pvw\sc.science\001.08'/>
+      <Renderable model="\pvw\sc.science\item.001" geometry='ms_009_001' material='\pvw\sc.science\001.09'/>
+      <Renderable model="\pvw\sc.science\item.001" geometry='ms_010_001' material='\pvw\sc.science\001.10'/>
+      <Renderable model="\pvw\sc.science\item.001" geometry='ms_011_001' material='\pvw\sc.science\001.11'/>
+      <Renderable model="\pvw\sc.science\item.001" geometry='ms_012_001' material='\pvw\sc.science\001.12'/>
+      <Renderable model="\pvw\sc.science\item.001" geometry='ms_013_001' material='\pvw\sc.science\001.13'/>
+      <Renderable model="\pvw\sc.science\item.001" geometry='ms_014_001' material='\pvw\sc.science\001.14'/>
+      <Renderable model="\pvw\sc.science\item.001" geometry='ms_015_001' material='\pvw\sc.science\001.15'/>
+      <Renderable model="\pvw\sc.science\item.001" geometry='ms_016_001' material='\pvw\sc.science\001.16'/>
+      <Renderable model="\pvw\sc.science\item.001" geometry='ms_017_001' material='\pvw\sc.science\001.17'/>
+      <Renderable model="\pvw\sc.science\item.001" geometry='ms_018_001' material='\pvw\sc.science\001.18'/>
+      <Renderable model="\pvw\sc.science\item.001" geometry='ms_019_001' material='\pvw\sc.science\001.19'/>
+      <Renderable model="\pvw\sc.science\item.001" geometry='ms_020_001' material='\pvw\sc.science\001.20'/>
+      <Renderable model="\pvw\sc.science\item.001" geometry='ms_021_001' material='\pvw\sc.science\001.21'/>
+      <Renderable model="\pvw\sc.science\item.001" geometry='ms_022_001' material='\pvw\sc.science\001.22'/>
+      <Renderable model="\pvw\sc.science\item.001" geometry='ms_023_001' material='\pvw\sc.science\001.23'/>
+      <Renderable model="\pvw\sc.science\item.001" geometry='ms_024_001' material='\pvw\sc.science\001.24'/>
+    </Renderables>
+  </Template>
+</Configuration>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Template name="pvw.showcase.006" label="体积光.树林">
+    <Renderables count="15">
+      <Renderable id="0" model="\pvw\showcase\006" geometry="ms_001" material="\pvw\showcase\006.01" />
+      <Renderable id="0" model="\pvw\showcase\006" geometry="ms_002_001" material="\pvw\showcase\006.02" />
+      <Renderable id="0" model="\pvw\showcase\006" geometry="ms_002_002" material="\pvw\showcase\006.02" />
+      <Renderable id="0" model="\pvw\showcase\006" geometry="ms_002_003" material="\pvw\showcase\006.02" />
+      <Renderable id="0" model="\pvw\showcase\006" geometry="ms_002_004" material="\pvw\showcase\006.02" />
+      <Renderable id="0" model="\pvw\showcase\006" geometry="ms_002_005" material="\pvw\showcase\006.02" />
+      <Renderable id="0" model="\pvw\showcase\006" geometry="ms_002_006" material="\pvw\showcase\006.02" />
+      <Renderable id="0" model="\pvw\showcase\006" geometry="ms_002_007" material="\pvw\showcase\006.02" />
+      <Renderable id="0" model="\pvw\showcase\006" geometry="ms_002_008" material="\pvw\showcase\006.02" />
+      <Renderable id="0" model="\pvw\showcase\006" geometry="ms_003" material="\pvw\showcase\006.03" />
+      <Renderable id="0" model="\pvw\showcase\006" geometry="ms_004" material="\pvw\showcase\006.04" />
+      <Renderable id="0" model="\pvw\showcase\006" geometry="ms_006" material="\pvw\showcase\006.06" />
+      <Renderable id="0" model="\pvw\showcase\006" geometry="ms_007" material="\pvw\showcase\006.07" />
+      <Renderable id="0" model="\pvw\showcase\006" geometry="ms_008" material="\pvw\showcase\006.08" />
+      <Renderable id="0" model="\pvw\showcase\006" geometry="ms_009" material="\pvw\showcase\006.09" />
+    </Renderables>
+  </Template>
+</Configuration>

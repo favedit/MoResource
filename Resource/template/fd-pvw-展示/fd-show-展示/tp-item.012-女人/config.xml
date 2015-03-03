@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Template name="\pvw\show\item.012" label="女人" option_loaded="0" option_select="0" option_merge="0" option_light_map="0">
+    <Renderables count="11">
+      <Renderable id="1" model="\pvw\show\item.012" geometry="ms_001" material="\pvw\show\012.01" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="2" model="\pvw\show\item.012" geometry="ms_002" material="\pvw\show\012.02" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="3" model="\pvw\show\item.012" geometry="ms_003_001" material="\pvw\show\012.03" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="4" model="\pvw\show\item.012" geometry="ms_003_002" material="\pvw\show\012.03" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="5" model="\pvw\show\item.012" geometry="ms_004" material="\pvw\show\012.04" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="6" model="\pvw\show\item.012" geometry="ms_005" material="\pvw\show\012.05" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="7" model="\pvw\show\item.012" geometry="ms_006" material="\pvw\show\012.06" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="8" model="\pvw\show\item.012" geometry="ms_007" material="\pvw\show\012.07" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="9" model="\pvw\show\item.012" geometry="ms_008" material="\pvw\show\012.08" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="10" model="\pvw\show\item.012" geometry="ms_009" material="\pvw\show\012.09" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="11" model="\pvw\show\item.012" geometry="ms_010" material="\pvw\show\012.10" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+    </Renderables>
+    <Animation />
+  </Template>
+</Configuration>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Configuration version="1.0">
+   <Model name='plane' src='model.mrm'>
+      <MaterialCollection>
+         <Material name='mt_001'/>
+         <Material name='mt_002'/>
+         <Material name='mt_003'/>
+      </MaterialCollection>
+      <Mesh>
+         <Geometry valid='Y' name="ms_001" material='mt_001'/>
+         <Geometry valid='Y' name="ms_002" material='mt_002'/>
+         <Geometry valid='Y' name="ms_003" material='mt_003'/>
+      </Mesh>
+   </Model>
+</Configuration>

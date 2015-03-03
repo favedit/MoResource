@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Template name="\dev\water.001" label="水效果01" option_loaded="0" option_select="0" option_merge="0" option_light_map="0">
+    <Renderables count="4">
+      <Renderable id="1" model="\dev\water.001" geometry="ms_001" material="\dev\water.001\01" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="41" />
+      <Renderable id="2" model="\dev\water.001" geometry="ms_002" material="\dev\water.001\02" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="41" />
+      <Renderable id="3" model="\dev\water.001" geometry="ms_003" material="\dev\water.001\03" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="41" />
+      <Renderable id="4" model="\dev\water.001" geometry="ms_004" material="\dev\water.001\04" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="41" />
+    </Renderables>
+    <Animation />
+  </Template>
+</Configuration>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MaterialGroup name="\lgt\bld\0038" label="顶花">
+  <Materials>
+    <Material theme_name="\shadow" effect_name="" transform_name="" option_dynamic="2" option_merge="2" option_depth="2" option_normal_scale="2" option_compare="less" option_alpha="0" option_double="0" option_opacity="0" option_symmetry="0" option_shadow="2" option_shadow_self="2" option_transmittance="0" sort_level="1">
+      <Color min="0" max="0" rate="0" merge="0" />
+      <Alpha base="0.4" rate="1" level="1" merge="1" />
+      <Ambient r="1" g="1" b="1" power="1" shadow="1" />
+      <Diffuse r="1" g="1" b="1" power="1" shadow="1" />
+      <DiffuseView r="1" g="1" b="1" power="1" shadow="1" />
+      <Specular r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0" />
+      <SpecularView r="1" g="1" b="1" power="1" base="0" rate="0" average="0" shadow="0" />
+      <Emissive r="1" g="1" b="1" power="1" />
+      <Opacity r="1" g="1" b="1" power="1" />
+    </Material>
+  </Materials>
+  <Textures>
+    <Texture type_name="diffuse" source="\lgt\bld\0038" source_type="diffuse" source_index="0" />
+  </Textures>
+</MaterialGroup>

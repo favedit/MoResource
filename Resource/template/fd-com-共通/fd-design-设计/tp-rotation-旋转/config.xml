@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Template name="\com\design\rotation" label="旋转" Loaded="1">
+    <Renderables count="3">
+      <Renderable id="0" model="\com\design\rotation" geometry="ms_rotation_x" material="\com\design\rotation.x" />
+      <Renderable id="0" model="\com\design\rotation" geometry="ms_rotation_y" material="\com\design\rotation.y" />
+      <Renderable id="0" model="\com\design\rotation" geometry="ms_rotation_z" material="\com\design\rotation.z" />
+    </Renderables>
+  </Template>
+</Configuration>

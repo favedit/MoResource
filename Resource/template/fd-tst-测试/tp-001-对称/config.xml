@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Template name="\tst\001" label="对称" option_loaded="0" option_select="0" option_merge="0">
+    <Renderables count="1">
+      <Renderable id="1" model="\tst\001" geometry="ms_001" material="\tst\001" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="41" />
+    </Renderables>
+    <Animation />
+  </Template>
+</Configuration>

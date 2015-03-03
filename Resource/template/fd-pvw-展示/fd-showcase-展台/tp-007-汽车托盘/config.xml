@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Template name="pvw.showcase.007" label="汽车托盘">
+    <Renderables count="1">
+      <Renderable model="\pvw\showcase\007" geometry="ms_031_001" material="\pvw\showcase\007.31" />
+      <Renderable model="\pvw\showcase\007" geometry="ms_032_001" material="\pvw\showcase\007.32" />
+      <Renderable model="\pvw\showcase\007" geometry="ms_033_001" material="\pvw\showcase\007.33" />
+      <Renderable model="\pvw\showcase\007" geometry="ms_034_001" material="\pvw\showcase\007.34" />
+      <Renderable model="\pvw\showcase\007" geometry="ms_035_001" material="\pvw\showcase\007.35" />
+      <Renderable model="\pvw\showcase\007" geometry="ms_036_001" material="\pvw\showcase\007.36" />
+      <Renderable model="\pvw\showcase\007" geometry="ms_037_001" material="\pvw\showcase\007.37" />
+      <Renderable model="\pvw\showcase\007" geometry="ms_038_001" material="\pvw\showcase\007.38" />
+      <Renderable model="\pvw\showcase\007" geometry="ms_039_001" material="\pvw\showcase\007.39" />
+      <Renderable model="\pvw\showcase\007" geometry="ms_040_001" material="\pvw\showcase\007.40" />
+      <Renderable model="\pvw\showcase\007" geometry="ms_041_001" material="\pvw\showcase\007.41" />
+      <Renderable model="\pvw\showcase\007" geometry="ms_042_001" material="\pvw\showcase\007.42" />
+    </Renderables>
+  </Template>
+</Configuration>

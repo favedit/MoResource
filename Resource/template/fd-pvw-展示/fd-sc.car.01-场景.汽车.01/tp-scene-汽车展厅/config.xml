@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Template name="\pvw\sc.car.01\scene" label="汽车展厅" option_loaded="0" option_select="0" option_merge="0" option_light_map="0">
+    <Renderables count="34">
+      <Renderable id="1" model="\pvw\sc.car.01\surface" geometry="ms_001_001" material="\pvw\sc.car.01\004.01" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="2" model="\pvw\sc.car.01\surface" geometry="ms_002_001" material="\pvw\sc.car.01\004.02" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="3" model="\pvw\sc.car.01\surface" geometry="ms_003_001" material="\pvw\sc.car.01\004.03" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="4" model="\pvw\sc.car.01\surface" geometry="ms_003_002" material="\pvw\sc.car.01\004.03" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="5" model="\pvw\sc.car.01\surface" geometry="ms_003_003" material="\pvw\sc.car.01\004.03" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="6" model="\pvw\sc.car.01\surface" geometry="ms_003_004" material="\pvw\sc.car.01\004.03" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="7" model="\pvw\sc.car.01\surface" geometry="ms_003_005" material="\pvw\sc.car.01\004.03" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="8" model="\pvw\sc.car.01\surface" geometry="ms_003_006" material="\pvw\sc.car.01\004.03" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="9" model="\pvw\sc.car.01\surface" geometry="ms_004_001" material="\pvw\sc.car.01\004.04" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="10" model="\pvw\sc.car.01\surface" geometry="ms_005_001" material="\pvw\sc.car.01\004.05" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="11" model="\pvw\sc.car.01\surface" geometry="ms_005_002" material="\pvw\sc.car.01\004.05" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="12" model="\pvw\sc.car.01\surface" geometry="ms_006_001" material="\pvw\sc.car.01\004.06" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="13" model="\pvw\sc.car.01\surface" geometry="ms_006_002" material="\pvw\sc.car.01\004.06" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="14" model="\pvw\sc.car.01\surface" geometry="ms_007_001" material="\pvw\sc.car.01\004.07" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="15" model="\pvw\sc.car.01\surface" geometry="ms_008_001" material="\pvw\sc.car.01\004.08" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="16" model="\pvw\sc.car.01\surface" geometry="ms_008_002" material="\pvw\sc.car.01\004.08" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="17" model="\pvw\sc.car.01\surface" geometry="ms_008_003" material="\pvw\sc.car.01\004.08" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="18" model="\pvw\sc.car.01\surface" geometry="ms_008_004" material="\pvw\sc.car.01\004.08" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="19" model="\pvw\sc.car.01\surface" geometry="ms_008_005" material="\pvw\sc.car.01\004.08" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="20" model="\pvw\sc.car.01\surface" geometry="ms_008_006" material="\pvw\sc.car.01\004.08" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="21" model="\pvw\sc.car.01\surface" geometry="ms_009_001" material="\pvw\sc.car.01\004.09" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="22" model="\pvw\sc.car.01\surface" geometry="ms_010_001" material="\pvw\sc.car.01\004.10" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="23" model="\pvw\sc.car.01\surface" geometry="ms_010_002" material="\pvw\sc.car.01\004.10" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="24" model="\pvw\sc.car.01\surface" geometry="ms_010_003" material="\pvw\sc.car.01\004.10" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="25" model="\pvw\sc.car.01\surface" geometry="ms_010_004" material="\pvw\sc.car.01\004.10" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="26" model="\pvw\sc.car.01\surface" geometry="ms_010_005" material="\pvw\sc.car.01\004.10" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="27" model="\pvw\sc.car.01\surface" geometry="ms_011_001" material="\pvw\sc.car.01\004.11" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="28" model="\pvw\sc.car.01\surface" geometry="ms_011_002" material="\pvw\sc.car.01\004.11" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="29" model="\pvw\sc.car.01\surface" geometry="ms_012_001" material="\pvw\sc.car.01\004.12" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="30" model="\pvw\sc.car.01\surface" geometry="ms_012_002" material="\pvw\sc.car.01\004.12" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="31" model="\pvw\sc.car.01\surface" geometry="ms_012_003" material="\pvw\sc.car.01\004.12" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="32" model="\pvw\sc.car.01\surface" geometry="ms_013_001" material="\pvw\sc.car.01\004.13" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="33" model="\pvw\sc.car.01\surface" geometry="ms_021_001" material="\pvw\sc.car.01\004.21" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="34" model="\pvw\sc.car.01\surface" geometry="ms_022_001" material="\pvw\sc.car.01\004.22" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+    </Renderables>
+    <Animation />
+  </Template>
+</Configuration>

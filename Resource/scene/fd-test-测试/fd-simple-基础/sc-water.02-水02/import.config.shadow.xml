@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Scene version="1.0">
+   <TimeLine support="N" tick="0"/>
+   <Region technique="shadow">
+      <Color r="0.21176470588235297" g="0.21176470588235297" b="0.2" a="1"/>
+      <Camera type="perspective">
+         <Viewport angle="45" znear="0.1" zfar="200"/>
+         <Position x="129.0632056584518" y="41" z="26.80361897164446"/>
+         <Direction x="-0.18629364358492403" y="-0.7068900944067251" z="0.6823496704692578" distance="46.114337028840374"/>
+         <Target x="120.47239779184595" y="8.40223194417949" z="58.26972164718198"/>
+         <Focal range="0.01" percent="0.75" distince="-60" x="0" y="0" z="1"/>
+      </Camera>
+      <Light type="directional">
+         <Matrix translation="0,0,0" rotation="0,0,0" scale="1,1,1"/>
+         <Center x="0" y="0" z="0" w="0"/>
+         <Option range="1" innerAngle="1" outerAngle="1" attenuation1="1" attenuation2="1" attenuation3="1"/>
+         <Shadow mode="fix" base1="2.94e-7" rate1="0.1233" base2="0.0000089" rate2="0.3425" ambient="0.548" diffuse="0.651" specular="0.445" level="0.315"/>
+         <Material>
+            <Power ambient="1" diffuse="1" specular="1" opacity="1"/>
+            <Color min="0" max="1" rate="1"/>
+            <Ambient r="1" g="1" b="1" a="0.59"/>
+            <Diffuse r="1" g="1" b="1" a="0.96"/>
+            <Specular r="1" g="1" b="1" a="0.51"/>
+            <SpecularLevel base="0" rate="1" average="0"/>
+            <Emissive r="1" g="1" b="1" a="1"/>
+            <Bloom enable="N" base="1" power="1"/>
+            <Glossiness power="0"/>
+            <Height enable="N" depth="0.02"/>
+            <Reflect r="1" g="1" b="1" a="1"/>
+            <Refract r="1" g="1" b="1" a="1"/>
+            <Surface rate="1" reflect="1" bright="1" bright_level="1" coarse="1" coarse_level="1" merge="1" power="1"/>
+         </Material>
+         <Camera type="perspective">
+            <Viewport angle="45" znear="0.1" zfar="200"/>
+            <Position x="160" y="80" z="50"/>
+            <Direction x="-0.492" y="-0.861" z="0.123" distance="81.24038404635961"/>
+            <Target x="120.02973104919107" y="10.052029336084374" z="59.99256723770223"/>
+            <Focal range="0.01" percent="0.75" distince="-60" x="0" y="0" z="1"/>
+         </Camera>
+      </Light>
+   </Region>
+   <Template/>
+   <Map valid="Y" name="test.001" force_loaded="N">
+      <Matrix translation="120,10,60" rotation="0,0,0" scale="1,1,1"/>
+      <Display valid="Y" src="test.plane.001">
+         <Matrix translation="0,0,0" rotation="0,0,0" scale="1,1,1"/>
+         <Materials>
+            <Material name="mt_all">
+               <Power ambient="1" diffuse="1" specular="1" opacity="1"/>
+               <Color min="0" max="1" rate="1"/>
+               <Ambient r="1" g="1" b="1" a="1"/>
+               <Diffuse r="1" g="1" b="1" a="1"/>
+               <Specular r="1" g="1" b="1" a="1"/>
+               <SpecularLevel base="1" rate="1" average="1"/>
+               <Emissive r="1" g="1" b="1" a="1"/>
+               <Bloom enable="N" base="1" power="1"/>
+               <Glossiness power="0"/>
+               <Height enable="N" depth="0.02"/>
+               <Reflect r="1" g="1" b="1" a="1"/>
+               <Refract r="1" g="1" b="1" a="1"/>
+               <Surface rate="1" reflect="1" bright="1" bright_level="1" coarse="1" coarse_level="1" merge="1" power="1"/>
+               <Effect>
+                  <Water speed="0.1" depth="0.1"/>
+                  <Direction x="1" y="1" z="1" w="0"/>
+               </Effect>
+            </Material>
+         </Materials>
+         <Renderables>
+            <Renderable id="1" name="ms_all" option_light="N" option_shadow="Y"/>
+         </Renderables>
+      </Display>
+   </Map>
+   <Space>
+      <Node valid="Y" name="tst-simple-water-01" type="still" force_loaded="N">
+         <Matrix translation="120,22.6,46.5" rotation="0,0,0" scale="0.2015,0.2015,0.2015"/>
+         <Display valid="Y" name="001" src="test.simple.water.002">
+            <Matrix translation="0,0,0" rotation="0,0,0" scale="1,1,1"/>
+            <Materials>
+               <Material name="mt_001" effect="water">
+                  <Power ambient="2" diffuse="2" specular="2" opacity="1"/>
+                  <Color min="0" max="1" rate="1"/>
+                  <Ambient r="0.5843137254901961" g="0.5843137254901961" b="0.5843137254901961" a="1.28"/>
+                  <Diffuse r="0.5843137254901961" g="0.5843137254901961" b="0.5843137254901961" a="4"/>
+                  <Specular r="0.8980392156862745" g="0.8980392156862745" b="0.8980392156862745" a="4"/>
+                  <SpecularLevel base="1" rate="1" average="0"/>
+                  <Emissive r="0" g="0" b="0" a="0"/>
+                  <Bloom enable="N" base="1" power="1"/>
+                  <Glossiness power="0"/>
+                  <Height enable="N" depth="0.02"/>
+                  <Reflect r="1" g="0.9764705882352941" b="1.0823529411764705" a="1.47"/>
+                  <Refract r="1" g="1" b="1" a="0.64"/>
+                  <Surface rate="1" reflect="1" bright="1" bright_level="1" coarse="1" coarse_level="1" merge="1" power="1"/>
+                  <Effect>
+                     <Water speed="0.00128" depth="0.077"/>
+                     <Direction x="1.03" y="4.04" z="0.77" w="0"/>
+                  </Effect>
+               </Material>
+               <Material name="mt_002">
+                  <Power ambient="1" diffuse="1" specular="1" opacity="1"/>
+                  <Color min="0" max="1" rate="1"/>
+                  <Ambient r="0.5843137254901961" g="0.5843137254901961" b="0.5843137254901961" a="1.09"/>
+                  <Diffuse r="0.5843137254901961" g="0.5843137254901961" b="0.5843137254901961" a="2.95"/>
+                  <Specular r="0.8980392156862745" g="0.8980392156862745" b="0.8980392156862745" a="0"/>
+                  <SpecularLevel base="0" rate="1" average="0"/>
+                  <Emissive r="0" g="0" b="0" a="0"/>
+                  <Bloom enable="N" base="1" power="1"/>
+                  <Glossiness power="0"/>
+                  <Height enable="N" depth="0.02"/>
+                  <Reflect r="1" g="1" b="1" a="1"/>
+                  <Refract r="1" g="1" b="1" a="1"/>
+                  <Surface rate="1" reflect="1" bright="1" bright_level="1" coarse="1" coarse_level="1" merge="1" power="1"/>
+                  <Effect>
+                     <Water speed="0.1" depth="0.1"/>
+                     <Direction x="1" y="1" z="1" w="0"/>
+                  </Effect>
+               </Material>
+               <Material name="mt_003">
+                  <Power ambient="1" diffuse="1" specular="1" opacity="1"/>
+                  <Color min="0" max="1" rate="1"/>
+                  <Ambient r="1" g="1" b="1" a="0.83"/>
+                  <Diffuse r="1" g="1" b="1" a="3.91"/>
+                  <Specular r="1" g="1" b="1" a="1"/>
+                  <SpecularLevel base="0" rate="1" average="0"/>
+                  <Emissive r="1" g="1" b="1" a="1"/>
+                  <Bloom enable="N" base="1" power="1"/>
+                  <Glossiness power="0"/>
+                  <Height enable="N" depth="0.02"/>
+                  <Reflect r="1" g="1" b="1" a="1"/>
+                  <Refract r="1" g="1" b="1" a="1"/>
+                  <Surface rate="1" reflect="1" bright="1" bright_level="1" coarse="1" coarse_level="1" merge="1" power="1"/>
+                  <Effect>
+                     <Water speed="0.1" depth="0.1"/>
+                     <Direction x="1" y="1" z="1" w="0"/>
+                  </Effect>
+               </Material>
+               <Material name="mt_004">
+                  <Power ambient="1" diffuse="1" specular="1" opacity="1"/>
+                  <Color min="0" max="1" rate="1"/>
+                  <Ambient r="1" g="1" b="1" a="1"/>
+                  <Diffuse r="1" g="1" b="1" a="2.24"/>
+                  <Specular r="1" g="1" b="1" a="1"/>
+                  <SpecularLevel base="0" rate="1" average="0"/>
+                  <Emissive r="1" g="1" b="1" a="1"/>
+                  <Bloom enable="N" base="1" power="1"/>
+                  <Glossiness power="0"/>
+                  <Height enable="N" depth="0.02"/>
+                  <Reflect r="1" g="1" b="1" a="1"/>
+                  <Refract r="1" g="1" b="1" a="1"/>
+                  <Surface rate="1" reflect="1" bright="1" bright_level="1" coarse="1" coarse_level="1" merge="1" power="1"/>
+                  <Effect>
+                     <Water speed="0.1" depth="0.1"/>
+                     <Direction x="1" y="1" z="1" w="0"/>
+                  </Effect>
+               </Material>
+            </Materials>
+            <Renderables>
+               <Renderable id="2" name="ms_001" option_light="N" option_shadow="Y"/>
+               <Renderable id="3" name="ms_002" option_light="N" option_shadow="Y"/>
+               <Renderable id="4" name="ms_003" option_light="N" option_shadow="Y"/>
+               <Renderable id="5" name="ms_004" option_light="N" option_shadow="Y"/>
+            </Renderables>
+         </Display>
+      </Node>
+   </Space>
+</Scene>

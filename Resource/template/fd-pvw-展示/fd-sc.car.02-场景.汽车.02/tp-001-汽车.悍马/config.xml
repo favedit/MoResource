@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Template name="pvw.scene.car2.001" label="汽车.悍马" Loaded="2">
+    <Renderables count="14">
+      <Renderable id="0" model="\pvw\sc.car.02\001\0002" geometry="ms_001" material="\pvw\sc.car.02\dec\0002" />
+      <Renderable id="1" model="\pvw\sc.car.02\001\0003" geometry="ms_001" material="\pvw\sc.car.02\dec\0003" />
+      <Renderable id="2" model="\pvw\sc.car.02\001\0004" geometry="ms_001" material="\pvw\sc.car.02\dec\0004" />
+      <Renderable id="3" model="\pvw\sc.car.02\001\0005" geometry="ms_001" material="\pvw\sc.car.02\dec\0005" />
+      <Renderable id="4" model="\pvw\sc.car.02\001\0006" geometry="ms_001" material="\pvw\sc.car.02\dec\0006" />
+      <Renderable id="5" model="\pvw\sc.car.02\001\0007" geometry="ms_001" material="\pvw\sc.car.02\dec\0007" />
+      <Renderable id="6" model="\pvw\sc.car.02\001\0008" geometry="ms_001" material="\pvw\sc.car.02\dec\0008" />
+      <Renderable id="7" model="\pvw\sc.car.02\001\0009" geometry="ms_001" material="\pvw\sc.car.02\dec\0009" />
+      <Renderable id="8" model="\pvw\sc.car.02\001\0010" geometry="ms_001" material="\pvw\sc.car.02\dec\0010" />
+      <Renderable id="9" model="\pvw\sc.car.02\001\0009" geometry="ms_001" material="\pvw\sc.car.02\dec\0009">
+        <Matrix tx="0" ty="0" tz="-138.2572" rx="0" ry="-3.141593" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="10" model="\pvw\sc.car.02\001\0007" geometry="ms_001" material="\pvw\sc.car.02\dec\0007">
+        <Matrix tx="0.833505" ty="0" tz="-8.30871" rx="0" ry="3.141593" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="11" model="\pvw\sc.car.02\001\0008" geometry="ms_001" material="\pvw\sc.car.02\dec\0008">
+        <Matrix tx="0.833505" ty="0" tz="-8.30871" rx="0" ry="3.141593" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="12" model="\pvw\sc.car.02\001\0009" geometry="ms_001" material="\pvw\sc.car.02\dec\0009">
+        <Matrix tx="0.434936" ty="0" tz="-8.583961" rx="0" ry="-3.141593" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+      <Renderable id="13" model="\pvw\sc.car.02\001\0009" geometry="ms_001" material="\pvw\sc.car.02\dec\0009">
+        <Matrix tx="0.434937" ty="0" tz="129.6732" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" />
+      </Renderable>
+    </Renderables>
+  </Template>
+</Configuration>

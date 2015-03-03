@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Template name="\pvw\show\item.005" label="鬼泣Boss" option_loaded="0" option_select="0" option_merge="0" option_light_map="0">
+    <Renderables count="5">
+      <Renderable id="1" model="\pvw\show\item.004" geometry="ms_head" material="\pvw\show\004.02" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="2" model="\pvw\show\item.004" geometry="ms_eye_inner_right" material="\pvw\show\004.01" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="3" model="\pvw\show\item.004" geometry="ms_eye_inner_left" material="\pvw\show\004.01" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="4" model="\pvw\show\item.004" geometry="ms_eye_lash_left" material="\pvw\show\004.03" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="5" model="\pvw\show\item.004" geometry="ms_eye_lash_right" material="\pvw\show\004.03" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+    </Renderables>
+    <Animation />
+  </Template>
+</Configuration>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Template name="pvw.showcase.003" label="相机展台">
+    <Renderables count="3">
+      <Renderable model="\pvw\showcase\003" geometry="ms_001_001" material="\pvw\showcase\003.01" />
+      <Renderable model="\pvw\showcase\003" geometry="ms_002_001" material="\pvw\showcase\003.02" />
+      <Renderable model="\pvw\showcase\003" geometry="ms_003_001" material="\pvw\showcase\003.03" />
+    </Renderables>
+  </Template>
+</Configuration>

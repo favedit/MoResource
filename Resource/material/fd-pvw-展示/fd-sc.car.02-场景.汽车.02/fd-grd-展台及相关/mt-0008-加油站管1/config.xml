@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Material name="pvw.scene.car2.grd.0008" effect="" source="">
+    <Ambient r="1" g="1" b="1" a="1" />
+    <Diffuse r="1" g="1" b="1" a="1" />
+    <Emissive r="1" g="1" b="1" a="1" />
+    <Specular r="1" g="1" b="1" a="1" />
+    <Textures>
+    </Textures>
+  </Material>
+</Configuration>

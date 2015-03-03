@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Template name="\pvw\sc.house.01\scene" label="场景" option_loaded="0" option_select="0" option_merge="0" option_light_map="0">
+    <Renderables count="38">
+      <Renderable id="1" model="\pvw\sc.house.01\001" geometry="ms_001_001" material="\pvw\sc.house.01\001" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="2" model="\pvw\sc.house.01\001" geometry="ms_002_001" material="\pvw\sc.house.01\002" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="3" model="\pvw\sc.house.01\001" geometry="ms_003_001" material="\pvw\sc.house.01\003" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="4" model="\pvw\sc.house.01\001" geometry="ms_004_001" material="\pvw\sc.house.01\004" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="5" model="\pvw\sc.house.01\001" geometry="ms_005_001" material="\pvw\sc.house.01\005" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="6" model="\pvw\sc.house.01\001" geometry="ms_006_001" material="\pvw\sc.house.01\006" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="7" model="\pvw\sc.house.01\001" geometry="ms_007_001" material="\pvw\sc.house.01\007" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="8" model="\pvw\sc.house.01\001" geometry="ms_008_001" material="\pvw\sc.house.01\008" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="9" model="\pvw\sc.house.01\001" geometry="ms_009_001" material="\pvw\sc.house.01\009" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="10" model="\pvw\sc.house.01\001" geometry="ms_009_002" material="\pvw\sc.house.01\009" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="11" model="\pvw\sc.house.01\001" geometry="ms_009_003" material="\pvw\sc.house.01\009" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="12" model="\pvw\sc.house.01\001" geometry="ms_009_004" material="\pvw\sc.house.01\009" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="13" model="\pvw\sc.house.01\001" geometry="ms_009_005" material="\pvw\sc.house.01\009" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="14" model="\pvw\sc.house.01\001" geometry="ms_009_006" material="\pvw\sc.house.01\009" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="15" model="\pvw\sc.house.01\001" geometry="ms_009_007" material="\pvw\sc.house.01\009" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="16" model="\pvw\sc.house.01\001" geometry="ms_009_008" material="\pvw\sc.house.01\009" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="17" model="\pvw\sc.house.01\001" geometry="ms_009_009" material="\pvw\sc.house.01\009" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="18" model="\pvw\sc.house.01\001" geometry="ms_010_001" material="\pvw\sc.house.01\010" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="19" model="\pvw\sc.house.01\001" geometry="ms_011_001" material="\pvw\sc.house.01\011" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="20" model="\pvw\sc.house.01\001" geometry="ms_012_001" material="\pvw\sc.house.01\012" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="21" model="\pvw\sc.house.01\001" geometry="ms_013_001" material="\pvw\sc.house.01\013" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="22" model="\pvw\sc.house.01\001" geometry="ms_014_001" material="\pvw\sc.house.01\014" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="23" model="\pvw\sc.house.01\001" geometry="ms_015_001" material="\pvw\sc.house.01\015" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="24" model="\pvw\sc.house.01\001" geometry="ms_016_001" material="\pvw\sc.house.01\016" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="25" model="\pvw\sc.house.01\001" geometry="ms_017_001" material="\pvw\sc.house.01\017" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="26" model="\pvw\sc.house.01\001" geometry="ms_018_001" material="\pvw\sc.house.01\018" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="27" model="\pvw\sc.house.01\001" geometry="ms_019_001" material="\pvw\sc.house.01\019" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="28" model="\pvw\sc.house.01\001" geometry="ms_019_002" material="\pvw\sc.house.01\019" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="29" model="\pvw\sc.house.01\001" geometry="ms_020_001" material="\pvw\sc.house.01\020" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="30" model="\pvw\sc.house.01\001" geometry="ms_020_002" material="\pvw\sc.house.01\020" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="31" model="\pvw\sc.house.01\001" geometry="ms_020_003" material="\pvw\sc.house.01\020" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="32" model="\pvw\sc.house.01\001" geometry="ms_020_004" material="\pvw\sc.house.01\020" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="33" model="\pvw\sc.house.01\001" geometry="ms_021_001" material="\pvw\sc.house.01\021" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="34" model="\pvw\sc.house.01\001" geometry="ms_021_002" material="\pvw\sc.house.01\021" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="35" model="\pvw\sc.house.01\001" geometry="ms_021_003" material="\pvw\sc.house.01\021" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="36" model="\pvw\sc.house.01\001" geometry="ms_022_001" material="\pvw\sc.house.01\022" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="37" model="\pvw\sc.house.01\001" geometry="ms_023_001" material="\pvw\sc.house.01\023" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="38" model="\pvw\sc.house.01\001" geometry="ms_024_001" material="\pvw\sc.house.01\024" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+    </Renderables>
+    <Animation />
+  </Template>
+</Configuration>

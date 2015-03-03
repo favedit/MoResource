@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Template name="\pvw\show\skeleton.001" label="女精灵动画" option_loaded="2" option_select="0" option_merge="0" option_light_map="0">
+    <Renderables count="3">
+      <Renderable id="1" model="\pvw\show\skeleton.001" geometry="ms_body" material="\pvw\show\013.01" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="2" model="\pvw\show\skeleton.001" geometry="ms_clothes" material="\pvw\show\013.02" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+      <Renderable id="3" model="\pvw\show\skeleton.001" geometry="ms_hair" material="\pvw\show\013.03" light_map="" option_select="0" option_ground="0" option_bone_scale="0" option_instnaced="0" instnace_count="1" />
+    </Renderables>
+    <Animation>
+      <Movie name="idle" frame_begin="0" frame_end="10" frame_rate="2" />
+      <Movie name="walk" frame_begin="12" frame_end="44" frame_rate="3" />
+    </Animation>
+  </Template>
+</Configuration>
