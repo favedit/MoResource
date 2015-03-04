@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Texture name="lbl.dec.0009" label="展示灯">
+    <Bitmap type="environment" source="environment.jpg" />
+  </Texture>
+</Configuration>
