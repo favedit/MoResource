@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Configuration version="1.0">
+   <Model name='pvw\scene.house.042\dec'>
+      <Mesh>
+         <Geometry valid='Y' name='ms_001_001' material='\pvw\sc.house.02\dec\057' />
+         <Geometry valid='Y' name='ms_001_002' material='\pvw\sc.house.02\dec\050' />
+         <Geometry valid='Y' name='ms_001_003' material='\pvw\sc.house.02\dec\051' />
+         <Geometry valid='Y' name='ms_001_004' material='\pvw\sc.house.02\dec\052' />
+         <Geometry valid='Y' name='ms_001_005' material='\pvw\sc.house.02\dec\033' />
+         <Geometry valid='Y' name='ms_001_006' material='\pvw\sc.house.02\dec\053' />
+         <Geometry valid='Y' name='ms_001_007' material='\pvw\sc.house.02\dec\054' />
+         <Geometry valid='Y' name='ms_001_008' material='\pvw\sc.house.02\dec\055' />
+         <Geometry valid='Y' name='ms_001_009' material='\pvw\sc.house.02\dec\056' />
+      </Mesh>
+   </Model>
+</Configuration>

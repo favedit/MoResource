@@ -2,7 +2,7 @@
 <M3xExport version="1.0">
    <Scene start_time="0" end_time="16000" tick="160" file="model.max">
       <Struct total="2">
-         <Node id="0" name="场景根">
+         <Node id="0" name="Scene Root">
             <Node id="21" name="ms_all"/>
          </Node>
       </Struct>
@@ -14,7 +14,7 @@
                <Property name="twoSided" type="int" value="0"/>
                <Property name="faceMap" type="int" value="0"/>
                <Property name="faceted" type="int" value="0"/>
-               <Property name="shaderByName" type="string" value="(B)Blinn"/>
+               <Property name="shaderByName" type="string" value="Blinn"/>
                <Property name="opacityType" type="int" value="0"/>
                <Property name="opacity" type="float" value="1.000000"/>
                <Property name="filterColor" type="point3" x="0.500000" y="0.500000" z="0.500000"/>
@@ -27,14 +27,14 @@
                <Property name="applyReflectionDimming" type="int" value="0"/>
                <Property name="dimLevel" type="float" value="0.000000"/>
                <Property name="reflectionLevel" type="float" value="3.000000"/>
-               <Property name="sampler" type="int" value="1"/>
+               <Property name="sampler" type="int" value="3"/>
                <Property name="samplerQuality" type="float" value="0.500000"/>
                <Property name="samplerEnable" type="int" value="0"/>
                <Property name="samplerAdaptThreshold" type="float" value="0.100000"/>
                <Property name="samplerAdaptOn" type="int" value="1"/>
                <Property name="subSampleTextureOn" type="int" value="1"/>
                <Property name="samplerAdvancedOptions" type="int" value="1"/>
-               <Property name="samplerByName" type="string" value="Max 2.5 星"/>
+               <Property name="samplerByName" type="string" value="Max 2.5 Star"/>
                <Property name="UserParam0" type="float" value="0.000000"/>
                <Property name="UserParam1" type="float" value="0.000000"/>
                <Property name="samplerUseGlobal" type="int" value="1"/>
@@ -108,7 +108,7 @@
             <Glossiness type="float" value="0.100000"/>
             <Opacity type="float" value="1.000000"/>
             <Textures>
-               <Texture id="0" class="Bitmap" name="Map #57" slot_name="漫反射颜色" texture_name="Map #57" texture_class="Bitmap" map_channel="1" std_map_slot="1" file="D:\WP-Webroot\3d\md\boss-berial\rs_001_c.png">
+               <Texture id="0" class="Bitmap" name="Map #57" slot_name="Diffuse Color" texture_name="Map #57" texture_class="Bitmap" map_channel="1" std_map_slot="1" file="D:\WP-Webroot\3d\md\boss-berial\rs_001_c.png">
                   <ClipU type="float" value="0.000000"/>
                   <ClipV type="float" value="0.000000"/>
                   <ClipW type="float" value="1.000000"/>
@@ -137,7 +137,7 @@
                      <Property name="tieTimeToMatIDs" type="int" value="0"/>
                   </Properties>
                </Texture>
-               <Texture id="1" class="Bitmap" name="Map #58" slot_name="高光颜色" texture_name="Map #58" texture_class="Bitmap" map_channel="1" std_map_slot="2" file="D:\WP-Webroot\3d\md\boss-berial\rs_001_s.png">
+               <Texture id="1" class="Bitmap" name="Map #58" slot_name="Specular Color" texture_name="Map #58" texture_class="Bitmap" map_channel="1" std_map_slot="2" file="D:\WP-Webroot\3d\md\boss-berial\rs_001_s.png">
                   <ClipU type="float" value="0.000000"/>
                   <ClipV type="float" value="0.000000"/>
                   <ClipW type="float" value="1.000000"/>
@@ -166,7 +166,7 @@
                      <Property name="tieTimeToMatIDs" type="int" value="0"/>
                   </Properties>
                </Texture>
-               <Texture id="2" class="Bitmap" name="Map #63" slot_name="光泽度" texture_name="Map #63" texture_class="Bitmap" map_channel="1" std_map_slot="4" file="D:\WP-Webroot\3d\md\boss-berial\rs_001_s.png">
+               <Texture id="2" class="Bitmap" name="Map #63" slot_name="Glossiness" texture_name="Map #63" texture_class="Bitmap" map_channel="1" std_map_slot="4" file="D:\WP-Webroot\3d\md\boss-berial\rs_001_s.png">
                   <ClipU type="float" value="0.000000"/>
                   <ClipV type="float" value="0.000000"/>
                   <ClipW type="float" value="1.000000"/>
@@ -195,7 +195,7 @@
                      <Property name="tieTimeToMatIDs" type="int" value="0"/>
                   </Properties>
                </Texture>
-               <Texture id="3" class="Bitmap" name="Map #62" slot_name="自发光" texture_name="Map #62" texture_class="Bitmap" map_channel="1" std_map_slot="5" file="D:\WP-Webroot\3d\md\boss-berial\rs_001_s.png">
+               <Texture id="3" class="Bitmap" name="Map #62" slot_name="Self-Illumination" texture_name="Map #62" texture_class="Bitmap" map_channel="1" std_map_slot="5" file="D:\WP-Webroot\3d\md\boss-berial\rs_001_s.png">
                   <ClipU type="float" value="0.000000"/>
                   <ClipV type="float" value="0.000000"/>
                   <ClipW type="float" value="1.000000"/>
@@ -224,7 +224,7 @@
                      <Property name="tieTimeToMatIDs" type="int" value="0"/>
                   </Properties>
                </Texture>
-               <Texture id="4" class="法线凹凸" name="Map #59" slot_name="凹凸" texture_name="Map #59" texture_class="法线凹凸" map_channel="1" std_map_slot="8">
+               <Texture id="4" class="Normal Bump" name="Map #59" slot_name="Bump" texture_name="Map #59" texture_class="Normal Bump" map_channel="1" std_map_slot="8">
                   <Properties>
                      <Property name="mult_spin" type="float" value="1.000000"/>
                      <Property name="bump_spin" type="float" value="1.000000"/>
@@ -245,7 +245,7 @@
          </Material>
       </MaterialCollection>
       <Mesh count="1">
-         <Geometry class="可编辑多边形" name="ms_all" vertex_count="6321" normal_count="6321" binormal_count="8963" tangent_count="8963" face_count="12600" coord_count="8837">
+         <Geometry class="Editable Poly" name="ms_all" vertex_count="6321" normal_count="6321" binormal_count="8963" tangent_count="8963" face_count="12600" coord_count="8837">
             <Properties>
                <Property name="selByVertex" type="int" value="0"/>
                <Property name="ignoreBackfacing" type="int" value="0"/>

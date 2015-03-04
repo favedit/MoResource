@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Model name="\pvw\scene.courtyard\item.044" src="model.swf">
+    <MaterialCollection />
+    <Mesh>
+      <Geometry valid="Y" name="ms_001" material="\pvw\sc.house.03\001" />
+      <Geometry valid="Y" name="ms_002" material="\pvw\sc.house.03\002" />
+      <Geometry valid="Y" name="ms_003" material="\pvw\sc.house.03\003" />
+      <Geometry valid="Y" name="ms_004" material="\pvw\sc.house.03\004" />
+      <Geometry valid="Y" name="ms_005" material="\pvw\sc.house.03\005"/>
+      <Geometry valid="Y" name="ms_006" material="\pvw\sc.house.03\006" />
+      <Geometry valid="Y" name="ms_007" material="\pvw\sc.house.03\007" />
+      <Geometry valid="Y" name="ms_008" material="\pvw\sc.house.03\008" />
+    </Mesh>
+  </Model>
+</Configuration>

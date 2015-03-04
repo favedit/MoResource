@@ -21,7 +21,7 @@
                <Property name="opacityType" type="int" value="0"/>
                <Property name="opacity" type="float" value="1.000000"/>
                <Property name="filterColor" type="point3" x="0.500000" y="0.500000" z="0.500000"/>
-               <Property name="filterMap"/>
+               <Property name="filterMap" type="unkown"/>
                <Property name="opacityFallOffType" type="int" value="0"/>
                <Property name="opacityFallOff" type="float" value="0.000000"/>
                <Property name="ior" type="float" value="1.500000"/>
@@ -41,9 +41,9 @@
                <Property name="UserParam0" type="float" value="0.000000"/>
                <Property name="UserParam1" type="float" value="0.000000"/>
                <Property name="samplerUseGlobal" type="int" value="1"/>
-               <Property name="mapEnables"/>
-               <Property name="maps"/>
-               <Property name="mapAmounts"/>
+               <Property name="mapEnables" type="unkown"/>
+               <Property name="maps" type="unkown"/>
+               <Property name="mapAmounts" type="unkown"/>
                <Property name="adTextureLock" type="int" value="1"/>
                <Property name="bounce" type="float" value="1.000000"/>
                <Property name="staticFriction" type="float" value="0.000000"/>
@@ -63,17 +63,17 @@
                <Property name="enabled" type="int" value="0"/>
                <Property name="effect" type="int" value="0"/>
                <Property name="dxStdMat" type="int" value="0"/>
-               <Property name="SaveFXFile"/>
+               <Property name="SaveFXFile" type="unkown"/>
                <Property name="Opaque" type="int" value="0"/>
-               <Property name="Surface"/>
-               <Property name="Displacement"/>
-               <Property name="Shadow"/>
-               <Property name="Volume"/>
-               <Property name="Environment"/>
-               <Property name="Contour"/>
-               <Property name="Photon"/>
-               <Property name="PhotonVolume"/>
-               <Property name="LightMap"/>
+               <Property name="Surface" type="unkown"/>
+               <Property name="Displacement" type="unkown"/>
+               <Property name="Shadow" type="unkown"/>
+               <Property name="Volume" type="unkown"/>
+               <Property name="Environment" type="unkown"/>
+               <Property name="Contour" type="unkown"/>
+               <Property name="Photon" type="unkown"/>
+               <Property name="PhotonVolume" type="unkown"/>
+               <Property name="LightMap" type="unkown"/>
                <Property name="SurfaceLocked" type="int" value="1"/>
                <Property name="DisplacementLocked" type="int" value="1"/>
                <Property name="ShadowLocked" type="int" value="1"/>
@@ -122,7 +122,7 @@
                <Property name="opacityType" type="int" value="0"/>
                <Property name="opacity" type="float" value="1.000000"/>
                <Property name="filterColor" type="point3" x="0.500000" y="0.500000" z="0.500000"/>
-               <Property name="filterMap"/>
+               <Property name="filterMap" type="unkown"/>
                <Property name="opacityFallOffType" type="int" value="0"/>
                <Property name="opacityFallOff" type="float" value="0.000000"/>
                <Property name="ior" type="float" value="1.500000"/>
@@ -142,9 +142,9 @@
                <Property name="UserParam0" type="float" value="0.000000"/>
                <Property name="UserParam1" type="float" value="0.000000"/>
                <Property name="samplerUseGlobal" type="int" value="1"/>
-               <Property name="mapEnables"/>
-               <Property name="maps"/>
-               <Property name="mapAmounts"/>
+               <Property name="mapEnables" type="unkown"/>
+               <Property name="maps" type="unkown"/>
+               <Property name="mapAmounts" type="unkown"/>
                <Property name="adTextureLock" type="int" value="1"/>
                <Property name="bounce" type="float" value="1.000000"/>
                <Property name="staticFriction" type="float" value="0.000000"/>
@@ -164,17 +164,17 @@
                <Property name="enabled" type="int" value="0"/>
                <Property name="effect" type="int" value="0"/>
                <Property name="dxStdMat" type="int" value="0"/>
-               <Property name="SaveFXFile"/>
+               <Property name="SaveFXFile" type="unkown"/>
                <Property name="Opaque" type="int" value="0"/>
-               <Property name="Surface"/>
-               <Property name="Displacement"/>
-               <Property name="Shadow"/>
-               <Property name="Volume"/>
-               <Property name="Environment"/>
-               <Property name="Contour"/>
-               <Property name="Photon"/>
-               <Property name="PhotonVolume"/>
-               <Property name="LightMap"/>
+               <Property name="Surface" type="unkown"/>
+               <Property name="Displacement" type="unkown"/>
+               <Property name="Shadow" type="unkown"/>
+               <Property name="Volume" type="unkown"/>
+               <Property name="Environment" type="unkown"/>
+               <Property name="Contour" type="unkown"/>
+               <Property name="Photon" type="unkown"/>
+               <Property name="PhotonVolume" type="unkown"/>
+               <Property name="LightMap" type="unkown"/>
                <Property name="SurfaceLocked" type="int" value="1"/>
                <Property name="DisplacementLocked" type="int" value="1"/>
                <Property name="ShadowLocked" type="int" value="1"/>
@@ -223,7 +223,7 @@
                <Property name="opacityType" type="int" value="0"/>
                <Property name="opacity" type="float" value="1.000000"/>
                <Property name="filterColor" type="point3" x="0.500000" y="0.500000" z="0.500000"/>
-               <Property name="filterMap"/>
+               <Property name="filterMap" type="unkown"/>
                <Property name="opacityFallOffType" type="int" value="0"/>
                <Property name="opacityFallOff" type="float" value="0.000000"/>
                <Property name="ior" type="float" value="1.500000"/>
@@ -243,9 +243,9 @@
                <Property name="UserParam0" type="float" value="0.000000"/>
                <Property name="UserParam1" type="float" value="0.000000"/>
                <Property name="samplerUseGlobal" type="int" value="1"/>
-               <Property name="mapEnables"/>
-               <Property name="maps"/>
-               <Property name="mapAmounts"/>
+               <Property name="mapEnables" type="unkown"/>
+               <Property name="maps" type="unkown"/>
+               <Property name="mapAmounts" type="unkown"/>
                <Property name="adTextureLock" type="int" value="1"/>
                <Property name="bounce" type="float" value="1.000000"/>
                <Property name="staticFriction" type="float" value="0.000000"/>
@@ -265,17 +265,17 @@
                <Property name="enabled" type="int" value="0"/>
                <Property name="effect" type="int" value="0"/>
                <Property name="dxStdMat" type="int" value="0"/>
-               <Property name="SaveFXFile"/>
+               <Property name="SaveFXFile" type="unkown"/>
                <Property name="Opaque" type="int" value="0"/>
-               <Property name="Surface"/>
-               <Property name="Displacement"/>
-               <Property name="Shadow"/>
-               <Property name="Volume"/>
-               <Property name="Environment"/>
-               <Property name="Contour"/>
-               <Property name="Photon"/>
-               <Property name="PhotonVolume"/>
-               <Property name="LightMap"/>
+               <Property name="Surface" type="unkown"/>
+               <Property name="Displacement" type="unkown"/>
+               <Property name="Shadow" type="unkown"/>
+               <Property name="Volume" type="unkown"/>
+               <Property name="Environment" type="unkown"/>
+               <Property name="Contour" type="unkown"/>
+               <Property name="Photon" type="unkown"/>
+               <Property name="PhotonVolume" type="unkown"/>
+               <Property name="LightMap" type="unkown"/>
                <Property name="SurfaceLocked" type="int" value="1"/>
                <Property name="DisplacementLocked" type="int" value="1"/>
                <Property name="ShadowLocked" type="int" value="1"/>
@@ -332,10 +332,10 @@
                      <Property name="rgbOutput" type="int" value="0"/>
                      <Property name="alphaSource" type="int" value="0"/>
                      <Property name="preMultAlpha" type="int" value="1"/>
-                     <Property name="bitmap"/>
-                     <Property name="coords"/>
-                     <Property name="output"/>
-                     <Property name="fileName"/>
+                     <Property name="bitmap" type="unkown"/>
+                     <Property name="coords" type="unkown"/>
+                     <Property name="output" type="unkown"/>
+                     <Property name="fileName" type="unkown"/>
                      <Property name="startTime" type="int" value="0"/>
                      <Property name="playBackRate" type="float" value="1.000000"/>
                      <Property name="endCondition" type="int" value="0"/>
@@ -355,7 +355,7 @@
                <Property name="opacityType" type="int" value="0"/>
                <Property name="opacity" type="float" value="1.000000"/>
                <Property name="filterColor" type="point3" x="0.500000" y="0.500000" z="0.500000"/>
-               <Property name="filterMap"/>
+               <Property name="filterMap" type="unkown"/>
                <Property name="opacityFallOffType" type="int" value="0"/>
                <Property name="opacityFallOff" type="float" value="0.000000"/>
                <Property name="ior" type="float" value="1.500000"/>
@@ -375,9 +375,9 @@
                <Property name="UserParam0" type="float" value="0.000000"/>
                <Property name="UserParam1" type="float" value="0.000000"/>
                <Property name="samplerUseGlobal" type="int" value="1"/>
-               <Property name="mapEnables"/>
-               <Property name="maps"/>
-               <Property name="mapAmounts"/>
+               <Property name="mapEnables" type="unkown"/>
+               <Property name="maps" type="unkown"/>
+               <Property name="mapAmounts" type="unkown"/>
                <Property name="adTextureLock" type="int" value="1"/>
                <Property name="bounce" type="float" value="1.000000"/>
                <Property name="staticFriction" type="float" value="0.000000"/>
@@ -397,17 +397,17 @@
                <Property name="enabled" type="int" value="0"/>
                <Property name="effect" type="int" value="0"/>
                <Property name="dxStdMat" type="int" value="0"/>
-               <Property name="SaveFXFile"/>
+               <Property name="SaveFXFile" type="unkown"/>
                <Property name="Opaque" type="int" value="0"/>
-               <Property name="Surface"/>
-               <Property name="Displacement"/>
-               <Property name="Shadow"/>
-               <Property name="Volume"/>
-               <Property name="Environment"/>
-               <Property name="Contour"/>
-               <Property name="Photon"/>
-               <Property name="PhotonVolume"/>
-               <Property name="LightMap"/>
+               <Property name="Surface" type="unkown"/>
+               <Property name="Displacement" type="unkown"/>
+               <Property name="Shadow" type="unkown"/>
+               <Property name="Volume" type="unkown"/>
+               <Property name="Environment" type="unkown"/>
+               <Property name="Contour" type="unkown"/>
+               <Property name="Photon" type="unkown"/>
+               <Property name="PhotonVolume" type="unkown"/>
+               <Property name="LightMap" type="unkown"/>
                <Property name="SurfaceLocked" type="int" value="1"/>
                <Property name="DisplacementLocked" type="int" value="1"/>
                <Property name="ShadowLocked" type="int" value="1"/>
@@ -464,10 +464,10 @@
                      <Property name="rgbOutput" type="int" value="0"/>
                      <Property name="alphaSource" type="int" value="0"/>
                      <Property name="preMultAlpha" type="int" value="1"/>
-                     <Property name="bitmap"/>
-                     <Property name="coords"/>
-                     <Property name="output"/>
-                     <Property name="fileName"/>
+                     <Property name="bitmap" type="unkown"/>
+                     <Property name="coords" type="unkown"/>
+                     <Property name="output" type="unkown"/>
+                     <Property name="fileName" type="unkown"/>
                      <Property name="startTime" type="int" value="0"/>
                      <Property name="playBackRate" type="float" value="1.000000"/>
                      <Property name="endCondition" type="int" value="0"/>
@@ -557,7 +557,7 @@
                <Property name="tesselateBy" type="int" value="0"/>
                <Property name="tessTension" type="float" value="0.000000"/>
                <Property name="connectEdgeSegments" type="int" value="1"/>
-               <Property name="extrudeAlongSplineNode"/>
+               <Property name="extrudeAlongSplineNode" type="unkown"/>
                <Property name="extrudeAlongSplineSegments" type="int" value="6"/>
                <Property name="extrudeAlongSplineTaper" type="float" value="0.000000"/>
                <Property name="extrudeAlongSplineTaperCurve" type="float" value="0.000000"/>
@@ -601,17 +601,14 @@
                <Property name="selectMode" type="int" value="0"/>
             </Properties>
             <Matrix>
-               <ObjectMatrix tx="-22.815395" ty="15.793024" tz="2.826469" rx="-90.000008" ry="0.000000" rz="0.000000" sx="1.060654" sy="1.028474" sz="1.043723"/>
-               <LocalMatrix tx="-22.815395" ty="15.793024" tz="2.826469" rx="-90.000008" ry="0.000000" rz="0.000000" sx="1.060654" sy="1.028474" sz="1.043723"/>
-               <WorldMatrix tx="-22.815395" ty="15.793024" tz="2.826469" rx="-90.000008" ry="0.000000" rz="0.000000" sx="1.060654" sy="1.028474" sz="1.043723"/>
+               <ObjectMatrix tx="-22.815395" ty="15.793024" tz="2.826469" qx="0.707107" qy="-0.000000" qz="-0.000000" qw="0.707107" rx="-90.000015" ry="0.000000" rz="0.000000" sx="1.060654" sy="1.028474" sz="1.043723"/>
+               <LocalMatrix tx="-22.815395" ty="15.793024" tz="2.826469" qx="0.707107" qy="-0.000000" qz="-0.000000" qw="0.707107" rx="-90.000015" ry="0.000000" rz="0.000000" sx="1.060654" sy="1.028474" sz="1.043723"/>
+               <WorldMatrix tx="-22.815395" ty="15.793024" tz="2.826469" qx="0.707107" qy="-0.000000" qz="-0.000000" qw="0.707107" rx="-90.000015" ry="0.000000" rz="0.000000" sx="1.060654" sy="1.028474" sz="1.043723"/>
             </Matrix>
-            <MapCollection count="1">
-               <Map id="1" vertex_count="429" tangent_count="496" binormal_count="496"/>
-            </MapCollection>
             <MaterialCollection count="1">
                <Material id="0" name="15 - Default"/>
             </MaterialCollection>
-            <Track>
+            <Track count="31">
                <Types>
                   <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
                   <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
@@ -702,7 +699,7 @@
                <Property name="tesselateBy" type="int" value="0"/>
                <Property name="tessTension" type="float" value="0.000000"/>
                <Property name="connectEdgeSegments" type="int" value="1"/>
-               <Property name="extrudeAlongSplineNode"/>
+               <Property name="extrudeAlongSplineNode" type="unkown"/>
                <Property name="extrudeAlongSplineSegments" type="int" value="6"/>
                <Property name="extrudeAlongSplineTaper" type="float" value="0.000000"/>
                <Property name="extrudeAlongSplineTaperCurve" type="float" value="0.000000"/>
@@ -746,17 +743,14 @@
                <Property name="selectMode" type="int" value="0"/>
             </Properties>
             <Matrix>
-               <ObjectMatrix tx="0.046301" ty="-0.090393" tz="1.234223" rx="-0.618379" ry="-179.602188" rz="46.084526" sx="1.019350" sy="1.019350" sz="1.019350"/>
-               <LocalMatrix tx="0.003365" ty="0.002744" tz="1.289274" rx="-0.618379" ry="-179.602188" rz="46.084526" sx="1.019350" sy="1.019350" sz="1.019350"/>
-               <WorldMatrix tx="0.003365" ty="0.002744" tz="1.289274" rx="-0.618379" ry="-179.602188" rz="46.084526" sx="1.019350" sy="1.019350" sz="1.019350"/>
+               <ObjectMatrix tx="0.046301" ty="-0.090393" tz="1.234223" qx="0.391385" qy="-0.920205" qz="-0.003607" qw="-0.005307" rx="-0.618379" ry="-179.602188" rz="46.084522" sx="1.019350" sy="1.019350" sz="1.019350"/>
+               <LocalMatrix tx="0.003365" ty="0.002744" tz="1.289274" qx="0.391385" qy="-0.920205" qz="-0.003607" qw="-0.005307" rx="-0.618379" ry="-179.602188" rz="46.084522" sx="1.019350" sy="1.019350" sz="1.019350"/>
+               <WorldMatrix tx="0.003365" ty="0.002744" tz="1.289274" qx="0.391385" qy="-0.920205" qz="-0.003607" qw="-0.005307" rx="-0.618379" ry="-179.602188" rz="46.084522" sx="1.019350" sy="1.019350" sz="1.019350"/>
             </Matrix>
-            <MapCollection count="1">
-               <Map id="1" vertex_count="3395" tangent_count="3460" binormal_count="3460"/>
-            </MapCollection>
             <MaterialCollection count="1">
                <Material id="1" name="24 - Default"/>
             </MaterialCollection>
-            <Track>
+            <Track count="31">
                <Types>
                   <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
                   <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
@@ -847,7 +841,7 @@
                <Property name="tesselateBy" type="int" value="0"/>
                <Property name="tessTension" type="float" value="0.000000"/>
                <Property name="connectEdgeSegments" type="int" value="1"/>
-               <Property name="extrudeAlongSplineNode"/>
+               <Property name="extrudeAlongSplineNode" type="unkown"/>
                <Property name="extrudeAlongSplineSegments" type="int" value="6"/>
                <Property name="extrudeAlongSplineTaper" type="float" value="0.000000"/>
                <Property name="extrudeAlongSplineTaperCurve" type="float" value="0.000000"/>
@@ -891,17 +885,14 @@
                <Property name="selectMode" type="int" value="0"/>
             </Properties>
             <Matrix>
-               <ObjectMatrix tx="0.003365" ty="0.002744" tz="1.289274" rx="-0.000006" ry="-21.748083" rz="45.596344" sx="0.981196" sy="0.981196" sz="0.981196"/>
-               <LocalMatrix tx="0.003365" ty="0.002744" tz="1.289274" rx="-0.000006" ry="-21.748083" rz="45.596344" sx="0.981196" sy="0.981196" sz="0.981196"/>
-               <WorldMatrix tx="0.003365" ty="0.002744" tz="1.289274" rx="-0.000006" ry="-21.748083" rz="45.596344" sx="0.981196" sy="0.981196" sz="0.981196"/>
+               <ObjectMatrix tx="0.003365" ty="0.002744" tz="1.289274" qx="-0.073099" qy="0.173912" qz="-0.380529" qw="0.905323" rx="-0.000007" ry="-21.748079" rz="45.596340" sx="0.981196" sy="0.981196" sz="0.981196"/>
+               <LocalMatrix tx="0.003365" ty="0.002744" tz="1.289274" qx="-0.073099" qy="0.173912" qz="-0.380529" qw="0.905323" rx="-0.000007" ry="-21.748079" rz="45.596340" sx="0.981196" sy="0.981196" sz="0.981196"/>
+               <WorldMatrix tx="0.003365" ty="0.002744" tz="1.289274" qx="-0.073099" qy="0.173912" qz="-0.380529" qw="0.905323" rx="-0.000007" ry="-21.748079" rz="45.596340" sx="0.981196" sy="0.981196" sz="0.981196"/>
             </Matrix>
-            <MapCollection count="1">
-               <Map id="1" vertex_count="1240" tangent_count="1252" binormal_count="1252"/>
-            </MapCollection>
             <MaterialCollection count="1">
                <Material id="2" name="Material #27asdfa"/>
             </MaterialCollection>
-            <Track>
+            <Track count="31">
                <Types>
                   <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
                   <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
@@ -992,7 +983,7 @@
                <Property name="tesselateBy" type="int" value="0"/>
                <Property name="tessTension" type="float" value="0.000000"/>
                <Property name="connectEdgeSegments" type="int" value="1"/>
-               <Property name="extrudeAlongSplineNode"/>
+               <Property name="extrudeAlongSplineNode" type="unkown"/>
                <Property name="extrudeAlongSplineSegments" type="int" value="6"/>
                <Property name="extrudeAlongSplineTaper" type="float" value="0.000000"/>
                <Property name="extrudeAlongSplineTaperCurve" type="float" value="0.000000"/>
@@ -1036,17 +1027,14 @@
                <Property name="selectMode" type="int" value="0"/>
             </Properties>
             <Matrix>
-               <ObjectMatrix tx="0.003365" ty="0.002744" tz="1.289274" rx="-0.000010" ry="-6.770567" rz="45.596325" sx="1.000000" sy="1.000000" sz="1.000000"/>
-               <LocalMatrix tx="0.003365" ty="0.002744" tz="1.289274" rx="-0.000010" ry="-6.770567" rz="45.596325" sx="1.000000" sy="1.000000" sz="1.000000"/>
-               <WorldMatrix tx="0.003365" ty="0.002744" tz="1.289274" rx="-0.000010" ry="-6.770567" rz="45.596325" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <ObjectMatrix tx="0.003365" ty="0.002744" tz="1.289274" qx="-0.022881" qy="0.054437" qz="-0.386810" qw="0.920267" rx="-0.000009" ry="-6.770567" rz="45.596321" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="0.003365" ty="0.002744" tz="1.289274" qx="-0.022881" qy="0.054437" qz="-0.386810" qw="0.920267" rx="-0.000009" ry="-6.770567" rz="45.596321" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="0.003365" ty="0.002744" tz="1.289274" qx="-0.022881" qy="0.054437" qz="-0.386810" qw="0.920267" rx="-0.000009" ry="-6.770567" rz="45.596321" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
-            <MapCollection count="1">
-               <Map id="1" vertex_count="323" tangent_count="323" binormal_count="323"/>
-            </MapCollection>
             <MaterialCollection count="1">
                <Material id="3" name="Material #27"/>
             </MaterialCollection>
-            <Track>
+            <Track count="31">
                <Types>
                   <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
                   <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>

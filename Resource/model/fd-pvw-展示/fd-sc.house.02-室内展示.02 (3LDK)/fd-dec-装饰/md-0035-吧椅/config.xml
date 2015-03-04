@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Configuration version="1.0">
+   <Model name='pvw\scene.house.035\dec'>
+      <Mesh>
+         <Geometry valid='Y' name='ms_001_001' material='\pvw\sc.house.02\dec\048' />
+         <Geometry valid='Y' name='ms_001_002' material='\pvw\sc.house.02\dec\049' />
+         <Geometry valid='Y' name='ms_001_003' material='\pvw\sc.house.02\dec\059' />
+      </Mesh>
+   </Model>
+</Configuration>

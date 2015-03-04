@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Configuration version="1.0">
+   <Model name='scene.house.001'>
+      <Mesh>
+         <Geometry valid='Y' name='ms_001_001' material='\pvw\sc.house.01\001'/>
+         <Geometry valid='Y' name='ms_002_001' material='\pvw\sc.house.01\002'/>
+         <Geometry valid='Y' name='ms_003_001' material='\pvw\sc.house.01\003'/>
+         <Geometry valid='Y' name='ms_004_001' material='\pvw\sc.house.01\004'/>
+         <Geometry valid='Y' name='ms_005_001' material='\pvw\sc.house.01\005'/>
+         <Geometry valid='Y' name='ms_006_001' material='\pvw\sc.house.01\006'/>
+         <Geometry valid='Y' name='ms_007_001' material='\pvw\sc.house.01\007'/>
+         <Geometry valid='Y' name='ms_008_001' material='\pvw\sc.house.01\008'/>
+         <Geometry valid='Y' name='ms_009_001' material='\pvw\sc.house.01\009'/>
+         <Geometry valid='Y' name='ms_009_002' material='\pvw\sc.house.01\009'/>
+         <Geometry valid='Y' name='ms_009_003' material='\pvw\sc.house.01\009'/>
+         <Geometry valid='Y' name='ms_009_004' material='\pvw\sc.house.01\009'/>
+         <Geometry valid='Y' name='ms_009_005' material='\pvw\sc.house.01\009'/>
+         <Geometry valid='Y' name='ms_009_006' material='\pvw\sc.house.01\009'/>
+         <Geometry valid='Y' name='ms_009_007' material='\pvw\sc.house.01\009'/>
+         <Geometry valid='Y' name='ms_009_008' material='\pvw\sc.house.01\009'/>
+         <Geometry valid='Y' name='ms_009_009' material='\pvw\sc.house.01\009'/>
+         <Geometry valid='Y' name='ms_010_001' material='\pvw\sc.house.01\010'/>
+         <Geometry valid='Y' name='ms_011_001' material='\pvw\sc.house.01\011'/>
+         <Geometry valid='Y' name='ms_012_001' material='\pvw\sc.house.01\012'/>
+         <Geometry valid='Y' name='ms_013_001' material='\pvw\sc.house.01\013'/>
+         <Geometry valid='Y' name='ms_014_001' material='\pvw\sc.house.01\014'/>
+         <Geometry valid='Y' name='ms_015_001' material='\pvw\sc.house.01\015'/>
+         <Geometry valid='Y' name='ms_016_001' material='\pvw\sc.house.01\016'/>
+         <Geometry valid='Y' name='ms_017_001' material='\pvw\sc.house.01\017'/>
+         <Geometry valid='Y' name='ms_018_001' material='\pvw\sc.house.01\018'/>
+         <Geometry valid='Y' name='ms_019_001' material='\pvw\sc.house.01\019'/>
+         <Geometry valid='Y' name='ms_019_002' material='\pvw\sc.house.01\019'/>
+         <Geometry valid='Y' name='ms_020_001' material='\pvw\sc.house.01\020'/>
+         <Geometry valid='Y' name='ms_020_002' material='\pvw\sc.house.01\020'/>
+         <Geometry valid='Y' name='ms_020_003' material='\pvw\sc.house.01\020'/>
+         <Geometry valid='Y' name='ms_020_004' material='\pvw\sc.house.01\020'/>
+         <Geometry valid='Y' name='ms_021_001' material='\pvw\sc.house.01\021'/>
+         <Geometry valid='Y' name='ms_021_002' material='\pvw\sc.house.01\021'/>
+         <Geometry valid='Y' name='ms_021_003' material='\pvw\sc.house.01\021'/>
+         <Geometry valid='Y' name='ms_022_001' material='\pvw\sc.house.01\022'/>
+         <Geometry valid='Y' name='ms_023_001' material='\pvw\sc.house.01\023'/>
+         <Geometry valid='Y' name='ms_024_001' material='\pvw\sc.house.01\024'/>
+      </Mesh>
+   </Model>
+</Configuration>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Model name="\tst\001" label="对称">
+    <Mesh>
+      <Geometry valid="Y" name="ms_001" material="\tst\001" option_double="1" option_shadow="2" option_symmetry="1" option_transmittance="1" option_select="0" option_ground="0" option_bone_scale="0" option_instanced="0" instance_count="41" />
+    </Mesh>
+    <Animation />
+  </Model>
+</Configuration>
