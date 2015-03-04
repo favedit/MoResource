@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Configuration version="1.0">
+   <Model name='g3.chr.ply.race.001.001'>
+      <Mesh>
+         <Geometry valid='Y' name='ms_001' material='\g3\chr\ply\race.001\001' />
+         <Geometry valid='Y' name='ms_002' material='\g3\chr\ply\race.001\001' />
+      </Mesh>
+   </Model>
+</Configuration>
