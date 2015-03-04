@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Texture name="lgt.plt.0006" label="盆景树枝">
+    <Bitmap type="alpha" source="alpha.jpg" />
+    <Bitmap type="diffuse" source="diffuse.jpg" />
+    <Bitmap type="normal" source="normal.jpg" />
+    <Bitmap type="specular.level" source="specular.level.jpg" />
+  </Texture>
+</Configuration>

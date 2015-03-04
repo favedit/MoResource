@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Texture name="lgt.dec.0013" label="鼓">
+    <Bitmap type="alpha" source="alpha.jpg" />
+    <Bitmap type="diffuse" source="diffuse.jpg" />
+    <Bitmap type="normal" source="normal.jpg" />
+    <Bitmap type="specular" source="specular.jpg" />
+  </Texture>
+</Configuration>
