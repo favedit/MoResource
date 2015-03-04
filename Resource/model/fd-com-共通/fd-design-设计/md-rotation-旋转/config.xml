@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Model name="\com\design\rotation" src="model.swf">
+    <Mesh>
+      <Geometry valid="Y" name="ms_rotation_x" material="\com\design\rotation.x" />
+      <Geometry valid="Y" name="ms_rotation_y" material="\com\design\rotation.y" />
+      <Geometry valid="Y" name="ms_rotation_z" material="\com\design\rotation.z" />
+    </Mesh>
+    <Animation />
+  </Model>
+</Configuration>

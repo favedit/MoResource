@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Configuration version="1.0">
+   <Model>
+      <Mesh>
+         <Geometry valid='Y' name='ms_001' material='/lgt/bld/0005'/>
+      </Mesh>
+   </Model>
+</Configuration>

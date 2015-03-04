@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Configuration version="1.0">
+   <Model>
+      <Mesh>
+         <Geometry valid='Y' name='ms_001' material='/lgt/bld/0031'/>
+         <Geometry valid='Y' name='ms_002' material='/lgt/bld/0047'/>
+         <Geometry valid='Y' name='ms_003' material='/lgt/bld/0013'/>
+         <Geometry valid='Y' name='ms_004' material='/lgt/bld/0035'/>
+         <Geometry valid='Y' name='ms_005' material='/lgt/bld/0015'/>
+         <Geometry valid='Y' name='ms_006' material='/lgt/bld/0032'/>
+         <Geometry valid='Y' name='ms_007' material='/lgt/bld/0014'/>
+         <Geometry valid='Y' name='ms_008' material='/lgt/bld/0016'/>
+         <Geometry valid='Y' name='ms_009' material='/lgt/bld/0027'/>
+         <Geometry valid='Y' name='ms_010' material='/lgt/bld/0020'/>
+         <Geometry valid='Y' name='ms_011' material='/lgt/bld/0018'/>
+         <Geometry valid='Y' name='ms_013' material='/lgt/bld/0017'/>
+         <Geometry valid='Y' name='ms_014' material='/lgt/bld/0021'/>
+         <Geometry valid='Y' name='ms_015' material='/lgt/bld/0024'/>
+         <Geometry valid='Y' name='ms_016' material='/lgt/bld/0025'/>
+         <Geometry valid='Y' name='ms_017' material='/lgt/bld/0022'/>
+         <Geometry valid='Y' name='ms_018' material='/lgt/bld/0053'/>
+         <Geometry valid='Y' name='ms_019' material='/lgt/bld/0028'/>
+         <Geometry valid='Y' name='ms_020' material='/lgt/bld/0026'/>
+         <Geometry valid='Y' name='ms_022' material='/lgt/bld/0023'/>
+      </Mesh>
+   </Model>
+</Configuration>

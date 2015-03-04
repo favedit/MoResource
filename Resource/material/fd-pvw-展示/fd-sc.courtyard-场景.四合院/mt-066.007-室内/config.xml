@@ -15,6 +15,6 @@
   </Materials>
   <Textures>
     <Texture type_name="diffuse" source="\pvw\sc.courtyard\066.007" source_type="diffuse" source_index="0" />
-    <Texture type_name="alpha" source="\pvw\sc.courtyard\066.006" source_type="alpha" source_index="0" />
+    <Texture type_name="alpha" source="\pvw\sc.courtyard\066.007" source_type="alpha" source_index="0" />
   </Textures>
 </MaterialGroup>

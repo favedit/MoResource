@@ -3,6 +3,6 @@
   <Texture name="lgt.dec.0018" label="木头家具4">
     <Bitmap type="diffuse" source="diffuse.jpg" />
     <Bitmap type="normal" source="normal.jpg" />
-    <Bitmap type="specular" source="specular.jpg" />
+    <Bitmap type="specular.level" source="specular.level.jpg" />
   </Texture>
 </Configuration>

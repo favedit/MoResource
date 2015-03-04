@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Model name="\com\design\translation" src="model.swf">
+    <Mesh>
+      <Geometry valid="Y" name="ms_translation_x" material="\com\design\translation.x" />
+      <Geometry valid="Y" name="ms_translation_y" material="\com\design\translation.y" />
+      <Geometry valid="Y" name="ms_translation_z" material="\com\design\translation.z" />
+    </Mesh>
+    <Animation />
+  </Model>
+</Configuration>

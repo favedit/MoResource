@@ -14,9 +14,9 @@
     </Material>
   </Materials>
   <Textures>
-    <Texture type_name="diffuse" source="\pvw\sc.courtyard\055" source_type="diffuse" source_index="0" />
-    <Texture type_name="normal" source="\pvw\sc.courtyard\055" source_type="normal" source_index="0" />
-    <Texture type_name="specular.level" source="\pvw\sc.courtyard\055" source_type="specular.level" source_index="0" />
-    <Texture type_name="environment" source="\pvw\sc.courtyard\055" source_type="environment" source_index="0" />
+    <Texture type_name="diffuse" source="\pvw\sc.courtyard\056" source_type="diffuse" source_index="0" />
+    <Texture type_name="normal" source="\pvw\sc.courtyard\056" source_type="normal" source_index="0" />
+    <Texture type_name="specular.level" source="\pvw\sc.courtyard\056" source_type="specular.level" source_index="0" />
+    <Texture type_name="environment" source="\pvw\sc.courtyard\056" source_type="environment" source_index="0" />
   </Textures>
 </MaterialGroup>

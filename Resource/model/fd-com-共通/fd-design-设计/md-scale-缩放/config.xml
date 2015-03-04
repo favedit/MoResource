@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Model name="\com\design\scale" src="model.swf">
+    <Mesh>
+      <Geometry valid="Y" name="ms_scale_all" material="\com\design\scale.all" />
+      <Geometry valid="Y" name="ms_scale_x" material="\com\design\scale.x" />
+      <Geometry valid="Y" name="ms_scale_y" material="\com\design\scale.y" />
+      <Geometry valid="Y" name="ms_scale_z" material="\com\design\scale.z" />
+    </Mesh>
+    <Animation />
+  </Model>
+</Configuration>

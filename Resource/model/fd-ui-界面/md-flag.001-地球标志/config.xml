@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Model name="\ui\flag.001" src="model.swf">
+    <Mesh>
+      <Geometry valid="Y" name="ms_001" material="\ui\flag.001.01" />
+      <Geometry valid="Y" name="ms_002_001" material="\ui\flag.001.02" />
+      <Geometry valid="Y" name="ms_002_002" material="\ui\flag.001.02" />
+      <Geometry valid="Y" name="ms_002_003" material="\ui\flag.001.02" />
+    </Mesh>
+    <Animation />
+  </Model>
+</Configuration>

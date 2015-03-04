@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="GB2312"?>
+<M3xExport version="1.0">
+   <Scene start_time="0" end_time="16000" tick="160" file="model.max">
+      <Struct total="2">
+         <Node id="0" name="Scene Root">
+            <Node id="6" name="ms_light"/>
+         </Node>
+      </Struct>
+      <MaterialCollection count="0"/>
+      <Mesh count="1">
+         <Geometry class="Sphere" name="ms_light" vertex_count="1986" normal_count="1986" binormal_count="2079" tangent_count="2079" face_count="3968" coord_count="2145">
+            <Properties>
+               <Property name="radius" type="float" value="1.000000"/>
+               <Property name="segs" type="int" value="64"/>
+               <Property name="smooth" type="int" value="1"/>
+               <Property name="hemisphere" type="float" value="0.000000"/>
+               <Property name="sliceFrom" type="float" value="0.000000"/>
+               <Property name="sliceTo" type="float" value="0.000000"/>
+            </Properties>
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+      </Mesh>
+      <Skeleton bone_count="0"/>
+      <Animation frame_tick="160" frame_count="100" frame_start="0" frame_end="16000" bone_count="0"/>
+   </Scene>
+   <Logger/>
+</M3xExport>

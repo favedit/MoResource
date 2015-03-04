@@ -4,6 +4,6 @@
     <Bitmap type="alpha" source="alpha.jpg" />
     <Bitmap type="diffuse" source="diffuse.jpg" />
     <Bitmap type="normal" source="normal.jpg" />
-    <Bitmap type="specular" source="specular.jpg" />
+    <Bitmap type="specular.level" source="specular.level.jpg" />
   </Texture>
 </Configuration>

@@ -1,0 +1,33 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# 创建的文件:06.12.2011 16:05:21
+
+newmtl 02___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\WP-Flash3D\Resource\texture\fd-lgt-楼观台\fd-plt-植物\tx-0004-松树树干\diffuse.jpg
+	map_Kd D:\WP-Flash3D\Resource\texture\fd-lgt-楼观台\fd-plt-植物\tx-0004-松树树干\diffuse.jpg
+	map_bump Map__283_Normal_Bump.tga
+
+newmtl 03___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\WP-Flash3D\Resource\texture\fd-lgt-楼观台\fd-plt-植物\tx-0003-松树02\diffuse.jpg
+	map_Kd D:\WP-Flash3D\Resource\texture\fd-lgt-楼观台\fd-plt-植物\tx-0003-松树02\diffuse.jpg
+	map_d D:\WP-Flash3D\Resource\texture\fd-lgt-楼观台\fd-plt-植物\tx-0003-松树02\alpha.jpg
+	map_bump Map__289_Normal_Bump.tga

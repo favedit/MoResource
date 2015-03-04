@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Model name="\lgt\dec\0012" src="model.swf">
+    <Mesh>
+      <Geometry valid="Y" name="ms_001" material="\lgt\dec\0012" />
+    </Mesh>
+    <Animation />
+  </Model>
+</Configuration>
