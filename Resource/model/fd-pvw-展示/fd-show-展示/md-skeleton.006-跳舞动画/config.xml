@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Model name="\pvw\show\skeleton.006" label="跳舞动作">
+    <Mesh>
+      <Geometry valid="Y" name="Object01" material='' />
+    </Mesh>
+    <Animation />
+  </Model>
+</Configuration>
