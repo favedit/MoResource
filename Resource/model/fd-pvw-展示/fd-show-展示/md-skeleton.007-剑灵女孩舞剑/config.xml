@@ -2,7 +2,11 @@
 <Configuration>
   <Model name="\pvw\show\skeleton.006" label="跳舞动作">
     <Mesh>
-      <Geometry valid="Y" name="Object01" material='' />
+      <Geometry valid="Y" name="ms_body" material='' />
+      <Geometry valid="Y" name="ms_ear" material='' />
+      <Geometry valid="Y" name="ms_face" material='' />
+      <Geometry valid="Y" name="ms_hair" material='' />
+      <Geometry valid="Y" name="ms_sword" material='' />
     </Mesh>
     <Animation />
   </Model>
