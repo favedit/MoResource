@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Configuration version="1.0">
+   <Model name='pvw.show.item.013'>
+      <Mesh>
+         <Geometry valid='Y' name='ms_001'/>
+         <Geometry valid='Y' name='ms_002'/>
+         <Geometry valid='Y' name='ms_003'/>
+         <Geometry valid='Y' name='ms_004'/>
+         <Geometry valid='Y' name='ms_005'/>
+         <Geometry valid='Y' name='ms_006'/>
+         <Geometry valid='Y' name='ms_007'/>
+         <Geometry valid='Y' name='ms_008'/>
+      </Mesh>
+   </Model>
+</Configuration>
