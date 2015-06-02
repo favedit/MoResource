@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="GB2312"?>
+<M3xExport version="1.0">
+   <Scene start_time="0" end_time="16000" tick="160" file="model.max">
+      <Struct total="32">
+         <Node id="0" name="Scene Root">
+            <Node id="27" name="ms_hainan"/>
+            <Node id="55" name="ms_heilongjiang"/>
+            <Node id="56" name="ms_neimenggu"/>
+            <Node id="57" name="ms_jilin"/>
+            <Node id="58" name="ms_liaoning"/>
+            <Node id="59" name="ms_hebei"/>
+            <Node id="60" name="ms_beijing"/>
+            <Node id="61" name="ms_tianjing"/>
+            <Node id="62" name="ms_shanxi"/>
+            <Node id="63" name="ms_shandong"/>
+            <Node id="64" name="ms_henan"/>
+            <Node id="65" name="ms_ningxia"/>
+            <Node id="66" name="ms_shaanxi"/>
+            <Node id="67" name="ms_gansu"/>
+            <Node id="68" name="ms_xinjiang"/>
+            <Node id="69" name="ms_qinghai"/>
+            <Node id="70" name="ms_xizang"/>
+            <Node id="71" name="ms_sichuan"/>
+            <Node id="72" name="ms_chongqing"/>
+            <Node id="73" name="ms_hubei"/>
+            <Node id="74" name="ms_anhui"/>
+            <Node id="75" name="ms_jiangsu"/>
+            <Node id="76" name="ms_zhejiang"/>
+            <Node id="77" name="ms_jiangxi"/>
+            <Node id="78" name="ms_guangdong"/>
+            <Node id="79" name="ms_guangxi"/>
+            <Node id="80" name="ms_guizhou"/>
+            <Node id="81" name="ms_yunnan"/>
+            <Node id="83" name="ms_taiwan"/>
+            <Node id="85" name="ms_hunan"/>
+            <Node id="86" name="ms_fujian"/>
+         </Node>
+      </Struct>
+      <MaterialCollection count="1">
+         <Material class="Standard" name="08 - Default">
+            <Properties count="89">
+               <Property index="0" name="shaderType" type="int" value="1"/>
+               <Property index="1" name="wire" type="int" value="0"/>
+               <Property index="2" name="twoSided" type="int" value="0"/>
+               <Property index="3" name="faceMap" type="int" value="0"/>
+               <Property index="4" name="faceted" type="int" value="0"/>
+               <Property index="5" name="shaderByName" type="string" value="Blinn"/>
+               <Property index="6" name="opacityType" type="int" value="0"/>
+               <Property index="7" name="opacity" type="float" value="1.000000"/>
+               <Property index="8" name="filterColor" type="point3" x="0.500000" y="0.500000" z="0.500000"/>
+               <Property index="9" name="filterMap" type="unkown"/>
+               <Property index="10" name="opacityFallOffType" type="int" value="0"/>
+               <Property index="11" name="opacityFallOff" type="float" value="0.000000"/>
+               <Property index="12" name="ior" type="float" value="1.500000"/>
+               <Property index="13" name="wireSize" type="float" value="1.000000"/>
+               <Property index="14" name="wireUnits" type="int" value="0"/>
+               <Property index="15" name="applyReflectionDimming" type="int" value="0"/>
+               <Property index="16" name="dimLevel" type="float" value="0.000000"/>
+               <Property index="17" name="reflectionLevel" type="float" value="3.000000"/>
+               <Property index="18" name="sampler" type="int" value="3"/>
+               <Property index="19" name="samplerQuality" type="float" value="0.500000"/>
+               <Property index="20" name="samplerEnable" type="int" value="0"/>
+               <Property index="21" name="samplerAdaptThreshold" type="float" value="0.100000"/>
+               <Property index="22" name="samplerAdaptOn" type="int" value="1"/>
+               <Property index="23" name="subSampleTextureOn" type="int" value="1"/>
+               <Property index="24" name="samplerAdvancedOptions" type="int" value="1"/>
+               <Property index="25" name="samplerByName" type="string" value="Max 2.5 Star"/>
+               <Property index="26" name="UserParam0" type="float" value="0.000000"/>
+               <Property index="27" name="UserParam1" type="float" value="0.000000"/>
+               <Property index="28" name="samplerUseGlobal" type="int" value="1"/>
+               <Property index="29" name="mapEnables" type="unkown"/>
+               <Property index="30" name="maps" type="unkown"/>
+               <Property index="31" name="mapAmounts" type="unkown"/>
+               <Property index="32" name="adTextureLock" type="int" value="1"/>
+               <Property index="33" name="bounce" type="float" value="1.000000"/>
+               <Property index="34" name="staticFriction" type="float" value="0.000000"/>
+               <Property index="35" name="slidingFriction" type="float" value="0.000000"/>
+               <Property index="36" name="ambient" type="point3" x="0.588235" y="0.588235" z="0.588235"/>
+               <Property index="37" name="diffuse" type="point3" x="0.588235" y="0.588235" z="0.588235"/>
+               <Property index="38" name="specular" type="point3" x="0.900000" y="0.900000" z="0.900000"/>
+               <Property index="39" name="adTextureLock" type="int" value="1"/>
+               <Property index="40" name="adLock" type="int" value="1"/>
+               <Property index="41" name="dsLock" type="int" value="0"/>
+               <Property index="42" name="useSelfIllumColor" type="int" value="0"/>
+               <Property index="43" name="selfIllumAmount" type="float" value="0.000000"/>
+               <Property index="44" name="selfIllumColor" type="point3" x="0.000000" y="0.000000" z="0.000000"/>
+               <Property index="45" name="specularLevel" type="float" value="0.000000"/>
+               <Property index="46" name="glossiness" type="float" value="0.100000"/>
+               <Property index="47" name="soften" type="float" value="0.100000"/>
+               <Property index="48" name="enabled" type="int" value="0"/>
+               <Property index="49" name="effect" type="int" value="0"/>
+               <Property index="50" name="dxStdMat" type="int" value="0"/>
+               <Property index="51" name="SaveFXFile" type="unkown"/>
+               <Property index="52" name="Opaque" type="int" value="0"/>
+               <Property index="53" name="Surface" type="unkown"/>
+               <Property index="54" name="Displacement" type="unkown"/>
+               <Property index="55" name="Shadow" type="unkown"/>
+               <Property index="56" name="Volume" type="unkown"/>
+               <Property index="57" name="Environment" type="unkown"/>
+               <Property index="58" name="Contour" type="unkown"/>
+               <Property index="59" name="Photon" type="unkown"/>
+               <Property index="60" name="PhotonVolume" type="unkown"/>
+               <Property index="61" name="LightMap" type="unkown"/>
+               <Property index="62" name="SurfaceLocked" type="int" value="1"/>
+               <Property index="63" name="DisplacementLocked" type="int" value="1"/>
+               <Property index="64" name="ShadowLocked" type="int" value="1"/>
+               <Property index="65" name="VolumeLocked" type="int" value="1"/>
+               <Property index="66" name="EnvironmentLocked" type="int" value="1"/>
+               <Property index="67" name="ContourLocked" type="int" value="1"/>
+               <Property index="68" name="PhotonLocked" type="int" value="1"/>
+               <Property index="69" name="PhotonVolumeLocked" type="int" value="1"/>
+               <Property index="70" name="LightMapLocked" type="int" value="1"/>
+               <Property index="71" name="SurfaceLockShow" type="int" value="1"/>
+               <Property index="72" name="DisplacementLockShow" type="int" value="1"/>
+               <Property index="73" name="ShadowLockShow" type="int" value="1"/>
+               <Property index="74" name="VolumeLockShow" type="int" value="0"/>
+               <Property index="75" name="EnvironmentLockShow" type="int" value="0"/>
+               <Property index="76" name="ContourLockShow" type="int" value="0"/>
+               <Property index="77" name="PhotonLockShow" type="int" value="1"/>
+               <Property index="78" name="PhotonVolumeLockShow" type="int" value="0"/>
+               <Property index="79" name="LightMapLockShow" type="int" value="0"/>
+               <Property index="80" name="SurfaceON" type="int" value="1"/>
+               <Property index="81" name="DisplacementON" type="int" value="1"/>
+               <Property index="82" name="ShadowON" type="int" value="1"/>
+               <Property index="83" name="VolumeON" type="int" value="1"/>
+               <Property index="84" name="EnvironmentON" type="int" value="1"/>
+               <Property index="85" name="ContourON" type="int" value="1"/>
+               <Property index="86" name="PhotonON" type="int" value="1"/>
+               <Property index="87" name="ON" type="int" value="1"/>
+               <Property index="88" name="LightMapON" type="int" value="1"/>
+            </Properties>
+            <Diffuse r="0.588235" g="0.588235" b="0.588235"/>
+            <Ambient r="0.588235" g="0.588235" b="0.588235"/>
+            <Specular r="0.900000" g="0.900000" b="0.900000"/>
+            <SpecularLevel type="float" value="0.000000"/>
+            <Emissive r="0.000000" g="0.000000" b="0.000000"/>
+            <EmissiveAmt type="float" value="0.000000"/>
+            <Glossiness type="float" value="0.100000"/>
+            <Opacity type="float" value="1.000000"/>
+            <Textures>
+               <Texture id="0" class="Bitmap" name="Map #7" slot_name="Diffuse Color" texture_name="Map #7" texture_class="Bitmap" map_channel="1" std_map_slot="1" file="D:\工作\中国\zhongguo_2.JPG">
+                  <ClipU type="float" value="0.000000"/>
+                  <ClipV type="float" value="0.000000"/>
+                  <ClipW type="float" value="1.000000"/>
+                  <ClipH type="float" value="1.000000"/>
+                  <Properties count="21">
+                     <Property index="0" name="clipu" type="float" value="0.000000"/>
+                     <Property index="1" name="clipv" type="float" value="0.000000"/>
+                     <Property index="2" name="clipw" type="float" value="1.000000"/>
+                     <Property index="3" name="cliph" type="float" value="1.000000"/>
+                     <Property index="4" name="jitter" type="float" value="1.000000"/>
+                     <Property index="5" name="useJitter" type="int" value="0"/>
+                     <Property index="6" name="apply" type="int" value="0"/>
+                     <Property index="7" name="cropPlace" type="int" value="0"/>
+                     <Property index="8" name="filtering" type="int" value="0"/>
+                     <Property index="9" name="monoOutput" type="int" value="0"/>
+                     <Property index="10" name="rgbOutput" type="int" value="0"/>
+                     <Property index="11" name="alphaSource" type="int" value="2"/>
+                     <Property index="12" name="preMultAlpha" type="int" value="1"/>
+                     <Property index="13" name="bitmap" type="unkown"/>
+                     <Property index="14" name="coords" type="unkown"/>
+                     <Property index="15" name="output" type="unkown"/>
+                     <Property index="16" name="fileName" type="unkown"/>
+                     <Property index="17" name="startTime" type="int" value="0"/>
+                     <Property index="18" name="playBackRate" type="float" value="1.000000"/>
+                     <Property index="19" name="endCondition" type="int" value="0"/>
+                     <Property index="20" name="tieTimeToMatIDs" type="int" value="0"/>
+                  </Properties>
+               </Texture>
+            </Textures>
+         </Material>
+      </MaterialCollection>
+      <Mesh count="31">
+         <Geometry class="Editable Mesh" name="ms_hainan" vertex_count="156" normal_count="497" binormal_count="213" tangent_count="213" face_count="211" coord_count="142">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="307.533997" ty="20.290100" tz="35.232712" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="307.533997" ty="20.290100" tz="35.232712" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_heilongjiang" vertex_count="540" normal_count="1890" binormal_count="810" tangent_count="810" face_count="808" coord_count="540">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="381.684998" ty="35.580200" tz="299.469971" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="381.684998" ty="35.580200" tz="299.469971" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_neimenggu" vertex_count="1160" normal_count="4060" binormal_count="1740" tangent_count="1740" face_count="1738" coord_count="1160">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="274.654205" ty="35.580200" tz="261.074341" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="274.654205" ty="35.580200" tz="261.074341" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_jilin" vertex_count="332" normal_count="1162" binormal_count="498" tangent_count="498" face_count="496" coord_count="332">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="380.561432" ty="35.580200" tz="251.868225" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="380.561432" ty="35.580200" tz="251.868225" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_liaoning" vertex_count="376" normal_count="1316" binormal_count="564" tangent_count="564" face_count="560" coord_count="380">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="357.577728" ty="35.580200" tz="225.557526" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="357.577728" ty="35.580200" tz="225.557526" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_hebei" vertex_count="544" normal_count="1904" binormal_count="816" tangent_count="816" face_count="814" coord_count="544">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="318.899170" ty="35.580200" tz="203.771454" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="318.899170" ty="35.580200" tz="203.771454" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_beijing" vertex_count="134" normal_count="469" binormal_count="201" tangent_count="201" face_count="199" coord_count="134">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="316.683533" ty="35.580200" tz="212.374954" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="316.683533" ty="35.580200" tz="212.374954" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_tianjing" vertex_count="122" normal_count="427" binormal_count="183" tangent_count="183" face_count="181" coord_count="122">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="324.408936" ty="35.580200" tz="204.777832" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="324.408936" ty="35.580200" tz="204.777832" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_shanxi" vertex_count="208" normal_count="728" binormal_count="312" tangent_count="312" face_count="310" coord_count="208">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="288.257202" ty="35.580200" tz="185.171417" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="288.257202" ty="35.580200" tz="185.171417" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_shandong" vertex_count="376" normal_count="1316" binormal_count="564" tangent_count="564" face_count="562" coord_count="376">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="336.736755" ty="35.580200" tz="175.063751" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="336.736755" ty="35.580200" tz="175.063751" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_henan" vertex_count="294" normal_count="1029" binormal_count="441" tangent_count="441" face_count="439" coord_count="294">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="299.026611" ty="35.580200" tz="150.077240" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="299.026611" ty="35.580200" tz="150.077240" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_ningxia" vertex_count="168" normal_count="588" binormal_count="252" tangent_count="252" face_count="250" coord_count="168">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="241.556976" ty="35.580200" tz="181.228348" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="241.556976" ty="35.580200" tz="181.228348" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_shaanxi" vertex_count="436" normal_count="1526" binormal_count="654" tangent_count="654" face_count="652" coord_count="436">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="-10.000000" tz="-0.000015" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="257.618713" ty="25.580200" tz="165.432236" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="257.618713" ty="25.580200" tz="165.432236" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_gansu" vertex_count="724" normal_count="2534" binormal_count="1086" tangent_count="1086" face_count="1084" coord_count="724">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="201.922638" ty="35.580200" tz="188.155090" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="201.922638" ty="35.580200" tz="188.155090" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_xinjiang" vertex_count="588" normal_count="2058" binormal_count="882" tangent_count="882" face_count="880" coord_count="588">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="93.754402" ty="35.580200" tz="245.497025" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="93.754402" ty="35.580200" tz="245.497025" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_qinghai" vertex_count="546" normal_count="1911" binormal_count="819" tangent_count="819" face_count="817" coord_count="546">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="166.123199" ty="35.580200" tz="169.890137" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="166.123199" ty="35.580200" tz="169.890137" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_xizang" vertex_count="674" normal_count="2359" binormal_count="1011" tangent_count="1011" face_count="1009" coord_count="674">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="104.676376" ty="35.580200" tz="142.046860" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="104.676376" ty="35.580200" tz="142.046860" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_sichuan" vertex_count="520" normal_count="1820" binormal_count="780" tangent_count="780" face_count="778" coord_count="520">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="216.425934" ty="35.580200" tz="115.339470" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="216.425934" ty="35.580200" tz="115.339470" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_chongqing" vertex_count="238" normal_count="833" binormal_count="357" tangent_count="357" face_count="355" coord_count="238">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="253.891464" ty="35.580200" tz="112.642578" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="253.891464" ty="35.580200" tz="112.642578" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_hubei" vertex_count="370" normal_count="1295" binormal_count="555" tangent_count="555" face_count="553" coord_count="370">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="290.715759" ty="35.580200" tz="122.287140" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="290.715759" ty="35.580200" tz="122.287140" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_anhui" vertex_count="344" normal_count="1204" binormal_count="516" tangent_count="516" face_count="514" coord_count="344">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="329.778870" ty="35.580200" tz="133.821381" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="329.778870" ty="35.580200" tz="133.821381" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_jiangsu" vertex_count="322" normal_count="1127" binormal_count="483" tangent_count="483" face_count="481" coord_count="322">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="343.984955" ty="35.580200" tz="144.880310" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="343.984955" ty="35.580200" tz="144.880310" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_zhejiang" vertex_count="454" normal_count="1589" binormal_count="681" tangent_count="681" face_count="673" coord_count="454">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="355.062866" ty="35.580200" tz="111.138290" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="355.062866" ty="35.580200" tz="111.138290" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_jiangxi" vertex_count="290" normal_count="1015" binormal_count="435" tangent_count="435" face_count="433" coord_count="290">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="322.646729" ty="35.580200" tz="87.284546" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="322.646729" ty="35.580200" tz="87.284546" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_guangdong" vertex_count="640" normal_count="2240" binormal_count="960" tangent_count="960" face_count="954" coord_count="640">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="302.883545" ty="35.580200" tz="43.938828" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="302.883545" ty="35.580200" tz="43.938828" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_guangxi" vertex_count="482" normal_count="1687" binormal_count="723" tangent_count="723" face_count="721" coord_count="482">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="257.780365" ty="35.580200" tz="52.740028" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="257.780365" ty="35.580200" tz="52.740028" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_guizhou" vertex_count="334" normal_count="1169" binormal_count="501" tangent_count="501" face_count="499" coord_count="334">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="243.427200" ty="35.580200" tz="81.320648" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="243.427200" ty="35.580200" tz="81.320648" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_yunnan" vertex_count="608" normal_count="2128" binormal_count="912" tangent_count="912" face_count="910" coord_count="608">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="202.184357" ty="35.580200" tz="67.114662" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="202.184357" ty="35.580200" tz="67.114662" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_taiwan" vertex_count="150" normal_count="525" binormal_count="225" tangent_count="225" face_count="221" coord_count="150">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="365.477722" ty="35.580200" tz="56.973610" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="365.477722" ty="35.580200" tz="56.973610" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_hunan" vertex_count="396" normal_count="1386" binormal_count="594" tangent_count="594" face_count="592" coord_count="396">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="285.715637" ty="35.580200" tz="86.092529" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="285.715637" ty="35.580200" tz="86.092529" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+         <Geometry class="Editable Mesh" name="ms_fujian" vertex_count="312" normal_count="1092" binormal_count="468" tangent_count="468" face_count="466" coord_count="312">
+            <Matrix>
+               <ObjectMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <LocalMatrix tx="341.522369" ty="35.580200" tz="75.839348" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+               <WorldMatrix tx="341.522369" ty="35.580200" tz="75.839348" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
+            </Matrix>
+            <MaterialCollection count="1">
+               <Material id="0" name="08 - Default"/>
+            </MaterialCollection>
+            <Track count="101">
+               <Types>
+                  <Type name="float" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point" type="IndependentPos" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point3" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="point4" type="Master" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="rotation" type="Euler" key_count="0" is_animated="N" is_leaf="N"/>
+                  <Type name="scale" type="MaxStd" key_count="0" is_animated="N" is_leaf="Y"/>
+                  <Type name="matrix" type="Unknown" key_count="0" is_animated="N" is_leaf="N"/>
+               </Types>
+            </Track>
+         </Geometry>
+      </Mesh>
+      <Skeleton bone_count="0"/>
+      <Animation frame_tick="160" frame_count="100" frame_start="0" frame_end="16000" bone_count="0"/>
+   </Scene>
+   <Logger/>
+</M3xExport>
