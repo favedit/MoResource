@@ -37,7 +37,7 @@
          </Node>
       </Struct>
       <MaterialCollection count="1">
-         <Material class="Standard" name="08 - Default">
+         <Material class="Standard" name="Material #50">
             <Properties count="89">
                <Property index="0" name="shaderType" type="int" value="1"/>
                <Property index="1" name="wire" type="int" value="0"/>
@@ -75,8 +75,8 @@
                <Property index="33" name="bounce" type="float" value="1.000000"/>
                <Property index="34" name="staticFriction" type="float" value="0.000000"/>
                <Property index="35" name="slidingFriction" type="float" value="0.000000"/>
-               <Property index="36" name="ambient" type="point3" x="0.588235" y="0.588235" z="0.588235"/>
-               <Property index="37" name="diffuse" type="point3" x="0.588235" y="0.588235" z="0.588235"/>
+               <Property index="36" name="ambient" type="point3" x="0.921569" y="0.913726" z="0.894118"/>
+               <Property index="37" name="diffuse" type="point3" x="0.921569" y="0.913726" z="0.894118"/>
                <Property index="38" name="specular" type="point3" x="0.900000" y="0.900000" z="0.900000"/>
                <Property index="39" name="adTextureLock" type="int" value="1"/>
                <Property index="40" name="adLock" type="int" value="1"/>
@@ -129,8 +129,8 @@
                <Property index="87" name="ON" type="int" value="1"/>
                <Property index="88" name="LightMapON" type="int" value="1"/>
             </Properties>
-            <Diffuse r="0.588235" g="0.588235" b="0.588235"/>
-            <Ambient r="0.588235" g="0.588235" b="0.588235"/>
+            <Diffuse r="0.921569" g="0.913726" b="0.894118"/>
+            <Ambient r="0.921569" g="0.913726" b="0.894118"/>
             <Specular r="0.900000" g="0.900000" b="0.900000"/>
             <SpecularLevel type="float" value="0.000000"/>
             <Emissive r="0.000000" g="0.000000" b="0.000000"/>
@@ -138,7 +138,7 @@
             <Glossiness type="float" value="0.100000"/>
             <Opacity type="float" value="1.000000"/>
             <Textures>
-               <Texture id="0" class="Bitmap" name="Map #7" slot_name="Diffuse Color" texture_name="Map #7" texture_class="Bitmap" map_channel="1" std_map_slot="1" file="D:\工作\中国\zhongguo_2.JPG">
+               <Texture id="0" class="Bitmap" name="Map #8" slot_name="Diffuse Color" texture_name="Map #8" texture_class="Bitmap" map_channel="1" std_map_slot="1" file="D:\Microbject\MoResource\ResourceEai\model\fd-eai-智能企业\fd-world-世界\md-china-中国\border.png">
                   <ClipU type="float" value="0.000000"/>
                   <ClipV type="float" value="0.000000"/>
                   <ClipW type="float" value="1.000000"/>
@@ -155,7 +155,7 @@
                      <Property index="8" name="filtering" type="int" value="0"/>
                      <Property index="9" name="monoOutput" type="int" value="0"/>
                      <Property index="10" name="rgbOutput" type="int" value="0"/>
-                     <Property index="11" name="alphaSource" type="int" value="2"/>
+                     <Property index="11" name="alphaSource" type="int" value="0"/>
                      <Property index="12" name="preMultAlpha" type="int" value="1"/>
                      <Property index="13" name="bitmap" type="unkown"/>
                      <Property index="14" name="coords" type="unkown"/>
@@ -178,7 +178,7 @@
                <WorldMatrix tx="0.000031" ty="0.000000" tz="0.000015" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -199,7 +199,7 @@
                <WorldMatrix tx="0.000000" ty="0.000000" tz="0.000015" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -220,7 +220,7 @@
                <WorldMatrix tx="0.000000" ty="0.000000" tz="-0.000015" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -241,7 +241,7 @@
                <WorldMatrix tx="0.000031" ty="0.000000" tz="-0.000015" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -262,7 +262,7 @@
                <WorldMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -283,7 +283,7 @@
                <WorldMatrix tx="0.000031" ty="0.000000" tz="-0.000015" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -304,7 +304,7 @@
                <WorldMatrix tx="0.000000" ty="0.000000" tz="-0.000015" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -325,7 +325,7 @@
                <WorldMatrix tx="0.000000" ty="0.000000" tz="0.000015" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -346,7 +346,7 @@
                <WorldMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -367,7 +367,7 @@
                <WorldMatrix tx="0.000031" ty="0.000000" tz="0.000015" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -388,7 +388,7 @@
                <WorldMatrix tx="0.000000" ty="0.000000" tz="-0.000015" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -409,7 +409,7 @@
                <WorldMatrix tx="0.000000" ty="0.000000" tz="-0.000015" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -430,7 +430,7 @@
                <WorldMatrix tx="0.000000" ty="0.000000" tz="0.000015" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -451,7 +451,7 @@
                <WorldMatrix tx="0.000031" ty="0.000000" tz="0.000015" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -472,7 +472,7 @@
                <WorldMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -493,7 +493,7 @@
                <WorldMatrix tx="0.000031" ty="0.000000" tz="0.000015" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -514,7 +514,7 @@
                <WorldMatrix tx="-0.000023" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -535,7 +535,7 @@
                <WorldMatrix tx="0.000031" ty="0.000000" tz="0.000015" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -556,7 +556,7 @@
                <WorldMatrix tx="0.000000" ty="-20.000000" tz="0.000015" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -577,7 +577,7 @@
                <WorldMatrix tx="0.000015" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -598,7 +598,7 @@
                <WorldMatrix tx="0.000000" ty="0.000000" tz="-0.000015" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -619,7 +619,7 @@
                <WorldMatrix tx="0.000000" ty="0.000000" tz="-0.000015" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -640,7 +640,7 @@
                <WorldMatrix tx="0.000000" ty="0.000000" tz="-0.000015" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -661,7 +661,7 @@
                <WorldMatrix tx="0.000000" ty="0.000000" tz="0.000015" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -682,7 +682,7 @@
                <WorldMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -703,7 +703,7 @@
                <WorldMatrix tx="0.000000" ty="0.000000" tz="-0.000015" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -724,7 +724,7 @@
                <WorldMatrix tx="0.000031" ty="0.000000" tz="-0.000015" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -745,7 +745,7 @@
                <WorldMatrix tx="0.000000" ty="0.000000" tz="0.000031" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -766,7 +766,7 @@
                <WorldMatrix tx="0.000031" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -787,7 +787,7 @@
                <WorldMatrix tx="-0.000031" ty="0.000000" tz="-0.000031" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>
@@ -808,7 +808,7 @@
                <WorldMatrix tx="0.000000" ty="0.000000" tz="0.000000" qx="-0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000" rx="0.000000" ry="-0.000000" rz="0.000000" sx="1.000000" sy="1.000000" sz="1.000000"/>
             </Matrix>
             <MaterialCollection count="1">
-               <Material id="0" name="08 - Default"/>
+               <Material id="0" name="Material #50"/>
             </MaterialCollection>
             <Track count="101">
                <Types>

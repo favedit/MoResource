@@ -1,38 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Configuration>
-  <Model name="\eai\world\china" label="中国">
+  <Model name="\eai\still\building\001" label="中国">
     <Mesh>
-      <Geometry valid="Y" name="ms_hainan"/>
-      <Geometry valid="Y" name="ms_heilongjiang"/>
-      <Geometry valid="Y" name="ms_neimenggu"/>
-      <Geometry valid="Y" name="ms_jilin"/>
-      <Geometry valid="Y" name="ms_liaoning"/>
-      <Geometry valid="Y" name="ms_hebei"/>
-      <Geometry valid="Y" name="ms_beijing"/>
-      <Geometry valid="Y" name="ms_tianjing"/>
-      <Geometry valid="Y" name="ms_shanxi"/>
-      <Geometry valid="Y" name="ms_shandong"/>
-      <Geometry valid="Y" name="ms_henan"/>
-      <Geometry valid="Y" name="ms_ningxia"/>
-      <Geometry valid="Y" name="ms_shaanxi"/>
-      <Geometry valid="Y" name="ms_gansu"/>
-      <Geometry valid="Y" name="ms_xinjiang"/>
-      <Geometry valid="Y" name="ms_qinghai"/>
-      <Geometry valid="Y" name="ms_xizang"/>
-      <Geometry valid="Y" name="ms_sichuan"/>
-      <Geometry valid="Y" name="ms_chongqing"/>
-      <Geometry valid="Y" name="ms_hubei"/>
-      <Geometry valid="Y" name="ms_anhui"/>
-      <Geometry valid="Y" name="ms_jiangsu"/>
-      <Geometry valid="Y" name="ms_zhejiang"/>
-      <Geometry valid="Y" name="ms_jiangxi"/>
-      <Geometry valid="Y" name="ms_guangdong"/>
-      <Geometry valid="Y" name="ms_guangxi"/>
-      <Geometry valid="Y" name="ms_guizhou"/>
-      <Geometry valid="Y" name="ms_yunnan"/>
-      <Geometry valid="Y" name="ms_taiwan"/>
-      <Geometry valid="Y" name="ms_hunan"/>
-      <Geometry valid="Y" name="ms_fujian"/>
+      <Geometry valid="Y" name="ms_001"/>
     </Mesh>
     <Animation />
   </Model>

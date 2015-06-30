@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Model name="\eai\tower\082" label="楼房">
+    <Mesh>
+      <Geometry valid="Y" name="ms_088_01"/>
+      <Geometry valid="Y" name="ms_088_02"/>
+      <Geometry valid="Y" name="ms_088_03"/>
+      <Geometry valid="Y" name="ms_088_04"/>
+      <Geometry valid="Y" name="ms_088_05"/>
+      <Geometry valid="Y" name="ms_088_06"/>
+      <Geometry valid="Y" name="ms_088_07"/>
+      <Geometry valid="Y" name="ms_088_08"/>
+    </Mesh>
+    <Animation />
+  </Model>
+</Configuration>

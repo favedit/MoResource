@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Model name="\eai\flag\ezubao" label="E租宝标志">
+    <Mesh>
+      <Geometry valid="Y" name="ms_001"/>
+    </Mesh>
+    <Animation />
+  </Model>
+</Configuration>

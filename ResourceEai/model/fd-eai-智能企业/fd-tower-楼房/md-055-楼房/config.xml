@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Model name="\eai\tower\055" label="楼房">
+    <Mesh>
+      <Geometry valid="Y" name="ms_055_01"/>
+      <Geometry valid="Y" name="ms_055_02"/>
+      <Geometry valid="Y" name="ms_055_03"/>
+    </Mesh>
+    <Animation />
+  </Model>
+</Configuration>
